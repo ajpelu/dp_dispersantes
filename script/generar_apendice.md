@@ -14,7 +14,8 @@ SELECT
   dicc_unidadesmuestreos.longitud, 
   dicc_habitats.habitat,
   ST_X(ST_Centroid(dicc_unidadesmuestreos.geometria)) As long,
-  ST_Y(ST_Centroid(dicc_unidadesmuestreos.geometria)) As lat
+  ST_Y(ST_Centroid(dicc_unidadesmuestreos.geometria)) As lat,
+  CONCAT('EPSG:', ST_SRID(ST_Centroid(dicc_unidadesmuestreos.geometria))) AS Datum
 FROM 
   public.adis_transectos, 
   public.dicc_unidadesmuestreos, 
