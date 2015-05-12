@@ -9,6 +9,7 @@ Con este script vamos obenter la información de los transectos para generar el 
 
 ```sql 
 SELECT 
+  adis_transectos.id AS id_transecto,
   dicc_unidadesmuestreos.nombre, 
   dicc_unidadesmuestreos.longitud, 
   dicc_habitats.habitat
@@ -18,6 +19,7 @@ FROM
   public.dicc_habitats
 WHERE 
   adis_transectos.dicc_unidadesmuestreo_id = dicc_unidadesmuestreos.id AND
-  dicc_unidadesmuestreos.dicc_habitat_id = dicc_habitats.id;
+  dicc_unidadesmuestreos.dicc_habitat_id = dicc_habitats.id
+ORDER BY adis_transectos.id;
 ```
 
