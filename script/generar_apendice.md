@@ -12,7 +12,9 @@ SELECT
   adis_transectos.id AS id_transecto,
   dicc_unidadesmuestreos.nombre, 
   dicc_unidadesmuestreos.longitud, 
-  dicc_habitats.habitat
+  dicc_habitats.habitat,
+  ST_X(ST_Centroid(dicc_unidadesmuestreos.geometria)) As long,
+  ST_Y(ST_Centroid(dicc_unidadesmuestreos.geometria)) As lat
 FROM 
   public.adis_transectos, 
   public.dicc_unidadesmuestreos, 
