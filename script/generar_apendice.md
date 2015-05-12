@@ -26,3 +26,4 @@ WHERE
 ORDER BY adis_transectos.id;
 ```
 
+* El resultado de esta consulta lo guardo como csv en `./data/transectos.csv`
