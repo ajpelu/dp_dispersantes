@@ -3,4 +3,4 @@
 This list contains useful links
 
 ## Taxonomic information
-Gill F, Donsker D (Eds). (2015). IOC World Bird List (v 5.1). doi:10.14344/IOC.ML.5.1 [www.worldbirdnames.org](http://ww.worldbirdnames.org) [Accessed 2015-May].
+Gill F, Donsker D (Eds). (2015). IOC World Bird List (v 5.1). doi:10.14344/IOC.ML.5.1 [www.worldbirdnames.org](http://www.worldbirdnames.org) [Accessed 2015-May].
