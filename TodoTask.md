@@ -30,4 +30,4 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 ### Taxonomic Status
 #### :red_circle: Create a table with the protection status of the taxa 
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
-* :red_circle: Fill out a table with status, protection, etc. 
+* :large_orange_diamond: Fill out a table with status, protection, etc. 
