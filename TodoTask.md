@@ -13,6 +13,13 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 --- 
 
 ## DarwinCore-Related Task 
+## Database   
+* :red_circle: Creation of the database with tables (@ajpelu)
+
+### Taxonomic Coverage 
+* :red_circle: Create a table with taxonomic coverage (taxonomic ranks) using `taxize` package. 
+* :red_circle: Complete the table with `Authorship`. See [World Bird Names](http://www.worldbirdnames.org)
+
 
 ## Metadata-Related Task
 ### Figures 
@@ -22,3 +29,5 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 
 ### Taxonomic Status
 #### :red_circle: Create a table with the protection status of the taxa 
+* :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
+* :red_circle: Fill out a table with status, protection, etc. 
