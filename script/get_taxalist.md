@@ -12,4 +12,4 @@ We create a table with information about status, protection, etc by taxa. For th
 
 ```
 
-* Export the data and save as `.data/taxa_list.csv` 
+* Export the data and save as `./data/taxa_list.csv` 
