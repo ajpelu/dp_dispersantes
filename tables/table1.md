@@ -1,4 +1,16 @@
 ##Tabla 1. Información Status.
+# Generate table of taxa information
+We create a table with information about the species we found in our study (scientific name and id).
+* Export the data and save as `./data/taxa_list.csv`
+
+We create a table with information about status, protection, etc by taxa.
+* Export the data and save as `./data/taxa_list_STATUS.csv`
+
+We create a table with information about Author of the specie.(We´ll need this table for our data base).
+* Export the data and save as `./data/taxa_author.csv`
+
+We generate the table1 with information about the next fields: nombre_cientifico, id_dicc_especies, Spanish Red List, IUCN Global, Birds Directive, Bern, Born, Authority and English name and save as `./tables/table1.md`
+
 
 | nombre_cientifico             | id_dicc_especies | Spanish Red List | IUCN Global | Birds Directive | Bern | Bonn | Authority        | English Name              |
 |-------------------------------|------------------|------------------|-------------|-----------------|------|------|------------------|---------------------------|
