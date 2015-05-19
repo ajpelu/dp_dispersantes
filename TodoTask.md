@@ -37,4 +37,4 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
 * :white_check_mark: Fill out a table with status, protection, etc.
 
-:large_orange_diamond:
+
