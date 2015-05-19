@@ -41,6 +41,6 @@ We have to complete the IUCN Global Status column.
 We have to fix:
 * A duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. We have data from the two records and actually is the same species.
 
-* We have to change the name of *Serinus citrinella* that now is called *Carduelis citrinella*, *Periparus ater* that now is called *Parus ater* and *Cyanistes caeruleus* now is called Parus caeruleus*.
+* We have to change the name of *Serinus citrinella* that now is called *Carduelis citrinella*, *Periparus ater* that now is called *Parus ater* and *Cyanistes caeruleus* now is called *Parus caeruleus*.
 
 
