@@ -36,6 +36,11 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 #### :large_orange_diamond: Create a table with the protection status of the taxa
 We have to complete the IUCN Global Status column.
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
-* :white_check_mark: ~~Fill out a table with status, protection, etc.~~ We have to fix a duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. Also we have to change the name of *Serinus citrinella* that now is called *Carduelis citrinella*. 
+* :white_check_mark: ~~Fill out a table with status, protection, etc.~~ 
+
+We have to fix:
+* A duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. We have data from the two records and actually is the same species.
+
+* We have to change the name of *Serinus citrinella* that now is called *Carduelis citrinella*, *Periparus ater* that now is called *Parus ater* and *Cyanistes caeruleus* now is called Parus caeruleus*.
 
 
