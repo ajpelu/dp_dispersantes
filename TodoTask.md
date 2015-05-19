@@ -33,7 +33,8 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 * :red_circle: Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md) 
 
 ### Taxonomic Status
-#### :red_circle: Create a table with the protection status of the taxa 
+#### :large_orange_diamond: Create a table with the protection status of the taxa
+We have to complete the IUCN Global Status column.
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
 * :white_check_mark: ~~Fill out a table with status, protection, etc.~~ We have to fix a duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. Also we have to change the name of *Serinus citrinella* that now is called *Carduelis citrinella*. 
 
