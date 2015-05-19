@@ -27,7 +27,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 
 ### Tables 
 
-* Format table of status (taxonomic info) with `md`. See [tables generator](http://www.tablesgenerator.com/markdown_tables)
+* :red_circle: Format table of status (taxonomic info) with `md`. See [tables generator](http://www.tablesgenerator.com/markdown_tables)
 
 ### Document structure 
 * :red_circle: Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md) 
