@@ -18,7 +18,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 
 ### Taxonomic Coverage 
 * :red_circle: Create a table with taxonomic coverage (taxonomic ranks) using `taxize` package. 
-* :red_circle: Complete the table with `Authorship`. See [World Bird Names](http://www.worldbirdnames.org)
+* :white_check_mark: ~~Complete the table with `Authorship`. See [World Bird Names](http://www.worldbirdnames.org)~~
 
 
 ## Metadata-Related Task
@@ -35,6 +35,6 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 ### Taxonomic Status
 #### :red_circle: Create a table with the protection status of the taxa 
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
-* :white_check_mark: Fill out a table with status, protection, etc.
+* :white_check_mark: ~~Fill out a table with status, protection, etc.~~
 
 
