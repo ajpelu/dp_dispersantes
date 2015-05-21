@@ -23,14 +23,16 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 
 ## Metadata-Related Task
 ### Figures 
-#### :red_circle: Create a location map with information about transects 
+#### :white_check_mark: ~~Create a location map with information about transects~~ 
+I created two maps using ArcGIS, one of Sierra Nevada (with the transects) and other of the Iberian Peninsula. 
 
 ### Tables 
 
 * :red_circle: Format table of status (taxonomic info) with `md`. See [tables generator](http://www.tablesgenerator.com/markdown_tables)
 
 ### Document structure 
-* :red_circle: Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md) 
+* :white_check_mark: ~~Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md)~~ 
+We create a file called `datapaperv1.md`.
 
 ### Taxonomic Status
 #### :large_orange_diamond: Create a table with the protection status of the taxa
