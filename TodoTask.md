@@ -17,7 +17,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 * :red_circle: Creation of the database with tables (@ajpelu)
 
 ### Taxonomic Coverage 
-* :red_circle: Create a table with taxonomic coverage (taxonomic ranks) using `taxize` package. 
+* :white_check_mark: ~~Create a table with taxonomic coverage (taxonomic ranks) using `taxize` package.~~ 
 * :white_check_mark: ~~Complete the table with `Authorship`. See [World Bird Names](http://www.worldbirdnames.org)~~
 
 
