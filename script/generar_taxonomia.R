@@ -1,9 +1,14 @@
+
+## Load packages
 install.packages("taxize")
 library("taxize")
 library(plyr)
 
+## Directorio 
+di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
-datos <- read.csv(file="taxa_list.csv", header=TRUE, sep=",")
+## Leer datos
+datos <- read.csv(file=paste(di,"/data/taxa_list.csv", sep=""), header=TRUE, sep=",")
 
 
 #######Taxonomy
