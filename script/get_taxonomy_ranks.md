@@ -777,8 +777,13 @@ jerarquia <- cbind(id_dicc_especies=datos$id_dicc_especies,
     ## http://www.itis.gov/ITISWebService/services/ITISService/getITISTermsFromScientificName?srchKey=Certhia brachydactyla
     ## http://www.itis.gov/ITISWebService/services/ITISService/getFullHierarchyFromTSN?tsn=559138
 
+dfasdfasdf
+
 ``` r
-jerarquia 
+# Eliminar Valor Nulo 
+jerarquia <- subset(jerarquia, nombre_cientifico != "Valor nulo")
+
+jerarquia
 ```
 
     ##    id_dicc_especies             nombre_cientifico kingdom   phylum
@@ -818,7 +823,6 @@ jerarquia
     ## 34              269             Motacilla cinerea Metazoa Chordata
     ## 35              236               Lullula arborea Metazoa Chordata
     ## 36              806               Cuculus canorus Metazoa Chordata
-    ## 37            24604                    Valor nulo    <NA>     <NA>
     ## 38              321          Sylvia conspicillata Metazoa Chordata
     ## 39              317                        Sylvia Metazoa Chordata
     ## 40              433           Garrulus glandarius Metazoa Chordata
@@ -909,7 +913,6 @@ jerarquia
     ## 34  Craniata  Aves    Passeriformes   Motacillidae      Motacilla
     ## 35  Craniata  Aves    Passeriformes      Alaudidae        Lullula
     ## 36  Craniata  Aves     Cuculiformes      Cuculidae        Cuculus
-    ## 37      <NA>  <NA>             <NA>           <NA>           <NA>
     ## 38  Craniata  Aves    Passeriformes      Sylviidae         Sylvia
     ## 39  Craniata  Aves    Passeriformes      Sylviidae         Sylvia
     ## 40  Craniata  Aves    Passeriformes       Corvidae       Garrulus

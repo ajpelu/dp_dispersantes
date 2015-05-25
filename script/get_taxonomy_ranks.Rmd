@@ -34,8 +34,14 @@ jerarquia <- cbind(id_dicc_especies=datos$id_dicc_especies,
                    tax_name(query = datos$nombre_cientifico, 
                       get=c("kingdom", "phylum", "subphylum", "class", "order", "family", "genus"), 
                       db="both")) 
+```
 
-jerarquia 
+dfasdfasdf
+```{r}
+# Eliminar Valor Nulo 
+jerarquia <- subset(jerarquia, nombre_cientifico != "Valor nulo")
+
+jerarquia
 ```
 
 ```{r}
