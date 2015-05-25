@@ -101,7 +101,7 @@ Vascular plants, Lycopods, ferns, conifers, flowering plants. In the dataset, Fr
 ## Dataset
 
 
-![Localizacion](mapaslocalizacion.jpg)
+![Localizacion](geoinfo/mapaslocalizacion.jpg)
 
 *Figure 3: The VASCAN Darwin Core Archive, structured following the GBIF GNA Profile. It is a compressed folder containing 4 text files with tab-seperated values and 2 xml files. Taxon and scientific name information is provided in `taxon.txt`, with one record for each taxon and child-parent-relationships representing the classification. Records in the extension files `distribution.txt`, `vernacularname.txt` and `description.txt` have a many-to-one relation with the records in taxon.txt and provide additional information for each taxon. The archive structure and term definitions are described in `meta.xml`. The dataset metadata are provided in `eml.xml`.*
 
