@@ -1,0 +1,45 @@
+---
+title: "Get_taxonomy_ranks"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+Primer cargo los paquetes
+
+```{r}
+# Load packages 
+# install.packages("taxize")
+library("taxize")
+library(plyr)
+```
+
+Establezco el directorio y leo el archivo de datos. 
+
+
+```{r}
+# Directorio 
+di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+
+## Leer datos
+datos <- read.csv(file=paste(di,"/data/taxa_list.csv", sep=""), header=TRUE, sep=",")
+```
+
+Ahora utilizo el paquet tal y obtengo una tabla que la exporto en tal directorio... `./data/fasdf` 
+
+```{r}
+### Obtener tabla con jerarquia taxonomica 
+jerarquia <- cbind(id_dicc_especies=datos$id_dicc_especies, 
+                   nombre_cientifico=datos$nombre_cientifico,
+                   tax_name(query = datos$nombre_cientifico, 
+                      get=c("kingdom", "phylum", "subphylum", "class", "order", "family", "genus"), 
+                      db="both")) 
+
+jerarquia 
+```
+
+```{r}
+##guardar como csv
+write.csv(jerarquia, file = paste(di,"/data/taxonomy.csv", sep=""), row.names=FALSE)
+```
+
