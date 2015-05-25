@@ -4,48 +4,56 @@ output:
   md_document:
     variant: markdown_github
 ---
+## Get taxonomy ranks
 
-Primer cargo los paquetes
+Primero instalo el paquete "Taxize" y lo cargo junto con el paquete "plyr".
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 # Load packages 
 # install.packages("taxize")
 library("taxize")
 library(plyr)
 ```
 
-Establezco el directorio y leo el archivo de datos. 
+Establecer el directorio y leer el archivo de datos:
+Establezco el directorio raíz asignándolo a un objeto, en este caso "di". De este modo, puedo leer mis datos, añadiendo el final de la ruta a "di" con la función paste. El directorio raíz será diferente en cada ordenador donde esté el repositorio. Creo las diferentes rutas al directorio raíz y ejecuto la que corresponda según desde donde esté accediendo. 
 
 
-```{r}
-# Directorio 
-di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+```{r, warning=FALSE, message=FALSE}
+#Establecer directorio 
+#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+
+di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
 
 ## Leer datos
 datos <- read.csv(file=paste(di,"/data/taxa_list.csv", sep=""), header=TRUE, sep=",")
 ```
 
-Ahora utilizo el paquet tal y obtengo una tabla que la exporto en tal directorio... `./data/fasdf` 
+Para obtener la tabla con la clasificación taxonómica, utilizamos el paquete "Taxize". Generamos la clasificación taxonómica de cada especie y unimos las columnas de rangos taxonómicos mediante la función "cbind" a la columna id_dicc_especies y nombre_cientifico. La tabla se llama jerarquia.
 
-```{r}
-### Obtener tabla con jerarquia taxonomica 
+```{r, warning=FALSE, message=FALSE}
+### Obtener tabla con jerarquía taxonómica 
+
 jerarquia <- cbind(id_dicc_especies=datos$id_dicc_especies, 
                    nombre_cientifico=datos$nombre_cientifico,
-                   tax_name(query = datos$nombre_cientifico, 
+                   tax_name (query = datos$nombre_cientifico, 
                       get=c("kingdom", "phylum", "subphylum", "class", "order", "family", "genus"), 
-                      db="both")) 
+                      db="ncbi")[,c("kingdom", "phylum", "subphylum", "class", "order", "family", "genus")])
+
 ```
 
-dfasdfasdf
-```{r}
+Eliminamos el valor nulo.
+```{r, warning=FALSE, message=FALSE}
 # Eliminar Valor Nulo 
 jerarquia <- subset(jerarquia, nombre_cientifico != "Valor nulo")
 
-jerarquia
+
 ```
 
-```{r}
+Exportamos la tabla en el directorio `./data/taxonomy.csv`
+```{r, warning=FALSE, message=FALSE}
 ##guardar como csv
-write.csv(jerarquia, file = paste(di,"/data/taxonomy.csv", sep=""), row.names=FALSE)
+write.csv(jerarquia, file = paste(di,"/data/taxonomy.csv", sep=""), row.names=FALSE, quote= FALSE)
+
 ```
 
