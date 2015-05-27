@@ -78,7 +78,7 @@ Vascular plants, Lycopods, ferns, conifers, flowering plants. In the dataset, Fr
 ## Spatial coverage
 
 
-![Figure 2](figures/mapaslocalizacion.jpg)
+![Figure 2](/figures/mapaslocalizacion.jpg)
 
 *Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.*
 
