@@ -24,7 +24,7 @@ Creamos una lista de todas las familias, órdenes y géneros de aves que tenemos
 
 ##Convertimos la variable "family"" de factor a character. La ordenamos.
 
-family <- as.character(sort(datos$family))
+family <- unique(as.character(sort(datos$family)))
 
 ##Guardamos la tabla como `/family.csv`
 write.table(t(family), file = paste(di,"/data/family.csv", sep=""), 
@@ -32,7 +32,7 @@ write.table(t(family), file = paste(di,"/data/family.csv", sep=""),
 
 ## Hacemos lo mismo con los órdenes
 
-order<- as.character(sort(datos$order))
+order<- unique(as.character(sort(datos$order)))
 
 ##Guardamos la tabla como `/order.csv`
 write.table(t(order), file = paste(di,"/data/order.csv", sep=""), 
@@ -41,7 +41,7 @@ write.table(t(order), file = paste(di,"/data/order.csv", sep=""),
 
 ## Y con los géneros
 
-genus<- as.character(sort(datos$genus))
+genus<- unique(as.character(sort(datos$genus)))
 
 ##Guardamos la tabla como `/order.csv`
 write.table(t(genus), file = paste(di,"/data/genus.csv", sep=""), 
