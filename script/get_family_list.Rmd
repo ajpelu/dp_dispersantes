@@ -1,10 +1,10 @@
 ---
-title: "Get_family_list"
+title: "Get_taxonomic_lists"
 output:
   md_document:
     variant: markdown_github
 ---
-## Get family list
+## Get taxonomic lists
 
 Cargamos la tabla `/taxonomy.csv`
 
@@ -30,3 +30,20 @@ family <- as.character(sort(datos$family))
 write.table(t(family), file = paste(di,"/data/family.csv", sep=""), 
           row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
 
+## Hacemos lo mismo con los órdenes
+
+order<- as.character(sort(datos$order))
+
+##Guardamos la tabla como `/order.csv`
+write.table(t(order), file = paste(di,"/data/order.csv", sep=""), 
+          row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
+
+
+## Y con los géneros
+
+genus<- as.character(sort(datos$genus))
+
+##Guardamos la tabla como `/order.csv`
+write.table(t(genus), file = paste(di,"/data/genus.csv", sep=""), 
+          row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
+```
