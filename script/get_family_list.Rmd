@@ -10,9 +10,9 @@ Cargamos la tabla `/taxonomy.csv`
 
 ```{r, warning=FALSE, message=FALSE}
 #Establecer directorio 
-#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
-di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+#di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
 
 ## Leer datos
 datos <- read.csv(file=paste(di,"/data/taxonomy.csv", sep=""), header=TRUE, sep=",")
