@@ -1,9 +1,3 @@
----
-title: "Get_taxonomic_lists"
-output:
-  md_document:
-    variant: markdown_github
----
 ## Get taxonomic lists
 
 Cargamos la tabla `/taxonomy.csv`
@@ -46,4 +40,5 @@ genus<- as.character(sort(datos$genus))
 ##Guardamos la tabla como `/order.csv`
 write.table(t(genus), file = paste(di,"/data/genus.csv", sep=""), 
           row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
+          
 ```
