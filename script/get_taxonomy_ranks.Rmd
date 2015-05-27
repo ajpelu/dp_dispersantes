@@ -47,7 +47,7 @@ Eliminamos el valor nulo.
 # Eliminar Valor Nulo 
 jerarquia <- subset(jerarquia, nombre_cientifico != "Valor nulo")
 
-
+jerarquia
 ```
 
 Exportamos la tabla en el directorio `./data/taxonomy.csv`
