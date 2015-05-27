@@ -55,7 +55,7 @@ Data Paper of Bird communities in Sierra Nevada (OBSNEV)
 ## Taxonomic coverage
 
 
-![Figure 1](images/figure-1.png)
+![Figure 1]()
 
 *Figure 1: Taxonomic distribution of accepted species per family from the Database of Vascular Plants of Canada (VASCAN). The families are ordered by total number of species. Families with less than 80 species are grouped in ‘Other families’.*
 
@@ -65,7 +65,11 @@ Data Paper of Bird communities in Sierra Nevada (OBSNEV)
 
 **Class**: *Aves*
 
+**Order**: *Caprimulgiformes, Columbiformes, Columbiformes, Coraciiformes, Cuculiformes, Cuculiformes, Falconiformes, Falconiformes, Falconiformes, Galliformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Passeriformes, Piciformes, Piciformes, Strigiformes, Upupiformes.*
+
 **Family**: *Accipitridae, Aegithalidae, Alaudidae, Alaudidae, Alaudidae, Alaudidae, Caprimulgidae, Certhiidae, Certhiidae, Cinclidae, Columbidae, Columbidae, Corvidae, Corvidae, Corvidae, Corvidae, Corvidae, Corvidae, Cuculidae, Cuculidae, Falconidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Fringillidae, Laniidae, Laniidae, Meropidae, Motacillidae, Motacillidae, Motacillidae, Motacillidae, Motacillidae, Muscicapidae, Muscicapidae, Muscicapidae, Muscicapidae, Muscicapidae, Muscicapidae, Muscicapidae, Paridae, Paridae, Paridae, Paridae, Passeridae, Passeridae, Passeridae, Passeridae, Phasianidae, Phylloscopidae, Phylloscopidae, Phylloscopidae, Picidae, Picidae, Sittidae, Strigidae, Sturnidae, Sylviidae, Sylviidae, Sylviidae, Sylviidae, Sylviidae, Sylviidae, Sylviidae, Sylviidae, Sylviidae, Turdidae, Turdidae, Turdidae, Turdidae, Turdidae, Turdidae, Turdidae, Turdidae, Turdidae, Turdidae, Upupidae.*
+
+**Genus**: *Accipiter, Accipiter, Aegithalos, Alauda, Alectoris, Anthus, Anthus, Anthus, Athene, Caprimulgus, Carduelis, Carduelis, Carduelis, Certhia, Cinclus, Clamator, Coccothraustes, Columba, Corvus, Corvus, Cuculus, Cyanistes, Dendrocopos, Emberiza, Emberiza, Emberiza, Erithacus, Falco, Fringilla, Fringilla, Galerida, Galerida, Garrulus, Hippolais, Lanius, Lanius, Lophophanes, Loxia, Lullula, Luscinia, Merops, Miliaria, Monticola, Motacilla, Motacilla, Muscicapa, Oenanthe, Oenanthe, Oriolus, Parus, Passer, Periparus, Petronia, Phoenicurus, Phoenicurus, Phylloscopus, Phylloscopus, Phylloscopus, Pica, Picus, Prunella, Prunella, Pyrrhocorax, Regulus, Saxicola, Saxicola, Serinus, Serinus, Sitta, Spinus, Streptopelia, Sturnus, Sylvia, Sylvia, Sylvia, Sylvia, Sylvia, Sylvia, Sylvia, Troglodytes, Turdus, Turdus, Turdus, Turdus, Turdus, Turdus, Turdus, Upupa.*
 
 ### Common names
 
@@ -74,7 +78,7 @@ Vascular plants, Lycopods, ferns, conifers, flowering plants. In the dataset, Fr
 ## Spatial coverage
 
 
-![Figure 2](geoinfo/mapaslocalizacion.jpg)
+![Figure 2](figures/mapaslocalizacion.jpg)
 
 *Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.*
 
@@ -101,7 +105,7 @@ Vascular plants, Lycopods, ferns, conifers, flowering plants. In the dataset, Fr
 ## Dataset
 
 
-![Localizacion](geoinfo/mapaslocalizacion.jpg)
+![Localizacion]()
 
 *Figure 3: The VASCAN Darwin Core Archive, structured following the GBIF GNA Profile. It is a compressed folder containing 4 text files with tab-seperated values and 2 xml files. Taxon and scientific name information is provided in `taxon.txt`, with one record for each taxon and child-parent-relationships representing the classification. Records in the extension files `distribution.txt`, `vernacularname.txt` and `description.txt` have a many-to-one relation with the records in taxon.txt and provide additional information for each taxon. The archive structure and term definitions are described in `meta.xml`. The dataset metadata are provided in `eml.xml`.*
 
