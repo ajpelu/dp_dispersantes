@@ -1,9 +1,3 @@
----
-title: "Get_taxonomy_ranks"
-output:
-  md_document:
-    variant: markdown_github
----
 ## Get taxonomy ranks
 
 Primero instalo el paquete "Taxize" y lo cargo junto con el paquete "plyr".
