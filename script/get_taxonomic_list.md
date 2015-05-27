@@ -1,8 +1,15 @@
+---
+title: "Get_taxonomic_lists"
+output:
+  md_document:
+        variant: markdown_github
+---
 ## Get taxonomic lists
 
 Cargamos la tabla `/taxonomy.csv`
 
-```{r, warning=FALSE, message=FALSE}
+
+```r
 #Establecer directorio 
 #di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
@@ -14,8 +21,8 @@ datos <- read.csv(file=paste(di,"/data/taxonomy.csv", sep=""), header=TRUE, sep=
 
 Creamos una lista de todas las familias, órdenes y géneros de aves que tenemos, la guardamos como `/family.csv` `/order.csv`y `/genus.csv` respectivamente.
 
-```{r, warning=FALSE, message=FALSE}
 
+```r
 ##Convertimos la variable "family"" de factor a character. La ordenamos.
 
 family <- as.character(sort(datos$family))
@@ -40,5 +47,4 @@ genus<- as.character(sort(datos$genus))
 ##Guardamos la tabla como `/order.csv`
 write.table(t(genus), file = paste(di,"/data/genus.csv", sep=""), 
           row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
-          
 ```
