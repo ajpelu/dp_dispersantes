@@ -4,9 +4,11 @@ We create a table with information about the species we found in our study (scie
 * Export the data and save as `./data/taxa_list.csv`
 
 We create a table with information about status, protection, etc by taxa.
+We add the common names in english with information of [Word Bird Names] (http://www.worldbirdnames.org/). Also, we add the common names in spanish with information of [Lista de Aves de España 2012, SEO Birdlife] (http://www.seo.org/wp-content/uploads/2012/10/Lista_-Aves_Espana_2012.pdf)
+
 * Export the data and save as `./data/taxa_list_STATUS.csv`
 
-We create a table with information about Author of the specie.(We´ll need this table for our data base).
+We create a table adding only information about Author of the specie.(We´ll need this table for our data base).
 * Export the data and save as `./data/taxa_author.csv`
 
 We generate the table1 with information about the next fields: nombre_cientifico, id_dicc_especies, Spanish Red List, IUCN Global, Birds Directive, Bern, Born, Authority and English name and save as `./tables/table1.md`
