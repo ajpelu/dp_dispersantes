@@ -18,7 +18,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 
 ### Taxonomic Coverage 
 * :white_check_mark: ~~Create a table with taxonomic coverage (taxonomic ranks) using `taxize` package.~~ 
-* :white_check_mark: ~~Complete the table with `Authorship`. See [World Bird Names](http://www.worldbirdnames.org)~~
+* :white_check_mark: ~~Complete the table with `Authorship`. See [World Bird Names](http://www.worldbirdnames.org). We added the common names in spanish with information of [Lista de Aves de España 2012, SEO Birdlife] (http://www.seo.org/wp-content/uploads/2012/10/Lista_-Aves_Espana_2012.pdf)~~
 
 
 ## Metadata-Related Task
@@ -28,7 +28,7 @@ I created two maps using ArcGIS, one of Sierra Nevada (with the transects) and o
 
 ### Tables 
 
-* :red_circle: Format table of status (taxonomic info) with `md`. See [tables generator](http://www.tablesgenerator.com/markdown_tables)
+* :white_check_mark: ~~Format table of status (taxonomic info) with `md`. See [tables generator](http://www.tablesgenerator.com/markdown_tables)~~
 
 ### Document structure 
 * :white_check_mark: ~~Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md)~~ 
