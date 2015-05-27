@@ -74,9 +74,9 @@ Vascular plants, Lycopods, ferns, conifers, flowering plants. In the dataset, Fr
 ## Spatial coverage
 
 
-![Figure 2](images/figure-2.png)
+![Figure 2](geoinfo/mapaslocalizacion.jpg)
 
-*Figure 2: Regional distribution of accepted species from the Database of Vascular Plants of Canada (VASCAN). For each region, the number of native, introduced and ephemeral species is shown, i.e. species with a confirmed presence in the region. The regions are ordered by total number of species.*
+*Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.*
 
 
 
