@@ -1,28 +1,21 @@
----
-title: "Get_family_list"
-output:
-  md_document:
-    variant: markdown_github
----
-## Get family list
+Get family list
+---------------
 
 Cargamos la tabla `/taxonomy.csv`
 
-
-```r
+``` r
 #Establecer directorio 
-#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
-di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+#di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
 
 ## Leer datos
 datos <- read.csv(file=paste(di,"/data/taxonomy.csv", sep=""), header=TRUE, sep=",")
 ```
 
-Queremos una lista de todas las familias de aves que tenemos. 
+Queremos una lista de todas las familias de aves que tenemos.
 
-
-```r
+``` r
 ##Convertimos la variable "family"" de factor a character. La ordenamos.
 
 family <- as.character(sort(datos$family))
