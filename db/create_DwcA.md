@@ -107,5 +107,35 @@ WHERE
 
 * Export the results as `/db/raw_data_from_linaria.csv`
 
-
+* Create a table in the `dp_dispersantes` database called `dis_raw`. The sql code is:
+```sql
+CREATE TABLE dis_raw
+(
+  id integer NOT NULL,
+  adis_visita_id integer,
+  fechai timestamp without time zone,
+  fechaf timestamp without time zone,
+  nombre character varying(255),
+  transecto_longitud numeric(20,4),
+  vientos character varying(255),
+  nubes character varying(255),
+  niebla boolean,
+  nombre_cientifico character varying(255),
+  ecologias character varying(255),
+  biogeovoous character varying(255),
+  biogeosimples character varying(255),
+  status_sn character varying(255),
+  ecologia_trofica character varying(255),
+  numero integer,
+  distancia integer,
+  desplazamiento integer,
+  CONSTRAINT dis_raw_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE dis_raw
+  OWNER TO antonioj_perez;
+```
+* Import!!!!!!!! 
 
