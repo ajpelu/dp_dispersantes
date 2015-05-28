@@ -1,8 +1,10 @@
 ## Create DwC-A files
 
-### Create a database
+#### Create a database
 
-### Get RecorderBy field
+* We create the `dp_dispersantes` database
+
+#### Get RecorderBy field
 The aim of this task is to get a `RecordedBy` field for every `visit` event. The RecordedBy field contains all the observer who sampled the transect. 
 
 * SQL-Query to get all observers by each visit 
@@ -33,7 +35,7 @@ ORDER BY
 
 * Export the results as `/db/recordedBy.csv` 
 
-* Create a table in the `r dp_dispersantes` database called `dicc_recordedBy`. The sql code is:
+* Create a table in the `dp_dispersantes` database called `dicc_recordedBy`. The sql code is:
 ```sql
 CREATE TABLE "dicc_recordedBy"
 (
@@ -46,5 +48,13 @@ WITH (
 ALTER TABLE "dicc_recordedBy"
   OWNER TO antonioj_perez;
 ```
+
+#### Get raw data from Linaria
+
+* We create a raw table with data from `linaria_desarrollo` database. 
+
+![](/db/raw_query_linaria.png)
+
+
 
 
