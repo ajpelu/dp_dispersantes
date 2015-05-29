@@ -5,21 +5,6 @@ output:
     variant: markdown_github
 ---
 
-## Get taxonomic coverage
-
-* conssult la bd dispersantes 
-
-```sql 
-SELECT 
-  dis_raw.nombre_cientifico, 
-	COUNT(dis_raw.nombre_cientifico) AS n_records,
-	dis_raw.id_dicc_especies
-FROM 
-  public.dis_raw
-GROUP BY dis_raw.nombre_cientifico, dis_raw.id_dicc_especies;
-```
-
-* Exporto como `/data/registros_especies.csv`
 
 ```{r}
 di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
