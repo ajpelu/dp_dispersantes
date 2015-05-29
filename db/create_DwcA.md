@@ -67,7 +67,8 @@ SELECT
   adis_visitas.adis_transecto_id, 
   adis_visitas.fechai, 
   adis_visitas.fechaf, 
-  adis_avistamientos.adis_visita_id
+  adis_avistamientos.adis_visita_id,
+  dicc_especies.id AS id_dicc_especies
 FROM 
   public.adis_avistamientos, 
   public.adis_especies_dispersantes, 
@@ -101,6 +102,7 @@ CREATE TABLE dis_raw
   fechai timestamp without time zone,
   fechaf timestamp without time zone,
   adis_visita_id integer,
+  id_dicc_especies integer
 )
 WITH (
   OIDS=FALSE
@@ -108,5 +110,32 @@ WITH (
 ALTER TABLE dis_raw
   OWNER TO antonioj_perez;
 ```
+
 * Import into `dis_raw`
+
+##### Problem with Acanthis cannabina. 
+We update the Acanthis cannabina in the table `dis_raw` to Carduelis cannabina 
+
+```sql
+UPDATE dis_raw
+SET nombre_cientifico='Carduelis cannabina', id_dicc_especies='447'
+WHERE nombre_cientifico='Acanthis cannabina'; 
+```
+* Export the table with updated taxonomy to  `/db/raw_data_from_linaria_corregida.csv` by the query: 
+```sql 
+SELECT * FROM dis_raw;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+*
 
