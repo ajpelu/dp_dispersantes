@@ -1,0 +1,64 @@
+---
+title: "Get_taxonomic_coverage"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+## Get taxonomic coverage
+
+* conssult la bd dispersantes 
+
+```sql 
+SELECT 
+  dis_raw.nombre_cientifico, 
+	COUNT(dis_raw.nombre_cientifico) AS n_records,
+	dis_raw.id_dicc_especies
+FROM 
+  public.dis_raw
+GROUP BY dis_raw.nombre_cientifico, dis_raw.id_dicc_especies;
+```
+
+* Exporto como `/data/registros_especies.csv`
+
+```{r}
+di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+
+# di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+
+# Leo archivo de registros especies
+registros <- read.csv(file=paste(di,"/db/raw_data_from_linaria_corregida.csv", sep=""), header=TRUE, sep=";")
+reg <- registros[,c('id','nombre_cientifico','id_dicc_especies')]
+
+# Leo datos de cobertura taxonomica (incluir enlace)
+taxonomy <- read.csv(file=paste(di,"/data/taxonomy.csv", sep=""), header=TRUE, sep=",")
+```
+
+uno las tablas
+
+```{r}
+library('plyr')
+df <- join(reg, taxonomy, by='id_dicc_especies')
+```
+
+
+Obtener las coberturas
+
+```{r}
+# Orden
+orden <- aggregate(df$id, by=list(df$order), length)
+names(orden) <- c('Order','records')
+
+orden$per <- round((orden$records/sum(orden$records)*100),2)
+
+#test 
+sum(orden$records)
+              
+write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden.csv", sep=""), row.names=FALSE, quote= FALSE)
+
+orden 
+```
+
+```{r}
+```
+
