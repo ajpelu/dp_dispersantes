@@ -73,7 +73,10 @@ SELECT
   dicc_ecologiatroficas.descripcion AS ecologia_trofica, 
   adis_avistamientos.numero, 
   adis_avistamientos.distancia, 
-  adis_avistamientos.desplazamiento
+  adis_avistamientos.desplazamiento,
+  adis_visitas.fechai, 
+  adis_visitas.fechaf, 
+  dicc_especies.id AS id_dicc_especies
 FROM 
   public.adis_avistamientos, 
   public.dicc_biogeosimples, 
@@ -87,9 +90,7 @@ FROM
   public.adis_transectos, 
   public.dicc_unidadesmuestreos, 
   public.dicc_especies, 
-  public.dicc_estatussns,
-  adis_visitas.fechai, 
-  adis_visitas.fechaf 
+  public.dicc_estatussns
 WHERE 
   dicc_biogeosimples.id = dicc_especies.dicc_biogeosimple_id AND
   dicc_biogeovoous.id = dicc_especies.dicc_biogeovoou_id AND
