@@ -53,58 +53,38 @@ ALTER TABLE "dicc_recordedBy"
 
 * We create a raw table with data from `linaria_desarrollo` database.
 
-![](/db/raw_query_linaria.png)
+* :red_circle: incluir imagen consulta
 
 * The SQL query is: 
 
 ```sql 
 SELECT 
-  adis_avistamientos.adis_visita_id, 
-  dicc_unidadesmuestreos.nombre AS transecto_nombre, 
-  dicc_unidadesmuestreos.longitud AS transecto_longitud, 
-  dicc_vientos.descripcion AS vientos, 
-  dicc_nubes.descripcion AS nubes, 
-  adis_visitas.niebla AS niebla, 
+  adis_avistamientos.id,
   dicc_especies.nombre_cientifico, 
-  dicc_ecologias.descripcion AS ecologias, 
-  dicc_biogeovoous.descripcion AS biogeovoous, 
-  dicc_biogeosimples.descripcion AS biogeosimples, 
-  dicc_estatussns.descripcion AS status_sn, 
-  dicc_ecologiatroficas.descripcion AS ecologia_trofica, 
   adis_avistamientos.numero, 
   adis_avistamientos.distancia, 
-  adis_avistamientos.desplazamiento,
+  adis_avistamientos.desplazamiento, 
+  adis_visitas.adis_transecto_id, 
   adis_visitas.fechai, 
   adis_visitas.fechaf, 
-  dicc_especies.id AS id_dicc_especies
+  adis_avistamientos.adis_visita_id
 FROM 
   public.adis_avistamientos, 
-  public.dicc_biogeosimples, 
-  public.dicc_biogeovoous, 
-  public.dicc_ecologias, 
-  public.dicc_ecologiatroficas, 
   public.adis_especies_dispersantes, 
-  public.adis_visitas, 
-  public.dicc_nubes, 
-  public.dicc_vientos, 
-  public.adis_transectos, 
-  public.dicc_unidadesmuestreos, 
   public.dicc_especies, 
-  public.dicc_estatussns
+  public.adis_visitas, 
+  public.adis_transectos, 
+  public.dicc_unidadesmuestreos
 WHERE 
-  dicc_biogeosimples.id = dicc_especies.dicc_biogeosimple_id AND
-  dicc_biogeovoous.id = dicc_especies.dicc_biogeovoou_id AND
-  dicc_ecologias.id = dicc_especies.dicc_ecologia_id AND
-  dicc_ecologiatroficas.id = dicc_especies.dicc_ecologiatrofica_id AND
+  adis_avistamientos.adis_visita_id = adis_visitas.id AND
   adis_especies_dispersantes.id = adis_avistamientos.adis_especies_dispersante_id AND
   adis_especies_dispersantes.dicc_especie_id = dicc_especies.id AND
-  adis_visitas.id = adis_avistamientos.adis_visita_id AND
   adis_visitas.adis_transecto_id = adis_transectos.id AND
-  dicc_nubes.id = adis_visitas.dicc_nube_id AND
-  dicc_vientos.id = adis_visitas.dicc_viento_id AND
-  adis_transectos.dicc_unidadesmuestreo_id = dicc_unidadesmuestreos.id AND
-  dicc_estatussns.id = dicc_especies.dicc_estatussn_id;
+  adis_transectos.dicc_unidadesmuestreo_id = dicc_unidadesmuestreos.id AND 
+  dicc_especies.nombre_cientifico NOT IN ('Valor nulo');
 ```
+
+* Query contains 30324 rows. 
 
 * Export the results as `/db/raw_data_from_linaria.csv`
 
@@ -112,26 +92,15 @@ WHERE
 ```sql
 CREATE TABLE dis_raw
 (
-  id integer NOT NULL,
-  adis_visita_id integer,
-  fechai timestamp without time zone,
-  fechaf timestamp without time zone,
-  nombre character varying(255),
-  transecto_longitud numeric(20,4),
-  vientos character varying(255),
-  nubes character varying(255),
-  niebla boolean,
+  id integer
   nombre_cientifico character varying(255),
-  ecologias character varying(255),
-  biogeovoous character varying(255),
-  biogeosimples character varying(255),
-  status_sn character varying(255),
-  ecologia_trofica character varying(255),
   numero integer,
   distancia integer,
   desplazamiento integer,
-  id_dicc_especies integer
-  CONSTRAINT dis_raw_pkey PRIMARY KEY (id)
+  adis_transecto_id integer,
+  fechai timestamp without time zone,
+  fechaf timestamp without time zone,
+  adis_visita_id integer,
 )
 WITH (
   OIDS=FALSE
