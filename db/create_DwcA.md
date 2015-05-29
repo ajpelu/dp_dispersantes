@@ -60,8 +60,6 @@ ALTER TABLE "dicc_recordedBy"
 ```sql 
 SELECT 
   adis_avistamientos.adis_visita_id, 
-  adis_visitas.fechai, 
-  adis_visitas.fechaf, 
   dicc_unidadesmuestreos.nombre AS transecto_nombre, 
   dicc_unidadesmuestreos.longitud AS transecto_longitud, 
   dicc_vientos.descripcion AS vientos, 
@@ -89,7 +87,9 @@ FROM
   public.adis_transectos, 
   public.dicc_unidadesmuestreos, 
   public.dicc_especies, 
-  public.dicc_estatussns
+  public.dicc_estatussns,
+  adis_visitas.fechai, 
+  adis_visitas.fechaf 
 WHERE 
   dicc_biogeosimples.id = dicc_especies.dicc_biogeosimple_id AND
   dicc_biogeovoous.id = dicc_especies.dicc_biogeovoou_id AND
@@ -137,5 +137,5 @@ WITH (
 ALTER TABLE dis_raw
   OWNER TO antonioj_perez;
 ```
-* Import!!!!!!!! 
+* Import into `dis_raw`
 
