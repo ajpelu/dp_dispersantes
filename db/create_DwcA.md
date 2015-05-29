@@ -129,6 +129,7 @@ CREATE TABLE dis_raw
   numero integer,
   distancia integer,
   desplazamiento integer,
+  id_dicc_especies integer
   CONSTRAINT dis_raw_pkey PRIMARY KEY (id)
 )
 WITH (
