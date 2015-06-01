@@ -36,7 +36,7 @@ sum(orden$records)
     ## [1] 30324
 
 ``` r
-write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 orden 
 ```
@@ -67,7 +67,7 @@ sum(family$records)
     ## [1] 30324
 
 ``` r
-write.csv(family, file = paste(di,"/data/taxo_coverage_output/family.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(family, file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 family 
 ```
@@ -114,7 +114,7 @@ sum(genus$records)
     ## [1] 30324
 
 ``` r
-write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 genus
 ```

@@ -38,7 +38,7 @@ orden$per <- round((orden$records/sum(orden$records)*100),2)
 #Test that we have 30324 records. 
 sum(orden$records)
               
-write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 orden 
 ```
@@ -53,7 +53,7 @@ family$per <- round((family$records/sum(family$records)*100),2)
 #Test that we have 30324 records. 
 sum(family$records)
               
-write.csv(family, file = paste(di,"/data/taxo_coverage_output/family.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(family, file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 family 
 ```
@@ -68,7 +68,7 @@ genus$per <- round((genus$records/sum(genus$records)*100),2)
 #Test that we have 30324 records. 
 sum(genus$records)
               
-write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 genus
 ```
