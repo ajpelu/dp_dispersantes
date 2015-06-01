@@ -1,5 +1,5 @@
 ---
-title: "Get_taxonomic_coverage"
+title: "Get_taxonomic_coverage ☺"
 output:
   md_document:
     variant: markdown_github
@@ -71,4 +71,14 @@ sum(genus$records)
 write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 genus
+```
+
+
+### Create graphs of taxonomic coverage
+
+```{r}
+orden<- read.csv(file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep="") )
+
+##ggplot(data=orden, aes(x=Order, y=per)) + geom_bar(stat="identity")
+
 ```
