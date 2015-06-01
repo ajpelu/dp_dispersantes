@@ -4,14 +4,14 @@ output:
   md_document:
     variant: markdown_github
 ---
-
+Our aim is get the taxonomic coverage. First of all, we read our file within all the records (30324), `raw_data_from_linaria_corregida.csv`. This archive is located in the folder `db`. Then, we select the 'id', 'nombre_cientifico' and 'id_dicc_especies' variables.
 
 ```{r}
-di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
-# di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
 
-# Leo archivo de registros especies
+# Read the archive of the species records
 registros <- read.csv(file=paste(di,"/db/raw_data_from_linaria_corregida.csv", sep=""), header=TRUE, sep=";")
 reg <- registros[,c('id','nombre_cientifico','id_dicc_especies')]
 
@@ -19,15 +19,14 @@ reg <- registros[,c('id','nombre_cientifico','id_dicc_especies')]
 taxonomy <- read.csv(file=paste(di,"/data/taxonomy.csv", sep=""), header=TRUE, sep=",")
 ```
 
-uno las tablas
+Join the records of the species with the taxonomy data. 
 
 ```{r}
 library('plyr')
 df <- join(reg, taxonomy, by='id_dicc_especies')
 ```
 
-
-Obtener las coberturas
+Get the taxonomic coverage. We get the number of records of each taxonomy rank and the percentage to total records. Finally, we save the results as a .csv in the folder `/data/taxo_coverage_output`.
 
 ```{r}
 # Orden
@@ -36,7 +35,7 @@ names(orden) <- c('Order','records')
 
 orden$per <- round((orden$records/sum(orden$records)*100),2)
 
-#test 
+#Test that we have 30324 records. 
 sum(orden$records)
               
 write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden.csv", sep=""), row.names=FALSE, quote= FALSE)
@@ -45,5 +44,31 @@ orden
 ```
 
 ```{r}
+# Family
+family <- aggregate(df$id, by=list(df$family), length)
+names(family) <- c('Family','records')
+
+family$per <- round((family$records/sum(family$records)*100),2)
+
+#Test that we have 30324 records. 
+sum(family$records)
+              
+write.csv(family, file = paste(di,"/data/taxo_coverage_output/family.csv", sep=""), row.names=FALSE, quote= FALSE)
+
+family 
 ```
 
+```{r}
+# Genus
+genus <- aggregate(df$id, by=list(df$genus), length)
+names(genus) <- c('Genus','records')
+
+genus$per <- round((genus$records/sum(genus$records)*100),2)
+
+#Test that we have 30324 records. 
+sum(genus$records)
+              
+write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus.csv", sep=""), row.names=FALSE, quote= FALSE)
+
+genus
+```
