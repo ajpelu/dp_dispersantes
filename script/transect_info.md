@@ -11,7 +11,6 @@ Create a variable called continent, country, province and town. We get
 the information of the towns adding a shape file of towns on our map and
 exploring it. We save it as `/data/transects_info.csv`.
 
-
     transectos$continent <- rep('Europe', nrow(transectos))
 
     transectos$country <- rep('Spain', nrow(transectos))
