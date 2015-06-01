@@ -3,7 +3,7 @@ title: "transectos_info"
 output: md_document
 ---
 
-Complete the transect information
+# Complete the transect information
 
 ```{r}
 #di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
