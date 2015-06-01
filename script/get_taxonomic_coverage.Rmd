@@ -26,7 +26,7 @@ library('plyr')
 df <- join(reg, taxonomy, by='id_dicc_especies')
 ```
 
-Get the taxonomic coverage. We get the number of records of each taxonomy rank and the percentage to total records. Finally, we save the results as a .csv in the folder `/data/taxo_coverage_output`.
+Get the taxonomic coverage. We get the number of records of each taxonomy rank and the percentage to total records. Finally, we save the results as a `.csv` in the folder `/data/taxo_coverage_output`.
 
 ```{r}
 # Orden
