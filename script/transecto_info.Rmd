@@ -1,6 +1,8 @@
 ---
 title: "transectos_info"
-output: md_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 # Complete the transect information
