@@ -177,11 +177,3 @@ genus
     ## 55    Troglodytes     540  1.78
     ## 56         Turdus    2587  8.53
     ## 57          Upupa      42  0.14
-
-### Create graphs of taxonomic coverage
-
-``` r
-orden<- read.csv(file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep="") )
-
-##ggplot(data=orden, aes(x=Order, y=per)) + geom_bar(stat="identity")
-```
