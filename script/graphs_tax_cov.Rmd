@@ -1,0 +1,88 @@
+---
+title: "tax_cov_graphs"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+# Create taxonomic coverage graphs 
+
+We exported in pdf the orders graph. We don't export the other two graphs because it's not finished.
+
+
+```{r, echo=FALSE}
+#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+
+di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+
+orden<- read.csv(file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep="") )
+familia<- read.csv(file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""))
+genero<- read.csv(file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""))
+
+# Reorder the Family column levels to records-sorted order.
+
+orden$Order <- reorder(orden$Order, orden$records)
+
+p <- ggplot(data=orden, aes(x=Order, y=per)) +
+  geom_bar(stat="identity", fill='#CC0000') + 
+  xlab("Orders") + ylab("Percentage") +
+  geom_text(aes(label = records, y = per), vjust=-0.8 , size = 5) + 
+  theme_bw() + ylim(c(0,100))+
+  theme(panel.grid.major.x= element_blank(),
+        axis.title = element_text(size = 14),
+        axis.text.x= element_text(size = 12, angle = 90))
+p
+
+pdf(file=paste(di,'/figures/plot_orders.pdf',sep=""), width = 10, height = 8)
+p
+dev.off()
+
+
+```
+
+
+
+## Family graphs
+
+```{r, echo=FALSE}
+
+# Reorder the Family column levels to records-sorted order.
+
+familia$Family <- reorder(familia$Family, familia$records)
+
+# Increase the font size of the y-axis tick labels
+
+ggplot(familia, aes(x=Family, y=per)) + 
+   geom_bar(stat='identity',  fill='#006600') +
+   coord_flip() +
+   theme_bw() +
+   ylab("% records") +
+   theme(axis.text.y=element_text(size=rel(1.5))) +
+   geom_text(aes(label = records, y = per), hjust=-0.2, size = 5) 
+  
+       
+## Falta aumentar las divisiones del eje x, porcentajes.
+
+ 
+```
+
+## Genus graphs
+
+```{r}
+
+# Reorder the Genus column levels to records-sorted order.
+
+genero$Genus <- reorder(genero$Genus, genero$records)
+
+# Increase the font size of the y-axis tick labels
+
+   ggplot(genero, aes(x=Genus, y=per)) + 
+   geom_bar(stat='identity',  fill='#666699') +
+   coord_flip()+
+     theme_bw()+
+   theme(axis.text.y=element_text(size=rel(1.2))) +
+   geom_text(aes(label = records, y = per), hjust=-0.3, size = 4) +
+   ylab("% records") 
+
+## Hay mucho hueco entre los géneros y las barras?
+```
