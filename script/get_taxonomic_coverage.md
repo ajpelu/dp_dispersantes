@@ -1,3 +1,6 @@
+Get taxonomic coverage
+======================
+
 Our aim is get the taxonomic coverage. First of all, we read our file within all the records (30324), `raw_data_from_linaria_corregida.csv`. This archive is located in the folder `db`. Then, we select the 'id', 'nombre\_cientifico' and 'id\_dicc\_especies' variables.
 
 ``` r
