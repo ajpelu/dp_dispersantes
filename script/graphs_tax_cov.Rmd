@@ -52,15 +52,21 @@ familia$Family <- reorder(familia$Family, familia$records)
 
 # Increase the font size of the y-axis tick labels
 
-ggplot(familia, aes(x=Family, y=per)) + 
-   geom_bar(stat='identity',  fill='#006600') +
-   coord_flip() +
-   theme_bw() +
-   ylab("% records") +
-   theme(axis.text.y=element_text(size=rel(1.5))) +
-   geom_text(aes(label = records, y = per), hjust=-0.2, size = 5) 
-  
-       
+f<- ggplot(familia, aes(x=Family, y=per)) + 
+    geom_bar(stat='identity',  fill='#006600') +
+    coord_flip() +
+    theme_bw() +
+    geom_text(aes(label = records, y = per), hjust=-0.08, size = 5) +
+    labs (y = "% records" , x ="Family") +
+    theme(axis.text.y=element_text(size=rel(1.5)),
+    axis.title = element_text(size = 14))
+   
+f
+
+pdf(file=paste(di,'/figures/plot_family.pdf',sep=""), width = 12, height = 8)
+f
+dev.off()
+
 ## Falta aumentar las divisiones del eje x, porcentajes.
 
  
@@ -76,13 +82,48 @@ genero$Genus <- reorder(genero$Genus, genero$records)
 
 # Increase the font size of the y-axis tick labels
 
-   ggplot(genero, aes(x=Genus, y=per)) + 
-   geom_bar(stat='identity',  fill='#666699') +
-   coord_flip()+
-     theme_bw()+
-   theme(axis.text.y=element_text(size=rel(1.2))) +
-   geom_text(aes(label = records, y = per), hjust=-0.3, size = 4) +
-   ylab("% records") 
+g <-  ggplot(genero, aes(x=Genus, y=per)) + 
+      geom_bar(stat='identity',  fill='#666699') +
+      coord_flip()+
+      theme_bw()+
+      geom_text(aes(label = records, y = per), hjust=-0.3, size = 3.5) +
+      labs (y = "% records" , x ="Genus") +
+      theme(axis.text.y=element_text(size=rel(1)),
+        axis.title = element_text(size = 14))
+  
+g
 
-## Hay mucho hueco entre los géneros y las barras?
+pdf(file=paste(di,'/figures/plot_genus.pdf',sep=""), width = 12, height = 8)
+g
+dev.off()
+   
+## Hay mucho hueco entre los géneros y las barras?  Las barras salen unidas
+   
+   
 ```
+
+## Graphs of Families by Genus Passeriformes
+
+```{r}
+
+families_passeri<- read.csv(file = paste(di,"/data/familes_passeri.csv", sep="") )
+
+# Reorder the Families column levels to records-sorted order.
+
+families_passeri$Families <- reorder(families_passeri$Families, families_passeri$records)
+
+pa <- ggplot(data=families_passeri, aes(x=Families, y=per)) +
+  geom_bar(stat="identity", fill='#CC0000') + 
+  xlab("Families") + ylab("Percentage") +
+  geom_text(aes(label = records, y = per), vjust=-0.8 , size = 4.2) + 
+  theme_bw() + ylim(c(0,30))+
+  theme(panel.grid.major.x= element_blank(),
+        axis.title = element_text(size = 14),
+        axis.text.x= element_text(size = 12, angle=90))
+pa
+
+pdf(file=paste(di,'/figures/plot_families_passeri.pdf',sep=""), width = 10, height = 8)
+pa
+dev.off()
+```
+
