@@ -97,7 +97,7 @@ pdf(file=paste(di,'/figures/plot_genus.pdf',sep=""), width = 12, height = 8)
 g
 dev.off()
    
-## Hay mucho hueco entre los géneros y las barras?  Las barras salen unidas
+## Hay mucho hueco entre los géneros y las barras?
    
    
 ```
