@@ -1,4 +1,4 @@
-# Data Paper of Bird communities in Sierra Nevada (OBSNEV)
+# Data Paper of Bird communities in Sierra Nevada, Spain (OBSNEV)
 
 
 
@@ -22,20 +22,15 @@ Academic editor:
 
 ## Abstract
 
-
-
 ## Keywords
 
-
-
 ## Data published through
-
 
 ## Project details
 
 ### Project title
 
-Data Paper of Bird communities in Sierra Nevada (OBSNEV)
+Data Paper of Bird communities in Sierra Nevada, Spain (OBSNEV)
 
 ### Personnel
 
@@ -47,17 +42,30 @@ Data Paper of Bird communities in Sierra Nevada (OBSNEV)
 
 
 ### Study area description
+Sierra Nevada (Andalusia, SE Spain), is a mountainous region with an altitudinal range between 860 m and 3482 m a.s.l. covering more than 2000 km2 (Figure 1). The climate is Mediterranean, characterized by cold winters and hot summers, with pronounced summer drought (July-August). The annual average temperature decreases in altitude from 12–16°C below 1500 m to 0°C above 3000 m a.s.l., and the annual average precipitation is about 600 mm. Additionally, the complex orography of the mountains causes strong climatic contrasts between the sunny, dry south-facing slopes and the shaded, wetter north-facing slopes. Annual precipitation ranges from less than 250 mm in the lowest parts of the mountain range to more than 700 mm in the summit areas. Winter precipitation is mainly in the form of snow above 2000 m of altitude.
 
+This mountain area comprises 27 habitat types from the habitat directive. It contains 31 animal species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plant species listed in the Annex I and II of habitat and bird directives. It is thus considered one of the most important biodiversity hotspots in the Mediterranean region (Blanca 1996, Blanca et al. 1998, Cañadas et al. 2014).
+
+Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. The area includes 61 municipalities with more than 90, 000 inhabitants. The main economic activities are agriculture, tourism, cattle raising, beekeeping, mining, and skiing (Bonet el al. 2010).
+
+![Figure 1](/figures/mapaslocalizacion.jpg)
+
+*Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.*
 
 ### Design description
 
 
 ## Taxonomic coverage
 
+This dataset includes a total of 30324 records. There are 10 orders represented in this dataset. Most of the records belong to the order Passeriformes (28437 records; 93.78 %). The order Columbiformes represents a 3.57 % of the total records and the order Galliformes represents a 1.28 %. The rest of the orders (Caprimulgiformes, Coraciiformes, Cuculiformes, Falconiformes, Piciformes, Strigiformes and Upupiformes) don't exceed a 1 % of the total records (Figure 2). In this collection, 26 families are represented (Figure 3), with Fringillidae, Paridae, Muscicapidae and Turdidae being the families with highest number of records (all this families belong to the order Passeriformes).
 
-![Figure 1]()
+![Figure 2](/figures/plot_orders.pdf)
 
-*Figure 1: Taxonomic distribution of accepted species per family from the Database of Vascular Plants of Canada (VASCAN). The families are ordered by total number of species. Families with less than 80 species are grouped in ‘Other families’.*
+*Figure 2: Taxonomic distribution of accepted species per order from the Database of ........ The orders are ordered by total number of records.*
+
+![Figure 3](/figures/plot_family.pdf)
+
+*Figure 3: ....*
 
 ### Taxonomic ranks
 
@@ -168,20 +176,9 @@ Data Paper of Bird communities in Sierra Nevada (OBSNEV)
 
 ## Spatial coverage
 
-
-![Figure 2](/figures/mapaslocalizacion.jpg)
-
-*Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.*
-
-
-
 ### Bounding box for covered area
 
-
-
 ## Temporal coverage
-
-
 
 ## Sampling methods
 
