@@ -102,10 +102,9 @@ dev.off()
    
 ```
 
-## Graphs of Families by Genus Passeriformes
+## Graphs of Families by Order Passeriformes
 
 ```{r}
-
 families_passeri<- read.csv(file = paste(di,"/data/familes_passeri.csv", sep="") )
 
 # Reorder the Families column levels to records-sorted order.
@@ -127,3 +126,27 @@ pa
 dev.off()
 ```
 
+## Graphs of Genus by Order Passeriformes
+
+```{r}
+genus_passeri<- read.csv(file = paste(di,"/data/genus_passeri.csv", sep="") )
+
+# Reorder the Families column levels to records-sorted order.
+
+genus_passeri$Genus <- reorder(genus_passeri$Genus, genus_passeri$records)
+
+ge <- ggplot(data=genus_passeri, aes(x=Genus, y=per)) +
+  geom_bar(stat="identity", fill='#CC0000') + 
+  coord_flip()+
+  xlab("Genus") + ylab("Percentage") +
+  geom_text(aes(label = records, y = per), hjust=-0.4 , size = 4) + 
+  theme_bw() + ylim(c(0,15))+
+  theme(panel.grid.major.x= element_blank(),
+        axis.title = element_text(size = 14),
+        axis.text.x= element_text(size = 12))
+ge
+
+pdf(file=paste(di,'/figures/plot_genus_passeri.pdf',sep=""), width = 10, height = 8)
+ge
+dev.off()
+```
