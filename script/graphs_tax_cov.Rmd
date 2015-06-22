@@ -31,12 +31,10 @@ p <- ggplot(data=orden, aes(x=Order, y=per)) +
   theme(panel.grid.major.x= element_blank(),
         axis.title = element_text(size = 14),
         axis.text.x= element_text(size = 12, angle = 90))
-p
 
-pdf(file=paste(di,'/figures/plot_orders.pdf',sep=""), width = 10, height = 8)
-p
+jpeg(filename = paste(di,'/figures/plot_order.jpg',sep=""), width = 1000, height = 600)
+plot(p)
 dev.off()
-
 
 ```
 
@@ -63,8 +61,8 @@ f<- ggplot(familia, aes(x=Family, y=per)) +
    
 f
 
-pdf(file=paste(di,'/figures/plot_family.pdf',sep=""), width = 12, height = 8)
-f
+jpeg(filename = paste(di,'/figures/plot_family.jpg',sep=""), width = 1000, height = 600)
+plot(f)
 dev.off()
 
 ## Falta aumentar las divisiones del eje x, porcentajes.
