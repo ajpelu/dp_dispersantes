@@ -17,7 +17,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 * :white_check_mark: ~~Creation of the database with tables (@ajpelu)~~
 * :large_orange_diamond: Import raw data into database:
   * :white_check_mark:~~Observations (@ajpelu)~~
-  * :red_circle: Transects info  
+  * :white_check_mark:~~Transects info~~ We created a table called `transects_info.csv` with the next fields: id_transecto, nombre, longitud, habitat, long, lat, datum, continent, country, province, town.   
 * :red_circle: Create query to generate Dwc-occurrences and Dwc-measurementOrFActs
 
 ### Taxonomic Coverage 
@@ -34,7 +34,7 @@ I created two maps using ArcGIS, one of Sierra Nevada (with the transects) and o
 
 * :white_check_mark: ~~Format table of status (taxonomic info) with `md`. See [tables generator](http://www.tablesgenerator.com/markdown_tables)~~
 
-* :red_circle: Creat a table with info of the transects with two targets: metadata table and Dwc-occurrences table. 
+* :white_check_mark:~~Creat a table with info of the transects with two targets: metadata table and Dwc-occurrences table.~~
 
 ### Document structure 
 * :white_check_mark: ~~Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md)~~ 
