@@ -47,10 +47,9 @@ Sierra Nevada (Andalusia, SE Spain), is a mountainous region with an altitudinal
 This mountain area comprises 27 habitat types from the habitat directive. It contains 31 animal species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plant species listed in the Annex I and II of habitat and bird directives. It is thus considered one of the most important biodiversity hotspots in the Mediterranean region (Blanca 1996, Blanca et al. 1998, Cañadas et al. 2014).
 
 Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. The area includes 61 municipalities with more than 90, 000 inhabitants. The main economic activities are agriculture, tourism, cattle raising, beekeeping, mining, and skiing (Bonet el al. 2010).
-
 ![Figure 1](/figures/mapaslocalizacion.jpg)
 
-*Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.*
+*Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.The red lines are where sampling transects were made*
 
 ### Design description
 
@@ -65,7 +64,7 @@ This dataset includes a total of 30324 records. There are 10 orders represented 
 
 ![Figure 3](/figures/plot_family.pdf)
 
-*Figure 3: ....*
+*Figure 3: Taxonomic distribution of accepted species per family from the Database of ........ The families are ordered by total number of records*
 
 ### Taxonomic ranks
 
@@ -80,9 +79,6 @@ This dataset includes a total of 30324 records. There are 10 orders represented 
 **Genus**: *Accipiter, Aegithalos, Alauda, Alectoris, Anthus, Athene, Caprimulgus, Carduelis, Certhia, Cinclus, Clamator, Coccothraustes, Columba, Corvus, Cuculus, Cyanistes, Dendrocopos, Emberiza, Erithacus, Falco, Fringilla, Galerida, Garrulus, Hippolais, Lanius, Lophophanes, Loxia, Lullula, Luscinia, Merops, Miliaria, Monticola, Motacilla, Muscicapa, Oenanthe, Oriolus, Parus, Passer, Periparus, Petronia, Phoenicurus, Phylloscopus, Pica, Picus, Prunella, Pyrrhocorax, Regulus, Saxicola, Serinus, Sitta, Spinus, Streptopelia, Sturnus, Sylvia, Troglodytes, Turdus, Upupa.*
 
 ### Common names
-
-
-
 
 | nombre_cientifico             | Spanish Red List | Birds Directive | Bern | Bonn | Authority        | English Name              | Spanish Name           |
 |-------------------------------|------------------|-----------------|------|------|------------------|---------------------------|------------------------|
@@ -186,26 +182,19 @@ This dataset includes a total of 30324 records. There are 10 orders represented 
 
 ### Sampling description
 
-
 ### Quality control description
-
 
 ## Dataset
 
-
 ### Suggested citation for the latest version of the dataset
 
-
 ## Acknowledgements
-
 
 ## References
 
 ### References cited within the metadata
 
-
 ### References used to build the dataset
-
 
 ## Appendix
 
