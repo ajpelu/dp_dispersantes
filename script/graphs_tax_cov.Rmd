@@ -61,7 +61,7 @@ f<- ggplot(familia, aes(x=Family, y=per)) +
    
 f
 
-jpeg(filename = paste(di,'/figures/plot_family.jpg',sep=""), width = 900, height = 600)
+jpeg(filename = paste(di,'/figures/plot_family.jpg',sep=""), width = 1000, height = 600)
 plot(f)
 dev.off()
 
