@@ -26,5 +26,5 @@ town <- data.frame(id_transecto=c(2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17),
 
 transects_info <- merge(transectos,town, by="id_transecto")
 
-write.csv(transects_info, file = paste(di,"/data/transects_info.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(transects_info, file = paste(di,"/data/transects_info.csv", sep=""), row.names=FALSE, quote= FALSE, fileEncoding='UTF-8')
 ```
