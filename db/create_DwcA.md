@@ -126,4 +126,30 @@ WHERE nombre_cientifico='Acanthis cannabina';
 SELECT * FROM dis_raw;
 ```
 
+#### Taxonomic info
+
+We need to create a table (`taxonomy_complete`) in database to store taxonomic info. The sql code to create the table is:
+
+```sql
+CREATE TABLE public.taxonomy_complete
+(
+   id_dicc_especies integer, 
+   "Authority" character varying(100), 
+   nombre_cientifico character varying(200), 
+   kingdom character varying(50), 
+   phylum character varying(50), 
+   subphylum character varying(100), 
+   class character varying(100), 
+   "order" character varying(100), 
+   family character varying(100), 
+   genus character varying(100)
+) 
+WITH (
+  OIDS = FALSE
+)
+;
+```
+
+
+
 
