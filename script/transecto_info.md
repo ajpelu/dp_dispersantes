@@ -1,8 +1,7 @@
 This is the process to achive a table with information about the transect.
-==========================================================================
+--------------------------------------------------------------------------
 
 First, we complete the transect information
--------------------------------------------
 
 ``` r
 #di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
