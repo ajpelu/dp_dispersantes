@@ -68,7 +68,7 @@ altitude <- alt[,-c(1,2)]
 colnames(altitude)[colnames(altitude)=="hdr"] <- "Elevation"
 
 ## Round the elevational values.
-alt$hdr <- round(alt$hdr,0)
+altitude$hdr <- round(altitude$Elevation,0)
 
 write.csv(altitude, file = paste(di,"/data/transects_info_complete.csv", sep=""), row.names=FALSE, quote= FALSE, fileEncoding='UTF-8')
 ```
