@@ -150,6 +150,9 @@ WITH (
 ;
 ```
 
+Import info about taxonomy from `/data/taxonomy_complete.csv` into taxomomy_complete table of the database. 
+
+
 
 
 
