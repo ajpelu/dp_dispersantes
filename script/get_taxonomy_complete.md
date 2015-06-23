@@ -1,14 +1,7 @@
----
-title: "Get_taxonomy_complete"
-output:
-  md_document:
-    variant: markdown_github
----
+Add the column Authority to the taxonomy table. Joining the column "Authority" of the `taxa_author.csv`with the `taxonomy.csv`. We will use this table for the Occurences query.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##Add the column Authority to the taxonomy table. Joining the column "Authority" of the `taxa_author.csv`with the `taxonomy.csv`. We will use this table for the Occurences query. 
-
-```{r, warning=FALSE, message=FALSE}
-
+``` r
 #di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
 di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
