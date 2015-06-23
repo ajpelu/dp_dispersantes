@@ -38,4 +38,19 @@ Then, we need to add the elevational values. We get these values with Qgis. This
 -   1.  Reproject to EPSG 23030. And save as `/geoinfo/coordenates_Project.shp` (Note that we write coordenate, but actually it is correct to say coordinate).
 -   1.  Read the MDE shape file, `\\NAS-IECOLAB\cartografia\Informacion_Ambiental\CARTO_TEMATICA\Medio_biofisico\Relieve\mde_10m_cma`. Now we have a raster shape with elevational values and the coordenates of our points.
 -   1.  With the extension Point sampling tools, we generate a new shape file `/geoinfo/trans_altvalida.shp`. In the attributes of this shape we can see the information of the transect and one new column, the elevational values.
--   1.  Export the shape file `data/transects_info_altura.csv`.
+-   1.  Export the shape file as `data/transects_info_altura.csv`.
+
+Finally, we have to do some changes in the `data/transects_info_altura.csv`. We have to remove the columns that we don't need (X and Y) and change the name of the hdr by Elevation.
+
+``` r
+alt <- read.table(file=paste(di,"/data/transects_info_altura.csv", sep=""), header=TRUE, sep=",", fileEncoding='UTF-8')
+altitude <- alt[,-c(1,2)]
+
+## Change the name of the variable "hdr" by "Elevation"
+colnames(altitude)[colnames(altitude)=="hdr"] <- "Elevation"
+
+## Round the elevational values.
+alt$hdr <- round(alt$hdr,0)
+
+write.csv(altitude, file = paste(di,"/data/transects_info_complete.csv", sep=""), row.names=FALSE, quote= FALSE, fileEncoding='UTF-8')
+```
