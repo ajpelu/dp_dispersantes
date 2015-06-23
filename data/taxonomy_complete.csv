@@ -1,91 +1,91 @@
-id_dicc_especies,Authority,nombre_cientifico,kingdom,phylum,subphylum,class,order,family,genus
-454,,Acanthis cannabina,NA,NA,NA,NA,NA,NA,NA
-700,Linnaeus, 1758,Accipiter gentilis,Metazoa,Chordata,Craniata,Aves,Falconiformes,Accipitridae,Accipiter
-699,Linnaeus, 1758,Accipiter nisus,Metazoa,Chordata,Craniata,Aves,Falconiformes,Accipitridae,Accipiter
-380,Linnaeus, 1758,Aegithalos caudatus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Aegithalidae,Aegithalos
-234,Linnaeus, 1758,Alauda arvensis,Metazoa,Chordata,Craniata,Aves,Passeriformes,Alaudidae,Alauda
-747,Linnaeus, 1758,Alectoris rufa,Metazoa,Chordata,Craniata,Aves,Galliformes,Phasianidae,Alectoris
-259,,Anthus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Motacillidae,Anthus
-264,Linnaeus, 1758,Anthus campestris,Metazoa,Chordata,Craniata,Aves,Passeriformes,Motacillidae,Anthus
-261,Linnaeus, 1758,Anthus spinoletta,Metazoa,Chordata,Craniata,Aves,Passeriformes,Motacillidae,Anthus
-823,Scopoli, 1769,Athene noctua,Metazoa,Chordata,Craniata,Aves,Strigiformes,Strigidae,Athene
-831,Linnaeus, 1758,Caprimulgus europaeus,Metazoa,Chordata,Craniata,Aves,Caprimulgiformes,Caprimulgidae,Caprimulgus
-447,Linnaeus, 1758,Carduelis cannabina,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Carduelis
-446,Linnaeus, 1758,Carduelis carduelis,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Carduelis
-445,Linnaeus, 1758,Carduelis chloris,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Carduelis
-448,Linnaeus, 1758,Carduelis spinus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Spinus
-392,Brehm, CL, 1820,Certhia brachydactyla,Metazoa,Chordata,Craniata,Aves,Passeriformes,Certhiidae,Certhia
-279,Linnaeus, 1758,Cinclus cinclus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Cinclidae,Cinclus
-808,Linnaeus, 1758,Clamator glandarius,Metazoa,Chordata,Craniata,Aves,Cuculiformes,Cuculidae,Clamator
-440,Linnaeus, 1758,Coccothraustes coccothraustes,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Coccothraustes
-796,Linnaeus, 1758,Columba palumbus,Metazoa,Chordata,Craniata,Aves,Columbiformes,Columbidae,Columba
-419,Linnaeus, 1758,Corvus corax,Metazoa,Chordata,Craniata,Aves,Passeriformes,Corvidae,Corvus
-420,Linnaeus, 1758,Corvus monedula,Metazoa,Chordata,Craniata,Aves,Passeriformes,Corvidae,Corvus
-806,Linnaeus, 1758,Cuculus canorus,Metazoa,Chordata,Craniata,Aves,Cuculiformes,Cuculidae,Cuculus
-375,Linnaeus, 1758,Cyanistes caeruleus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Paridae,Cyanistes
-858,Linnaeus, 1758,Dendrocopos major,Metazoa,Chordata,Craniata,Aves,Piciformes,Picidae,Dendrocopos
-466,Linnaeus, 1766,Emberiza cia,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Emberiza
-464,Linnaeus, 1766,Emberiza cirlus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Emberiza
-465,Linnaeus, 1758,Emberiza hortulana,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Emberiza
-296,Linnaeus, 1758,Erithacus rubecula,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Erithacus
-731,Linnaeus, 1758,Falco tinnunculus,Metazoa,Chordata,Craniata,Aves,Falconiformes,Falconidae,Falco
-436,Linnaeus, 1758,Fringilla coelebs,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Fringilla
-437,Linnaeus, 1758,Fringilla montifringilla,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Fringilla
-238,Linnaeus, 1758,Galerida cristata,Metazoa,Chordata,Craniata,Aves,Passeriformes,Alaudidae,Galerida
-239,Brehm, AE, 1857,Galerida theklae,Metazoa,Chordata,Craniata,Aves,Passeriformes,Alaudidae,Galerida
-433,Linnaeus, 1758,Garrulus glandarius,Metazoa,Chordata,Craniata,Aves,Passeriformes,Corvidae,Garrulus
-347,Vieillot, 1817,Hippolais polyglotta,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Hippolais
-406,Linnaeus, 1758,Lanius excubitor,Metazoa,Chordata,Craniata,Aves,Passeriformes,Laniidae,Lanius
-405,Linnaeus, 1758,Lanius senator,Metazoa,Chordata,Craniata,Aves,Passeriformes,Laniidae,Lanius
-377,Linnaeus, 1758,Lophophanes cristatus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Paridae,Lophophanes
-452,Linnaeus, 1758,Loxia curvirostra,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Loxia
-236,Linnaeus, 1758,Lullula arborea,Metazoa,Chordata,Craniata,Aves,Passeriformes,Alaudidae,Lullula
-298,Brehm, CL, 1831,Luscinia megarhynchos,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Luscinia
-844,Linnaeus, 1758,Merops apiaster,Metazoa,Chordata,Craniata,Aves,Coraciiformes,Meropidae,Merops
-474,Linnaeus, 1758,Miliaria calandra,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Miliaria
-314,Linnaeus, 1766,Monticola saxatilis,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Monticola
-268,Linnaeus, 1758,Motacilla alba,Metazoa,Chordata,Craniata,Aves,Passeriformes,Motacillidae,Motacilla
-269,Tunstall, 1771,Motacilla cinerea,Metazoa,Chordata,Craniata,Aves,Passeriformes,Motacillidae,Motacilla
-364,Pallas, 1764,Muscicapa striata,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Muscicapa
-310,Linnaeus, 1758,Oenanthe hispanica,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Oenanthe
-309,Linnaeus, 1758,Oenanthe oenanthe,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Oenanthe
-402,Linnaeus, 1758,Oriolus oriolus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Corvidae,Oriolus
-371,Linnaeus, 1758,Parus major,Metazoa,Chordata,Craniata,Aves,Passeriformes,Paridae,Parus
-412,Linnaeus, 1758,Passer domesticus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Passeridae,Passer
-373,Linnaeus, 1758,Periparus ater,Metazoa,Chordata,Craniata,Aves,Passeriformes,Paridae,Periparus
-416,Linnaeus, 1766,Petronia petronia,Metazoa,Chordata,Craniata,Aves,Passeriformes,Passeridae,Petronia
-304,Gmelin, SG, 1774,Phoenicurus ochruros,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Phoenicurus
-303,Linnaeus, 1758,Phoenicurus phoenicurus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Phoenicurus
-349,,Phylloscopus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Phylloscopidae,Phylloscopus
-350,Vieillot, 1819,Phylloscopus bonelli,Metazoa,Chordata,Craniata,Aves,Passeriformes,Phylloscopidae,Phylloscopus
-353,Vieillot, 1817,Phylloscopus collybita,Metazoa,Chordata,Craniata,Aves,Passeriformes,Phylloscopidae,Phylloscopus
-431,Linnaeus, 1758,Pica pica,Metazoa,Chordata,Craniata,Aves,Passeriformes,Corvidae,Pica
-854,Linnaeus, 1758,Picus viridis,Metazoa,Chordata,Craniata,Aves,Piciformes,Picidae,Picus
-286,Scopoli, 1769,Prunella collaris,Metazoa,Chordata,Craniata,Aves,Passeriformes,Passeridae,Prunella
-285,Linnaeus, 1758,Prunella modularis,Metazoa,Chordata,Craniata,Aves,Passeriformes,Passeridae,Prunella
-426,Linnaeus, 1758,Pyrrhocorax pyrrhocorax,Metazoa,Chordata,Craniata,Aves,Passeriformes,Corvidae,Pyrrhocorax
-361,Temminck, 1820,Regulus ignicapillus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Regulus
-307,Linnaeus, 1758,Saxicola rubetra,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Saxicola
-306,Linnaeus, 1766,Saxicola torquata,Metazoa,Chordata,Craniata,Aves,Passeriformes,Muscicapidae,Saxicola
-443,Pallas, 1764,Serinus citrinella,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Serinus
-442,Linnaeus, 1766,Serinus serinus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Fringillidae,Serinus
-386,Linnaeus, 1758,Sitta europaea,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sittidae,Sitta
-801,Linnaeus, 1758,Streptopelia turtur,Metazoa,Chordata,Craniata,Aves,Columbiformes,Columbidae,Streptopelia
-459,Temminck, 1820,Sturnus unicolor,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sturnidae,Sturnus
-317,,Sylvia,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-324,Linnaeus, 1758,Sylvia atricapilla,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-320,Pallas, 1764,Sylvia cantillans,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-323,Latham, 1787,Sylvia communis,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-321,Temminck, 1820,Sylvia conspicillata,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-326,Gmelin, JF, 1789,Sylvia melanocephala,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-318,Boddaert, 1783,Sylvia undata,Metazoa,Chordata,Craniata,Aves,Passeriformes,Sylviidae,Sylvia
-282,Linnaeus, 1758,Troglodytes troglodytes,Metazoa,Chordata,Craniata,Aves,Passeriformes,Certhiidae,Troglodytes
-288,,Turdus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-291,Linnaeus, 1758,Turdus iliacus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-293,Linnaeus, 1758,Turdus merula,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-290,Brehm, CL, 1831,Turdus philomelos,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-292,Linnaeus, 1758,Turdus pilaris,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-294,Linnaeus, 1758,Turdus torquatus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-289,Linnaeus, 1758,Turdus viscivorus,Metazoa,Chordata,Craniata,Aves,Passeriformes,Turdidae,Turdus
-851,Linnaeus, 1758,Upupa epops,Metazoa,Chordata,Craniata,Aves,Upupiformes,Upupidae,Upupa
-24604,,NA,NA,NA,NA,NA,NA,NA,NA
+id_dicc_especies;Authority;nombre_cientifico;kingdom;phylum;subphylum;class;order;family;genus
+454;;Acanthis cannabina;NA;NA;NA;NA;NA;NA;NA
+700;Linnaeus, 1758;Accipiter gentilis;Metazoa;Chordata;Craniata;Aves;Falconiformes;Accipitridae;Accipiter
+699;Linnaeus, 1758;Accipiter nisus;Metazoa;Chordata;Craniata;Aves;Falconiformes;Accipitridae;Accipiter
+380;Linnaeus, 1758;Aegithalos caudatus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Aegithalidae;Aegithalos
+234;Linnaeus, 1758;Alauda arvensis;Metazoa;Chordata;Craniata;Aves;Passeriformes;Alaudidae;Alauda
+747;Linnaeus, 1758;Alectoris rufa;Metazoa;Chordata;Craniata;Aves;Galliformes;Phasianidae;Alectoris
+259;;Anthus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Motacillidae;Anthus
+264;Linnaeus, 1758;Anthus campestris;Metazoa;Chordata;Craniata;Aves;Passeriformes;Motacillidae;Anthus
+261;Linnaeus, 1758;Anthus spinoletta;Metazoa;Chordata;Craniata;Aves;Passeriformes;Motacillidae;Anthus
+823;Scopoli, 1769;Athene noctua;Metazoa;Chordata;Craniata;Aves;Strigiformes;Strigidae;Athene
+831;Linnaeus, 1758;Caprimulgus europaeus;Metazoa;Chordata;Craniata;Aves;Caprimulgiformes;Caprimulgidae;Caprimulgus
+447;Linnaeus, 1758;Carduelis cannabina;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Carduelis
+446;Linnaeus, 1758;Carduelis carduelis;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Carduelis
+445;Linnaeus, 1758;Carduelis chloris;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Carduelis
+448;Linnaeus, 1758;Carduelis spinus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Spinus
+392;Brehm, CL, 1820;Certhia brachydactyla;Metazoa;Chordata;Craniata;Aves;Passeriformes;Certhiidae;Certhia
+279;Linnaeus, 1758;Cinclus cinclus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Cinclidae;Cinclus
+808;Linnaeus, 1758;Clamator glandarius;Metazoa;Chordata;Craniata;Aves;Cuculiformes;Cuculidae;Clamator
+440;Linnaeus, 1758;Coccothraustes coccothraustes;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Coccothraustes
+796;Linnaeus, 1758;Columba palumbus;Metazoa;Chordata;Craniata;Aves;Columbiformes;Columbidae;Columba
+419;Linnaeus, 1758;Corvus corax;Metazoa;Chordata;Craniata;Aves;Passeriformes;Corvidae;Corvus
+420;Linnaeus, 1758;Corvus monedula;Metazoa;Chordata;Craniata;Aves;Passeriformes;Corvidae;Corvus
+806;Linnaeus, 1758;Cuculus canorus;Metazoa;Chordata;Craniata;Aves;Cuculiformes;Cuculidae;Cuculus
+375;Linnaeus, 1758;Cyanistes caeruleus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Paridae;Cyanistes
+858;Linnaeus, 1758;Dendrocopos major;Metazoa;Chordata;Craniata;Aves;Piciformes;Picidae;Dendrocopos
+466;Linnaeus, 1766;Emberiza cia;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Emberiza
+464;Linnaeus, 1766;Emberiza cirlus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Emberiza
+465;Linnaeus, 1758;Emberiza hortulana;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Emberiza
+296;Linnaeus, 1758;Erithacus rubecula;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Erithacus
+731;Linnaeus, 1758;Falco tinnunculus;Metazoa;Chordata;Craniata;Aves;Falconiformes;Falconidae;Falco
+436;Linnaeus, 1758;Fringilla coelebs;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Fringilla
+437;Linnaeus, 1758;Fringilla montifringilla;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Fringilla
+238;Linnaeus, 1758;Galerida cristata;Metazoa;Chordata;Craniata;Aves;Passeriformes;Alaudidae;Galerida
+239;Brehm, AE, 1857;Galerida theklae;Metazoa;Chordata;Craniata;Aves;Passeriformes;Alaudidae;Galerida
+433;Linnaeus, 1758;Garrulus glandarius;Metazoa;Chordata;Craniata;Aves;Passeriformes;Corvidae;Garrulus
+347;Vieillot, 1817;Hippolais polyglotta;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Hippolais
+406;Linnaeus, 1758;Lanius excubitor;Metazoa;Chordata;Craniata;Aves;Passeriformes;Laniidae;Lanius
+405;Linnaeus, 1758;Lanius senator;Metazoa;Chordata;Craniata;Aves;Passeriformes;Laniidae;Lanius
+377;Linnaeus, 1758;Lophophanes cristatus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Paridae;Lophophanes
+452;Linnaeus, 1758;Loxia curvirostra;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Loxia
+236;Linnaeus, 1758;Lullula arborea;Metazoa;Chordata;Craniata;Aves;Passeriformes;Alaudidae;Lullula
+298;Brehm, CL, 1831;Luscinia megarhynchos;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Luscinia
+844;Linnaeus, 1758;Merops apiaster;Metazoa;Chordata;Craniata;Aves;Coraciiformes;Meropidae;Merops
+474;Linnaeus, 1758;Miliaria calandra;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Miliaria
+314;Linnaeus, 1766;Monticola saxatilis;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Monticola
+268;Linnaeus, 1758;Motacilla alba;Metazoa;Chordata;Craniata;Aves;Passeriformes;Motacillidae;Motacilla
+269;Tunstall, 1771;Motacilla cinerea;Metazoa;Chordata;Craniata;Aves;Passeriformes;Motacillidae;Motacilla
+364;Pallas, 1764;Muscicapa striata;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Muscicapa
+310;Linnaeus, 1758;Oenanthe hispanica;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Oenanthe
+309;Linnaeus, 1758;Oenanthe oenanthe;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Oenanthe
+402;Linnaeus, 1758;Oriolus oriolus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Corvidae;Oriolus
+371;Linnaeus, 1758;Parus major;Metazoa;Chordata;Craniata;Aves;Passeriformes;Paridae;Parus
+412;Linnaeus, 1758;Passer domesticus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Passeridae;Passer
+373;Linnaeus, 1758;Periparus ater;Metazoa;Chordata;Craniata;Aves;Passeriformes;Paridae;Periparus
+416;Linnaeus, 1766;Petronia petronia;Metazoa;Chordata;Craniata;Aves;Passeriformes;Passeridae;Petronia
+304;Gmelin, SG, 1774;Phoenicurus ochruros;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Phoenicurus
+303;Linnaeus, 1758;Phoenicurus phoenicurus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Phoenicurus
+349;;Phylloscopus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Phylloscopidae;Phylloscopus
+350;Vieillot, 1819;Phylloscopus bonelli;Metazoa;Chordata;Craniata;Aves;Passeriformes;Phylloscopidae;Phylloscopus
+353;Vieillot, 1817;Phylloscopus collybita;Metazoa;Chordata;Craniata;Aves;Passeriformes;Phylloscopidae;Phylloscopus
+431;Linnaeus, 1758;Pica pica;Metazoa;Chordata;Craniata;Aves;Passeriformes;Corvidae;Pica
+854;Linnaeus, 1758;Picus viridis;Metazoa;Chordata;Craniata;Aves;Piciformes;Picidae;Picus
+286;Scopoli, 1769;Prunella collaris;Metazoa;Chordata;Craniata;Aves;Passeriformes;Passeridae;Prunella
+285;Linnaeus, 1758;Prunella modularis;Metazoa;Chordata;Craniata;Aves;Passeriformes;Passeridae;Prunella
+426;Linnaeus, 1758;Pyrrhocorax pyrrhocorax;Metazoa;Chordata;Craniata;Aves;Passeriformes;Corvidae;Pyrrhocorax
+361;Temminck, 1820;Regulus ignicapillus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Regulus
+307;Linnaeus, 1758;Saxicola rubetra;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Saxicola
+306;Linnaeus, 1766;Saxicola torquata;Metazoa;Chordata;Craniata;Aves;Passeriformes;Muscicapidae;Saxicola
+443;Pallas, 1764;Serinus citrinella;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Serinus
+442;Linnaeus, 1766;Serinus serinus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Fringillidae;Serinus
+386;Linnaeus, 1758;Sitta europaea;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sittidae;Sitta
+801;Linnaeus, 1758;Streptopelia turtur;Metazoa;Chordata;Craniata;Aves;Columbiformes;Columbidae;Streptopelia
+459;Temminck, 1820;Sturnus unicolor;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sturnidae;Sturnus
+317;;Sylvia;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+324;Linnaeus, 1758;Sylvia atricapilla;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+320;Pallas, 1764;Sylvia cantillans;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+323;Latham, 1787;Sylvia communis;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+321;Temminck, 1820;Sylvia conspicillata;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+326;Gmelin, JF, 1789;Sylvia melanocephala;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+318;Boddaert, 1783;Sylvia undata;Metazoa;Chordata;Craniata;Aves;Passeriformes;Sylviidae;Sylvia
+282;Linnaeus, 1758;Troglodytes troglodytes;Metazoa;Chordata;Craniata;Aves;Passeriformes;Certhiidae;Troglodytes
+288;;Turdus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+291;Linnaeus, 1758;Turdus iliacus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+293;Linnaeus, 1758;Turdus merula;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+290;Brehm, CL, 1831;Turdus philomelos;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+292;Linnaeus, 1758;Turdus pilaris;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+294;Linnaeus, 1758;Turdus torquatus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+289;Linnaeus, 1758;Turdus viscivorus;Metazoa;Chordata;Craniata;Aves;Passeriformes;Turdidae;Turdus
+851;Linnaeus, 1758;Upupa epops;Metazoa;Chordata;Craniata;Aves;Upupiformes;Upupidae;Upupa
+24604;;NA;NA;NA;NA;NA;NA;NA;NA
