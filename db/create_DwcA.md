@@ -153,6 +153,32 @@ WITH (
 Import info about taxonomy from `/data/taxonomy_complete.csv` into taxomomy_complete table of the database. 
 
 
+Some taxa did not have information about Authority. We updated them with the following queries (using http://www.zoonomen.net/avtax/frame.html):
+
+```sql
+UPDATE taxonomy_complete
+SET "Authority" = 'Linnaeus, 1758'
+WHERE nombre_cientifico='Turdus';
+
+UPDATE taxonomy_complete
+SET "Authority" = 'Bechstein, 1805'
+WHERE nombre_cientifico='Anthus';
+
+UPDATE taxonomy_complete
+SET "Authority" = 'Boie, 1826'
+WHERE nombre_cientifico='Phylloscopus';
+
+UPDATE taxonomy_complete
+SET "Authority" = 'Scopoli, 1769'
+WHERE nombre_cientifico='Sylvia';
+```
+
+
+
+
+#### Transect info 
+
+
 
 
 
