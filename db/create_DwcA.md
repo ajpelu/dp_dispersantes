@@ -221,7 +221,7 @@ Some key fields are:
  * catalog number (`ADIS-`dis_raw.id) 
  
 
-We create a intermediate table (`disp_dwca`) to generate the `occurences` and `measurementorFacts` tables. We obtained 30012 rows. There is a discrepancy between records number of this new table and records of dis_raw. We checked that there is a fail, because there are some visits without recorders. We noticed that with the following sql query:
+We create a intermediate table (`adis_dwca`) to generate the `occurences` and `measurementorFacts` tables. We obtained 30012 rows. There is a discrepancy between records number of this new table and records of dis_raw. We checked that there is a fail, because there are some visits without recorders. We noticed that with the following sql query:
 
 ```sql 
 SELECT DISTINCT 
@@ -233,10 +233,11 @@ WHERE
   "dicc_recordedBy".adis_visita_id IS NULL;
 ```
 
-Anyway, the sql code to generate `disp_dwca` table is: 
+Anyway, the sql code to generate `adis_dwca` table is: 
 
 ```sql
-SELECT 
+CREATE TABLE adis_dwca AS
+(SELECT 
 /* Recommended format from TDWG 2011 http://www.sibcolombia.net/repositorio-de-documentos */
 
   CONCAT('urn:catalog:','OBSNEV:','ADIS:','ADIS-', dis_raw.id) AS ocurrenceID,
@@ -254,30 +255,37 @@ SELECT
   EXTRACT(MONTH FROM dis_raw.fechai) AS month,
   EXTRACT(DAY FROM dis_raw.fechai) AS day,
  
-  transect_info_complete.nombre, 
-  transect_info_complete.longitud, 
-  transect_info_complete.habitat, 
-  transect_info_complete."long", 
-  transect_info_complete.lat, 
-  transect_info_complete.datum, 
-  transect_info_complete.continent, 
-  transect_info_complete.country, 
-  transect_info_complete.province, 
-  transect_info_complete.town, 
-  transect_info_complete."Elevation", 
-  taxonomy_complete.nombre_cientifico, 
-  taxonomy_complete."Authority", 
-  taxonomy_complete.kingdom, 
-  taxonomy_complete.phylum, 
-  taxonomy_complete.subphylum, 
-  taxonomy_complete.class, 
-  taxonomy_complete."order", 
-  taxonomy_complete.family, 
-  taxonomy_complete.genus, 
-  dis_raw.id, 
-  dis_raw.numero, 
+ /* Spatial Coverage */
+  transect_info_complete.continent AS continent, 
+  transect_info_complete.country AS country, 
+  'ESP' AS countryCode,
+  'GR' AS stateProvince,
+  transect_info_complete.town AS county, 
+  transect_info_complete.nombre AS locality, 
+  transect_info_complete."Elevation" AS minimumElevationInMeters,
+  transect_info_complete."Elevation" AS maximumElevationInMeters,
+  ROUND(cast(transect_info_complete."long" as numeric), 5) AS decimalLongitude,
+  ROUND(cast(transect_info_complete.lat as numeric), 5) AS decimalLatitude,
+  transect_info_complete.datum AS geodeticDatum,
+  '5' AS coordinateUncertaintyInMeters,
+  
+    /* Taxonomic Coverage */ 
+  CONCAT(taxonomy_complete.nombre_cientifico, ' ', taxonomy_complete."Authority") AS scientificName,  
+  taxonomy_complete.kingdom AS kingdom, 
+  taxonomy_complete.phylum AS phylum, 
+  taxonomy_complete.class AS class, 
+  taxonomy_complete."order" AS order,
+  taxonomy_complete.family AS family, 
+  taxonomy_complete.genus AS genus, 
+  SUBSTRING(taxonomy_complete.nombre_cientifico, strpos(taxonomy_complete.nombre_cientifico, ' ')+1,length(taxonomy_complete.nombre_cientifico)) AS specificEpithet,
+  taxonomy_complete."Authority" AS scientificNameAuthorship,
+  
+  /* Accesory Fields*/
+  transect_info_complete.longitud AS longitud_transecto, 
+  transect_info_complete.habitat AS habitat, 
+  dis_raw.numero AS Bird_numbers, 
   dis_raw.distancia, 
-  dis_raw.fechai
+  dis_raw.desplazamiento
 FROM 
   public."dicc_recordedBy", 
   public.dis_raw, 
@@ -286,7 +294,9 @@ FROM
 WHERE 
   "dicc_recordedBy".adis_visita_id = dis_raw.adis_visita_id AND
   dis_raw.adis_transecto_id = transect_info_complete.id_transect AND
-  dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies;
+  dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies);
+```
+
 
 
 
