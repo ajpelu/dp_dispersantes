@@ -146,8 +146,7 @@ CREATE TABLE public.taxonomy_complete
 ) 
 WITH (
   OIDS = FALSE
-)
-;
+);
 ```
 
 Import info about taxonomy from `/data/taxonomy_complete.csv` into taxomomy_complete table of the database. 
@@ -173,12 +172,32 @@ SET "Authority" = 'Scopoli, 1769'
 WHERE nombre_cientifico='Sylvia';
 ```
 
-
-
-
 #### Transect info 
 
+We need to create a table (`transect_info_complete`) in database to store info about transect. The sql code to create the table is:
 
+```sql
+CREATE TABLE transect_info_complete
+(
+  id_transect integer,
+  nombre character varying(80),
+  longitud numeric(10,4),
+  habitat character varying(50),
+  "long" numeric(50,8),
+  lat numeric(50,8),
+  datum character varying(50),
+  continent character varying(50),
+  country character varying(50),
+  province character varying(50),
+  town character varying(100),
+  "Elevation" integer
+)
+WITH (
+  OIDS=FALSE
+);
+```
+
+The info to fill this table is located in `/data/transect_info_complete.csv`
 
 
 
