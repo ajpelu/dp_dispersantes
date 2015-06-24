@@ -249,6 +249,10 @@ SELECT
   "dicc_recordedBy".recordedby AS recorderBy, 
   
  /* Temporal Coverage */
+  dis_raw.fechai AS eventDate,
+  EXTRACT(YEAR FROM dis_raw.fechai) AS year,
+  EXTRACT(MONTH FROM dis_raw.fechai) AS month,
+  EXTRACT(DAY FROM dis_raw.fechai) AS day,
  
   transect_info_complete.nombre, 
   transect_info_complete.longitud, 
