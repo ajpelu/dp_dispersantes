@@ -201,3 +201,89 @@ The info to fill this table is located in `/data/transect_info_complete.csv`
 
 
 
+## Create SQL Query to match DwC standard 
+
+A manual with the terms of DwC is available at [http://www.sibcolombia.net/repositorio-de-documentos](http://www.sibcolombia.net/repositorio-de-documentos): 
+
+* TDWG (2011). DarwinCore: una guía de referencia rápida. (Versión original producida por TDWG, traducida al idioma español por Escobar, D., Roldan, L.; versión 2.0). Bogotá: SiB Colombia, 33 pp.
+
+Some key fields are: 
+
+* Catalog number: the Catalog number is a combination of observation id and `ADIS` particle. Example: `ADIS-23682`
+ * `ADIS` is the collection code abbreviation
+ * `23682` is the identifier of the observation (`dis_raw.id`; This idenfitier comes from `adis_avistamiento.id` see above sql code to create `dis_raw` table) 
+ 
+ 
+* ocurrenceID: Recommended format `urn:catálogo:[código institución]:[códigocolección:[número catálogo].` 
+ * `urn:catalog:`
+ * `OBSNEV:`
+ * `ADIS:`
+ * catalog number (`ADIS-`dis_raw.id) 
+ 
+
+We create a intermediate table (`disp_dwca`) to generate the `occurences` and `measurementorFacts` tables. We obtained 30012 rows. There is a discrepancy between records number of this new table and records of dis_raw. We checked that there is a fail, because there are some visits without recorders. We noticed that with the following sql query:
+
+```sql 
+SELECT DISTINCT 
+  dis_raw.adis_visita_id 
+FROM 
+  public.dis_raw LEFT JOIN public."dicc_recordedBy" ON
+  dis_raw.adis_visita_id = "dicc_recordedBy".adis_visita_id 
+WHERE 
+  "dicc_recordedBy".adis_visita_id IS NULL;
+```
+
+Anyway, the sql code to generate `disp_dwca` table is: 
+
+```sql
+SELECT 
+/* Recommended format from TDWG 2011 http://www.sibcolombia.net/repositorio-de-documentos */
+
+  CONCAT('urn:catalog:','OBSNEV:','ADIS:','ADIS-', dis_raw.id) AS ocurrenceID,
+  now() AS modified,
+  'es' AS language,
+  'OBSNEV' AS institutionCode, 
+  'ADIS' AS collectionCode,
+  'humanObservation' AS basisOfRecord, 
+  CONCAT('ADIS-', dis_raw.id) AS catalogNumber,
+  "dicc_recordedBy".recordedby AS recorderBy, 
+  
+ /* Temporal Coverage */
+ 
+  transect_info_complete.nombre, 
+  transect_info_complete.longitud, 
+  transect_info_complete.habitat, 
+  transect_info_complete."long", 
+  transect_info_complete.lat, 
+  transect_info_complete.datum, 
+  transect_info_complete.continent, 
+  transect_info_complete.country, 
+  transect_info_complete.province, 
+  transect_info_complete.town, 
+  transect_info_complete."Elevation", 
+  taxonomy_complete.nombre_cientifico, 
+  taxonomy_complete."Authority", 
+  taxonomy_complete.kingdom, 
+  taxonomy_complete.phylum, 
+  taxonomy_complete.subphylum, 
+  taxonomy_complete.class, 
+  taxonomy_complete."order", 
+  taxonomy_complete.family, 
+  taxonomy_complete.genus, 
+  dis_raw.id, 
+  dis_raw.numero, 
+  dis_raw.distancia, 
+  dis_raw.fechai
+FROM 
+  public."dicc_recordedBy", 
+  public.dis_raw, 
+  public.taxonomy_complete, 
+  public.transect_info_complete
+WHERE 
+  "dicc_recordedBy".adis_visita_id = dis_raw.adis_visita_id AND
+  dis_raw.adis_transecto_id = transect_info_complete.id_transect AND
+  dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies;
+
+
+
+
