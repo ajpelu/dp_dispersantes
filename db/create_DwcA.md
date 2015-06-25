@@ -342,5 +342,42 @@ FROM adis_dwca m);
 Export `adis_dwc_ocurrences` table from pgadminIII into `./data/dicc_dwc/occurrences.csv`
 
 
+## Generate MeasurementOrFacts table
+
+```sql
+CREATE TABLE adis_dwc_measurement AS
+(
+SELECT
+  CONCAT(m.ocurrenceid, '-1') AS measurementID,
+  m.ocurrenceid,
+  m.bird_numbers AS measurementValue,
+  'Bird Count' AS measurementType, 
+  1 AS measurementAccuracy,
+  'number of individuals' AS measurementUnit, 
+  m.eventdate AS measurementDeterminedDate,
+  m.recordedby AS measurementDeterminedBy,
+  'Linear transect. Recording birds on either side (band of 50-width) of the observer' AS measurementMethod
+FROM 
+  adis_dwca m
+
+UNION ALL 
+  
+(SELECT
+  CONCAT(m.ocurrenceid, '-2') AS measurementID,
+  m.ocurrenceid,
+  m.desplazamiento AS measurementValue,
+  'distance to line-transect' AS measurementType, 
+  1 AS measurementAccuracy,
+  'm' AS measurementUnit, 
+  m.eventdate AS measurementDeterminedDate,
+  m.recordedby AS measurementDeterminedBy,
+  'Distance of the bird to line estimated by eye' AS measurementMethod
+FROM 
+  adis_dwca m)
+  
+ORDER BY ocurrenceid); 
+```
+
+Export `adis_dwc_measurement` table from pgadminIII into `./data/dicc_dwc/measurementOrFacts.csv`
 
 
