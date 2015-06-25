@@ -247,7 +247,7 @@ CREATE TABLE adis_dwca AS
   'ADIS' AS collectionCode,
   'humanObservation' AS basisOfRecord, 
   CONCAT('ADIS-', dis_raw.id) AS catalogNumber,
-  "dicc_recordedBy".recordedby AS recorderBy, 
+  "dicc_recordedBy".recordedby AS recordedBy, 
   
  /* Temporal Coverage */
   dis_raw.fechai AS eventDate,
@@ -297,6 +297,49 @@ WHERE
   dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies);
 ```
 
+## Generate `occurrences` table
+
+The `occurences` table is created by the query: 
+
+```sql
+CREATE TABLE adis_dwc_ocurrences AS
+(SELECT 
+  m.ocurrenceid,
+  m.modified,
+  m.language,
+  m.institutioncode,
+  m.collectioncode,
+  m.basisofrecord,
+  m.catalognumber,
+  m.recordedby,
+  m.eventdate, 
+  m.year,
+  m.month,
+  m.day,
+  m.continent,
+  m.country,
+  m.countrycode,
+  m.stateprovince,
+  m.county,
+  m.locality,
+  m.minimumelevationinmeters,
+  m.maximumelevationinmeters,
+  m.decimallongitude,
+  m.decimallatitude,
+  m.geodeticdatum,
+  m.coordinateuncertaintyinmeters,
+  m.scientificname,
+  m.kingdom,
+  m.phylum,
+  m.class, 
+  m.order, 
+  m.family, 
+  m.genus, 
+  m.specificepithet,
+  m.scientificnameauthorship
+FROM adis_dwca m); 
+```
+Export `adis_dwc_ocurrences` table from pgadminIII into `./data/dicc_dwc/occurrences.csv`
 
 
 
