@@ -1,5 +1,5 @@
 ##Tabla 1. Información Status.
-# Generate table of taxa information
+# Generate table of taxa information. 
 We create a table with information about the species we found in our study (scientific name and id).
 * Export the data and save as `./data/taxa_list.csv`
 
@@ -10,6 +10,8 @@ We add the common names in english with information of [Word Bird Names] (http:/
 
 We create a table adding only information about Author of the specie.(We´ll need this table for our data base).
 * Export the data and save as `./data/taxa_author.csv`
+
+## First, we create the table with all the species (table1). Then, we create the table with species only of the order Passeriformes (table1passer). 
 
 We generate the table1 with information about the next fields: nombre_cientifico, id_dicc_especies, Spanish Red List, IUCN Global, Birds Directive, Bern, Born, Authority, English name and Spanish name and save as `./tables/table1.md`
 
@@ -101,4 +103,91 @@ We generate the table1 with information about the next fields: nombre_cientifico
 | Turdus torquatus              | NE               | II              | III  | II   | Linnaeus, 1758   | Mistle Thrush             | Zorzal charlo          |
 | Turdus viscivorus             | NE               | II              | III  | II   | Brehm, CL, 1831  | Song Thrush               | Zorzal común           |
 | Upupa epops                   | NE               | II              | III  | II   | Linnaeus, 1758   | Fieldfare                 | Zorzal real            |
+
+
+
+
+We generate the table1passer with information about the next fields: nombre_cientifico, id_dicc_especies, Spanish Red List, IUCN Global, Birds Directive, Bern, Born, Authority, English name and Spanish name and save as `./tables/table1passer.md`. 
+
+We have information of the species `./data/taxa_list_STATUS.csv`. we created this csv by hand with information of the 'Libro Rojo de Aves de España'. 
+To know what species are Passeriformes, we need to add the 'order' column from `./data/taxonomy.csv`
+We save this table as `/data/taxa_list_STATUS_passer.csv`. With the tables generator tool, we will create the `table1passer`.
+
+Te information of the process to get `/data/taxa_list_STATUS_passer.csv` is on `/script/get_table_passer.Rmd`
+
+| nombre_cientifico             | id_dicc_especies | Spanish.Red.List | Birds.Directive | Bern | Bonn | Authority | Spanish.Name | English.Name           |                           |                   |                 |
+|-------------------------------|------------------|------------------|-----------------|------|------|-----------|--------------|------------------------|---------------------------|-------------------|-----------------|
+| Aegithalos caudatus           | 380              | NE               |                 | III  |      | Scopoli   | 1769         | Acentor alpino         | Long-tailed Tit           |                   |                 |
+| Alauda arvensis               | 234              | NE               |                 | III  |      | Linnaeus  | 1758         | Acentor común          | Eurasian Skylark          |                   |                 |
+| Anthus campestris             | 264              | NE               |                 | III  |      | Linnaeus  | 1758         | Alcaudón común         | Tawny Pipit               |                   |                 |
+| Anthus spinoletta             | 261              | NE               |                 |      |      | Linnaeus  | 1758         | Alcaudón norteńo       | Water Pipit               |                   |                 |
+| Carduelis cannabina           | 447              | NE               | II              |      |      | Linnaeus  | 1758         | Arrendajo euroasiático | Common Linnet             |                   |                 |
+| Carduelis carduelis           | 446              | NE               | I               | III  | II   | Linnaeus  | 1758         | Azor común             | European Goldfinch        |                   |                 |
+| Carduelis chloris             | 445              | NE               |                 | III  |      | Linnaeus  | 1758         | Bisbita alpina         | European Greenfinch       |                   |                 |
+| Carduelis spinus              | 448              | NE               | I               | III  |      | Linnaeus  | 1758         | Bisbita campestre      | Eurasian Siskin           |                   |                 |
+| Certhia brachydactyla         | 392              | NE               |                 | III  |      | Linnaeus  | 1758         | Carbonero común        | Short-toed Treecreeper    |                   |                 |
+| Cinclus cinclus               | 279              | NE               |                 | III  |      | Linnaeus  | 1758         | Carbonero garrapinos   | White-throated Dipper     |                   |                 |
+| Coccothraustes coccothraustes | 440              | NE               |                 | III  |      | Linnaeus  | 1758         | Chochín común          | Hawfinch                  |                   |                 |
+| Corvus corax                  | 419              | NE               | I               | III  |      | Linnaeus  | 1758         | Chova piquirroja       | Northern Raven            |                   |                 |
+| Corvus monedula               | 420              | NE               |                 | III  |      | Linnaeus  | 1758         | Cogujada común         | Eurasian Jackdaw          |                   |                 |
+| Cyanistes caeruleus           | 375              | NE               |                 | III  | II   | Linnaeus  | 1758         | Colirrojo real         | Eurasian Blue Tit         |                   |                 |
+| Emberiza cia                  | 466              | NE               |                 | III  | II   | Linnaeus  | 1758         | Collalba gris          | Rock Bunting              |                   |                 |
+| Emberiza cirlus               | 464              | NE               |                 | III  | II   | Linnaeus  | 1758         | Collalba rubia         | Cirl Bunting              |                   |                 |
+| Emberiza hortulana            | 465              | NE               |                 | III  |      | Linnaeus  | 1758         | Críalo europeo         | Ortolan Bunting           |                   |                 |
+| Erithacus rubecula            | 296              | NE               |                 | III  |      | Linnaeus  | 1758         | Cuco común             | European Robin            |                   |                 |
+| Fringilla coelebs             | 436              | NE               |                 | III  | II   | Gmelin    | JF           | 1789                   | Curruca cabecinegra       | Common Chaffinch  |                 |
+| Fringilla montifringilla      | 437              | NE               |                 | III  | II   | Linnaeus  | 1758         | Curruca capirotada     | Brambling                 |                   |                 |
+| Galerida cristata             | 238              | NE               |                 | III  | II   | Pallas    | 1764         | Curruca carrasqueńa    | Crested Lark              |                   |                 |
+| Galerida theklae              | 239              | NE               | I               | III  | II   | Boddaert  | 1783         | Curruca rabilarga      | Thekla Lark               |                   |                 |
+| Garrulus glandarius           | 433              | NE               |                 | III  | II   | Temminck  | 1820         | Curruca tomillera      | Eurasian Jay              |                   |                 |
+| Hippolais polyglotta          | 347              | NE               |                 | III  | II   | Latham    | 1787         | Curruca zarcera        | Melodious Warbler         |                   |                 |
+| Lanius excubitor              | 406              |                  | I               | III  |      | Linnaeus  | 1758         | Escribano hortelano    | Great Grey Shrike         |                   |                 |
+| Lanius senator                | 405              | NT               |                 | III  |      | Linnaeus  | 1766         | Escribano montesino    | Woodchat Shrike           |                   |                 |
+| Lophophanes cristatus         | 377              |                  |                 | III  |      | Linnaeus  | 1766         | Escribano soteńo       | European Crested Tit      |                   |                 |
+| Loxia curvirostra             | 452              | NE               |                 | III  |      | Linnaeus  | 1758         | Escribano triguero     | Red Crossbill             |                   |                 |
+| Lullula arborea               | 236              | NE               |                 | III  |      | Temminck  | 1820         | Estornino negro        | Woodlark                  |                   |                 |
+| Luscinia megarhynchos         | 298              | NE               | I               | III  | II   | Linnaeus  | 1758         | Gavilán común          | Common Nightingale        |                   |                 |
+| Miliaria calandra             | 474              | NE               |                 |      |      | Linnaeus  | 1758         | Gorrión común          | Corn Bunting              |                   |                 |
+| Monticola saxatilis           | 314              | NE               | II              |      |      | Linnaeus  | 1758         | Grajilla occidental    | Common Rock Thrush        |                   |                 |
+| Motacilla alba                | 268              | NE               |                 |      |      | Linnaeus  | 1758         | Herrerillo capuchino   | White Wagtail             |                   |                 |
+| Motacilla cinerea             | 269              | NE               |                 |      |      | Linnaeus  | 1758         | Herrerillo común       | Grey Wagtail              |                   |                 |
+| Muscicapa striata             | 364              | NE               |                 | III  |      | Linnaeus  | 1758         | Jilguero europeo       | Spotted Flycatcher        |                   |                 |
+| Oenanthe hispanica            | 310              | NT               |                 | III  |      | Linnaeus  | 1758         | Jilguero lúgano        | Black-eared Wheatear      |                   |                 |
+| Oenanthe oenanthe             | 309              | NE               |                 | III  |      | Linnaeus  | 1758         | Lavandera alba         | Northern Wheatear         |                   |                 |
+| Oriolus oriolus               | 402              | NE               |                 | III  |      | Tunstall  | 1771         | Lavandera cascadeńa    | Eurasian Golden Oriole    |                   |                 |
+| Parus major                   | 371              | NE               |                 | III  |      | Linnaeus  | 1758         | Mirlo acuático europeo | Great Tit                 |                   |                 |
+| Passer domesticus             | 412              | NE               |                 | III  | II   | Linnaeus  | 1758         | Mirlo capiblanco       | House Sparrow             |                   |                 |
+| Periparus ater                | 373              | NE               |                 | III  | II   | Linnaeus  | 1758         | Mirlo común            | Coal Tit                  |                   |                 |
+| Petronia petronia             | 416              | NE               |                 | III  |      | Linnaeus  | 1758         | Mito común             | Rock Sparrow              |                   |                 |
+| Phoenicurus ochruros          | 304              | NE               |                 | III  |      | Scopoli   | 1769         | Mochuelo común         | Black Redstart            |                   |                 |
+| Phoenicurus phoenicurus       | 303              | VU               |                 | III  | II   | Vieillot  | 1817         | Mosquitero común       | Common Redstart           |                   |                 |
+| Phylloscopus bonelli          | 350              | NE               |                 | III  | II   | Vieillot  | 1819         | Mosquitero papialbo    | Western Bonelli's Warbler |                   |                 |
+| Phylloscopus collybita        | 353              | NE               |                 | III  |      | Linnaeus  | 1758         | Oropéndola europea     | Common Chiffchaff         |                   |                 |
+| Pica pica                     | 431              | NE               | I               | II   | III  |           |              | Linnaeus               | 1758                      | Paloma torcaz     | Eurasian Magpie |
+| Prunella collaris             | 286              | NE               |                 | III  |      | Linnaeus  | 1758         | Pardillo común         | Alpine Accentor           |                   |                 |
+| Prunella modularis            | 285              | NE               | II              | III  | III  |           | Linnaeus     | 1758                   | Perdiz roja               | Dunnock           |                 |
+| Pyrrhocorax pyrrhocorax       | 426              | NT               |                 | III  | II   | Linnaeus  | 1758         | Petirrojo europeo      | Red-billed Chough         |                   |                 |
+| Regulus ignicapillus          | 361              | NE               | I               | III  |      | Linnaeus  | 1758         | Pico picapinos         | Common Firecrest          |                   |                 |
+| Saxicola rubetra              | 307              | NE               |                 | III  |      | Linnaeus  | 1758         | Picogordo común        | Whinchat                  |                   |                 |
+| Saxicola torquata             | 306              | NE               |                 | III  |      | Linnaeus  | 1758         | Pinzón real            | African Stonechat         |                   |                 |
+| Serinus citrinella            | 443              | NE               | I               | III  |      | Linnaeus  | 1758         | Pinzón vulgar          | Citril Finch              |                   |                 |
+| Serinus serinus               | 442              | NE               |                 | III  |      | Linnaeus  | 1758         | Piquituerto común      | European Serin            |                   |                 |
+| Sitta europaea                | 386              | NE               |                 | III  |      | Linnaeus  | 1758         | Pito real              | Eurasian Nuthatch         |                   |                 |
+| Sturnus unicolor              | 459              | NE               |                 | III  | II   | Linnaeus  | 1766         | Roquero rojo           | Spotless Starling         |                   |                 |
+| Sylvia atricapilla            | 324              | NE               |                 | III  | II   | Brehm     | CL           | 1831                   | Ruiseńor común            | Eurasian Blackcap |                 |
+| Sylvia cantillans             | 320              | NE               |                 | III  |      | Linnaeus  | 1766         | Serín verdecillo       | Subalpine Warbler         |                   |                 |
+| Sylvia communis               | 323              | NE               |                 | III  | II   | Linnaeus  | 1766         | Tarabilla común        | Common Whitethroat        |                   |                 |
+| Sylvia conspicillata          | 321              | LC*              |                 | III  | II   | Linnaeus  | 1758         | Tarabilla norteńa      | Spectacled Warbler        |                   |                 |
+| Sylvia melanocephala          | 326              | NE               | II              | III  |      | Linnaeus  | 1758         | Tórtola europea        | Sardinian Warbler         |                   |                 |
+| Sylvia undata                 | 318              | NE               |                 | III  |      | Linnaeus  | 1758         | Trepador azul          | Dartford Warbler          |                   |                 |
+| Troglodytes troglodytes       | 282              | NE               | II              |      |      | Linnaeus  | 1758         | Urraca común           | Eurasian Wren             |                   |                 |
+| Turdus iliacus                | 291              | NE               |                 | III  |      | Linnaeus  | 1758         | Verderón común         | Redwing                   |                   |                 |
+| Turdus merula                 | 293              | NE               |                 | III  |      | Pallas    | 1764         | Verderón serrano       | Common Blackbird          |                   |                 |
+| Turdus philomelos             | 290              | NE               |                 | III  | II   | Vieillot  | 1817         | Zarcero políglota      | Song Thrush               |                   |                 |
+| Turdus pilaris                | 292              | NE               | II              | III  | II   | Linnaeus  | 1758         | Zorzal alirrojo        | Fieldfare                 |                   |                 |
+| Turdus torquatus              | 294              | NE               | II              | III  | II   | Linnaeus  | 1758         | Zorzal charlo          | Ring Ouzel                |                   |                 |
+| Turdus viscivorus             | 289              | NE               | II              | III  | II   | Brehm     | CL           | 1831                   | Zorzal común              | Mistle Thrush     |                 |
+
+
+
 
