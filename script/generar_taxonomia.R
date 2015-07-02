@@ -4,6 +4,8 @@ install.packages("taxize")
 library("taxize")
 library(plyr)
 
+##Este script no vale. Generar taxonomía a la cuenta de la vieja. 
+
 ## Directorio 
 di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
