@@ -78,15 +78,17 @@ Sierra Nevada Global Change Observatory is collecting socio-ecological informati
 
 ## Taxonomic coverage
 
-This dataset includes a total of 30324 records. There are 10 orders represented in this dataset. Most of the records belong to the order Passeriformes (28437 records; 93.78 %). The order Columbiformes represents a 3.57 % of the total records and the order Galliformes represents a 1.28 %. The rest of the orders (Caprimulgiformes, Coraciiformes, Cuculiformes, Falconiformes, Piciformes, Strigiformes and Upupiformes) don't exceed a 1 % of the total records (Figure 2). In this collection, 26 families are represented (Figure 3), with Fringillidae, Paridae, Muscicapidae and Turdidae being the families with highest number of records (all this families belong to the order Passeriformes).
+This dataset includes a total of 28437 records of the order Passeriformes. There are 16 families represented in this dataset.
 
-![Figure 2](/figures/plot_order.jpg)
+In this collection, 44 genus are represented (Figure 3), with Emberiza, Cyanistes, Turdus, Fringilla and Parus being the genus with highest number of records.
 
-*Figure 2: Taxonomic distribution of accepted species per order from the Database of ........ The orders are ordered by total number of records.*
+![Figure 2](/figures/plot_families_passeri.jpg)
 
-![Figure 3](/figures/plot_family.jpg)
+*Figure 2: Taxonomic distribution of accepted species of Passeriformes per family from the Database of ........ The families are ordered by total number of records.*
 
-*Figure 3: Taxonomic distribution of accepted species per family from the Database of ........ The families are ordered by total number of records*
+![Figure 3](/figures/plot_genus_passeri.jpg)
+
+*Figure 3: Taxonomic distribution of accepted species of Passeriformes per genus from the Database of ........ The genus are ordered by total number of records*
 
 ### Taxonomic ranks
 
@@ -98,11 +100,11 @@ This dataset includes a total of 30324 records. There are 10 orders represented 
 
 **Class**: *Aves*
 
-**Order**: *Caprimulgiformes, Columbiformes, Coraciiformes, Cuculiformes, Falconiformes, Galliformes, Passeriformes, Piciformes, Strigiformes, Upupiformes.*
+**Order**: *Passeriformes*
 
-**Family**: *Accipitridae, Aegithalidae, Alaudidae, Caprimulgidae, Certhiidae, Cinclidae, Columbidae, Corvidae, Cuculidae, Falconidae, Fringillidae, Laniidae, Meropidae, Motacillidae, Muscicapidae, Paridae, Passeridae, Phasianidae, Phylloscopidae, Picidae, Sittidae, Strigidae, Sturnidae, Sylviidae, Turdidae, Upupidae.*
+**Family**: **
 
-**Genus**: *Accipiter, Aegithalos, Alauda, Alectoris, Anthus, Athene, Caprimulgus, Carduelis, Certhia, Cinclus, Clamator, Coccothraustes, Columba, Corvus, Cuculus, Cyanistes, Dendrocopos, Emberiza, Erithacus, Falco, Fringilla, Galerida, Garrulus, Hippolais, Lanius, Lophophanes, Loxia, Lullula, Luscinia, Merops, Miliaria, Monticola, Motacilla, Muscicapa, Oenanthe, Oriolus, Parus, Passer, Periparus, Petronia, Phoenicurus, Phylloscopus, Pica, Picus, Prunella, Pyrrhocorax, Regulus, Saxicola, Serinus, Sitta, Spinus, Streptopelia, Sturnus, Sylvia, Troglodytes, Turdus, Upupa.*
+**Genus**: **
 
 ### Common names
 
