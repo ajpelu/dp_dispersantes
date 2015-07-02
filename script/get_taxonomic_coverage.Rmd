@@ -8,6 +8,8 @@ output:
 
 Our aim is get the taxonomic coverage. First of all, we read our file within all the records (30324), `raw_data_from_linaria_corregida.csv`. This archive is located in the folder `db`. Then, we select the 'id', 'nombre_cientifico' and 'id_dicc_especies' variables.
 
+At the same time, we get the taxonomy coverage only of the order Passeriformes, because we will use only these data for our dp. We get the families and genus of Passeriformes. 
+
 ```{r}
 #di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
 
@@ -41,8 +43,6 @@ orden$per <- round((orden$records/sum(orden$records)*100),2)
 sum(orden$records)
               
 write.csv(orden, file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
-
-orden 
 ```
 
 ```{r}
@@ -57,7 +57,22 @@ sum(family$records)
               
 write.csv(family, file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
-family 
+
+# Families of Passeriformes. 
+
+#en df tenemos todos los registros. Queremos coger solo aquellos en los que el orden sea passeriformes. 
+dfpasser <- subset(df,order=="Passeriformes")
+familypasser <- aggregate(dfpasser$id, by=list(dfpasser$family), length)
+names(familypasser) <- c('Family','records')
+
+familypasser$per <- round((familypasser$records/sum(familypasser$records)*100),2)
+
+#Test that we have 28437 records. 
+sum(familypasser$records)
+              
+write.csv(family, file = paste(di,"/data/taxo_coverage_output/passerfamily_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
+
+familypasser 
 ```
 
 ```{r}
@@ -67,12 +82,25 @@ names(genus) <- c('Genus','records')
 
 genus$per <- round((genus$records/sum(genus$records)*100),2)
 
-#Test that we have 30324 records. 
+#Test that we have 28437 records. 
 sum(genus$records)
               
 write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
-genus
+
+# Genus of Passeriformes. 
+
+genuspasser <- aggregate(dfpasser$id, by=list(dfpasser$genus), length)
+names(genuspasser) <- c('Genus','records')
+
+genuspasser$per <- round((genuspasser$records/sum(genuspasser$records)*100),2)
+
+#Test that we have 28437 records. 
+sum(genuspasser$records)
+              
+write.csv(family, file = paste(di,"/data/taxo_coverage_output/passergenus_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
+
+genuspasser 
 ```
 
 
