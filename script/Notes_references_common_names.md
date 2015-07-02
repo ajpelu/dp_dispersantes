@@ -28,7 +28,7 @@
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2007) Nombres en castellado de las  aves del mundo recomendados por la Sociedad Española de Ornitología (undécima parte: Orden Passeriformes, Familias Muscicapidae to Sylviidae). Ardeola 54(1): 145–153.
 
-* De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2009) Nombres en castelllano de las aves del mundo recomendados por la Sociedad Española de Ornitología. (Duodécima parte: orden Passeriformes, familias Picathartidae a Paridae). Ardeola 56(1): 127–134.
+ * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2009) Nombres en castelllano de las aves del mundo recomendados por la Sociedad Española de Ornitología. (Duodécima parte: orden Passeriformes, familias Picathartidae a Paridae). Ardeola 56(1): 127–134.
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2009) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología. (Decimotercera parte: orden Passeriformes, familias Remizidae a Laniidae). Ardeola 56(1): 135-142. 
 
