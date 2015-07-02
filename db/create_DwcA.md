@@ -235,6 +235,8 @@ WHERE
 
 Anyway, the sql code to generate `adis_dwca` table is: 
 
+We filter to 'Passeriformes' order, then the `adis_dwca` got 28146 records. 
+
 ```sql
 CREATE TABLE adis_dwca AS
 (SELECT 
@@ -294,8 +296,10 @@ FROM
 WHERE 
   "dicc_recordedBy".adis_visita_id = dis_raw.adis_visita_id AND
   dis_raw.adis_transecto_id = transect_info_complete.id_transect AND
-  dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies);
+  dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies AND 
+  taxonomy_complete."order" = 'Passeriformes');
 ```
+
 
 ## Generate `occurrences` table
 
