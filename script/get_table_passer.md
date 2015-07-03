@@ -26,5 +26,5 @@ status_passeri$IUCN.Global <- NULL
 
 ##Guardamos esta tabla como `/data/taxa_list_STATUS_passer.csv`. Con este archivo, en el generador de tablas crearemos la tabla1passer. 
 
-write.csv(status_passeri, file = paste(di,"/data/taxa_list_STATUS_passer.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.table(status_passeri, file = paste(di,"/data/taxa_list_STATUS_passer.csv", sep=""), row.names=FALSE, quote= FALSE, sep = ";")
 ```
