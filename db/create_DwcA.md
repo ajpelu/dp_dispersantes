@@ -49,6 +49,300 @@ ALTER TABLE "dicc_recordedBy"
   OWNER TO antonioj_perez;
 ```
 
+We need to fill the full name of the observers. For this purpose: 
+
+* We select all the unique records in `dicc_recorderBy` 
+* Then we queried the observers's name in Aspizua et al. 2012. 
+* We obtained the following correspondences: 
+
+| recordedBy                | full_name              | status    |
+|---------------------------|------------------------|-----------|
+| Fanny Archila             | Archila Gallegos, F.   |           |
+| Asuncion Arias            | Arias Navarro, A.      |           |
+| Jose Miguel Barea Azcón   | Barea-Azcón, J.M.      |           |
+| Veronica                  | Bueno de la Rosa, V.   |           |
+| Libertad                  | Cobos, L.              | CONFIRMAR |
+| Fracisco Contreras Parody | Contreras Parody, F.   |           |
+| Cristina Debén            | Debén Duarte, C.       |           |
+| Javier Foronda            | Foronda, J.            | CONFIRMAR |
+| Pablo Galdo               | Galdo Fuentes, P.      |           |
+| Isacio                    | Hernández Soto, I.     |           |
+| Emilio Lopera             | Lopera, E.             | CONFIRMAR |
+| Andrés López              | López Martinez, A.     |           |
+| Rogelio López             | López-Sanjuán, R.      |           |
+| Angel                     | Lozano Rubio, A.J.     | CONFIRMAR |
+| J. M. Marín               | Marín Escribano, J.M.  |           |
+| Javier Martín Jaramillo   | Martín Jaramillo, J.   |           |
+| Cristina Martos           | Martos García, C.      |           |
+| D. Morillar               | Morillas Fernández, D. |           |
+| Guillermo Rodríguez       | Rodríguez, G.          | CONFIRMAR |
+| Mentxu                    |                        | BUSCAR    |
+| Juan Pablo                |                        | BUSCAR    |
+
+ * We created a table within database (a copy of `dicc_recordedBy`) called `dicc_recordedBy_valid` 
+ 
+ * We updated the combinations of observer with the followings update clauses: 
+ 
+```sql
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Hernández Soto, I.; Contreras Parody, F.'
+WHERE recordedby='Isacio, Francisco Contreras Parody'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.; Hernández Soto, I.'
+WHERE recordedby='Fanny Archila, Isacio'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.'
+WHERE recordedby='Mentxu, Fanny Archila'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.'
+WHERE recordedby='Fanny Archila'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.; Galdo Fuentes, P.'
+WHERE recordedby='Francisco Contreras Parody, Pablo Galdo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martos García, C.'
+WHERE recordedby='Cristina Martos, Mentxu'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.'
+WHERE recordedby='Pablo Galdo, Mentxu'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='López-Sanjuán, R.; Barea-Azcón, J.M.'
+WHERE recordedby='Rogelio López, Jose Miguel Barea Azcón';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.'
+WHERE recordedby='Mentxu, Francisco Contreras Parody';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Rodríguez, G.; Archila Gallegos, F.; Hernández Soto, I.'
+WHERE recordedby='Guillermo Rodriguez, Fanny Archila, Isacio';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Hernández Soto, I.'
+WHERE recordedby='Isacio'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Morillas Fernández, D.; Martín Jaramillo, J.'
+WHERE recordedby='D. Morillar, Javier Martín Jaramillo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.'
+WHERE recordedby='Pablo Galdo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.; Archila Gallegos, F.'
+WHERE recordedby='Pablo Galdo, Fanny Archila'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Debén Duarte, C.'
+WHERE recordedby='Cristina Debén, Mentxu'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; Barea-Azcón, J.M.'
+WHERE recordedby='Javier Martín Jaramillo, Jose Miguel Barea Azcón'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Hernández Soto, I.; Archila Gallegos, F.'
+WHERE recordedby='Isacio, Fanny Archila'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Hernández Soto, I.; Martos García, C.'
+WHERE recordedby='Isacio, Cristina Martos'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.; Martín Jaramillo, J.'
+WHERE recordedby='Pablo Galdo, Javier Martín Jaramillo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='López-Sanjuán, R.'
+WHERE recordedby='Rogelio López';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; Morillas Fernández, D.; Barea-Azcón, J.M.'
+WHERE recordedby='Javier Martín Jaramillo, D. Morillar, Jose Miguel Barea Azcón';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.; Hernández Soto, I.'
+WHERE recordedby='Francisco Contreras Parody, Isacio'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martos García, C.'
+WHERE recordedby='Cristina Martos';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.; Marín Escribano, J.M.'
+WHERE recordedby='Fanny Archila, J. M. Marín'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Marín Escribano, J.M.; Archila Gallegos, F.'
+WHERE recordedby='J. M. Marín, Fanny Archila'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='López-Sanjuán, R.; Martín Jaramillo, J.'
+WHERE recordedby='Rogelio López, Javier Martín Jaramillo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.;'
+WHERE recordedby='Javier Martín Jaramillo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Rodríguez, G.; Hernández Soto, I.'
+WHERE recordedby='Guillermo Rodriguez, Isacio';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.; Martín Jaramillo, J.'
+WHERE recordedby='Francisco Contreras Parody, Javier Martín Jaramillo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Hernández Soto, I.'
+WHERE recordedby='Mentxu, Isacio'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.; Contreras Parody, F.'
+WHERE recordedby='Fanny Archila, Francisco Contreras Parody';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Debén Duarte, C.'
+WHERE recordedby='Cristina Debén'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.; Galdo Fuentes, P.'
+WHERE recordedby='Fanny Archila, Pablo Galdo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.; Lopera, E.'
+WHERE recordedby='Fanny Archila, Emilio Lopera';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; Galdo Fuentes, P.'
+WHERE recordedby='Javier Martín Jaramillo, Pablo Galdo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Archila Gallegos, F.'
+WHERE recordedby='Fanny Archila, Mentxu';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Morillas Fernández, D.'
+WHERE recordedby='Mentxu, D. Morillar';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='López-Sanjuán, R.; Foronda, J.'
+WHERE recordedby='Rogelio López, Javier Foronda';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby=''
+WHERE recordedby='Mentxu';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.; Archila Gallegos, F.'
+WHERE recordedby='Francisco Contreras Parody, Fanny Archila';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.; Rodríguez, G.; Hernández Soto, I.'
+WHERE recordedby='Pablo Galdo, Guillermo Rodriguez, Isacio';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Lopera, E.; Archila Gallegos, F.'
+WHERE recordedby='Emilio Lopera, Fanny Archila';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; Hernández Soto, I.'
+WHERE recordedby='Javier Martín Jaramillo, Isacio';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Morillas Fernández, D.; López-Sanjuán, R.'
+WHERE recordedby='D. Morillar, Rogelio López';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Cobos, L.; Martín Jaramillo, J.'
+WHERE recordedby='Libertad, Javier Martín Jaramillo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.; Arias Navarro, A.'
+WHERE recordedby='Francisco Contreras Parody, Asuncion Arias'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Lozano Rubio, A.J.; Galdo Fuentes, P.'
+WHERE recordedby='Angel, Pablo Galdo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martos García, C.'
+WHERE recordedby='Mentxu, Cristina Martos'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.'
+WHERE recordedby='Francisco Contreras Parody, Mentxu'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.'
+WHERE recordedby='Juan Pablo, Francisco Contreras Parody'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Bueno de la Rosa, V.; Martín Jaramillo, J.'
+WHERE recordedby='Verónica, Javier Martín Jaramillo';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martos García, C.; Hernández Soto, I.'
+WHERE recordedby='Cristina Martos, Isacio';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.'
+WHERE recordedby='Javier Martín Jaramillo, Mentxu';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Debén Duarte, C.'
+WHERE recordedby='Mentxu, Cristina Debén'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Debén Duarte, C.; Archila Gallegos, F.'
+WHERE recordedby='Cristina Debén, Fanny Archila'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; López-Sanjuán, R.'
+WHERE recordedby='Javier Martín Jaramillo, Rogelio López';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.'
+WHERE recordedby='Mentxu, Pablo Galdo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Barea-Azcón, J.M.'
+WHERE recordedby='Jose Miguel Barea Azcón'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Contreras Parody, F.'
+WHERE recordedby='Francisco Contreras Parody'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.; Hernández Soto, I.'
+WHERE recordedby='Pablo Galdo, Isacio'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; López Martinez, A.'
+WHERE recordedby='Javier Martín Jaramillo, Andrés López';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Martín Jaramillo, J.; Martos García, C.'
+WHERE recordedby='Javier Martín Jaramillo, Cristina Martos';
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Hernández Soto, I.; Galdo Fuentes, P.'
+WHERE recordedby='Isacio, Pablo Galdo'; 
+
+UPDATE dicc_recordedBy_valid 
+SET recordedby='Galdo Fuentes, P.; Foronda, J.'
+WHERE recordedby='Pablo Galdo, Javier Foronda';
+```
+
+NOTE THAT WE NEED TO CONFIRM SOME NAMES. Once, we will use `dicc_recordedBy_valid` for the dwc queries. 
+
 #### Get raw data from Linaria
 
 * We create a raw table with data from `linaria_desarrollo` database.
