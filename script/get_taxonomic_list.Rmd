@@ -47,3 +47,26 @@ genus<- unique(as.character(sort(datos$genus)))
 write.table(t(genus), file = paste(di,"/data/genus.csv", sep=""), 
           row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
 ```
+
+Hacemos lo mismo pero solo para el orden Passeriformes
+
+```{r}
+
+taxpasser <- subset(datos,order=="Passeriformes")
+
+##Convertimos la variable "family"" de factor a character. La ordenamos.
+
+familypasser <- unique(as.character(sort(taxpasser$family)))
+
+##Guardamos la tabla como `/family.csv`
+write.table(t(familypasser), file = paste(di,"/data/family_list_passer.csv", sep=""), 
+          row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
+
+## Hacemos lo mismo con los géneros
+
+genuspasser<- unique(as.character(sort(taxpasser$genus)))
+
+##Guardamos la tabla como `/order.csv`
+write.table(t(genuspasser), file = paste(di,"/data/genus_list_passer.csv", sep=""), 
+          row.names=FALSE, col.names = FALSE, quote=FALSE, sep=", ")
+``` 
