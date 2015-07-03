@@ -41,7 +41,7 @@ I created two maps using ArcGIS, one of Sierra Nevada (with the transects) and o
 We create a file called `datapaperv1.md`.
 
 ### Taxonomic Status
-#### :large_orange_diamond: Create a table with the protection status of the taxa
+#### :white_check_mark: Create a table with the protection status of the taxa
 We have to complete the IUCN Global Status column.
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
 * :white_check_mark: ~~Fill out a table with status, protection, etc.~~ 
