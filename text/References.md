@@ -1,4 +1,5 @@
 ### References 
+
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2004) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (Novena parte: orden Passeriformes, familias Cotingidae a Motacillidae). Ardeola 51(2): 491–499.
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2005) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (décima parte: orden Passeriformes, familias Campephagidae a Turdidae). Ardeola 52(2): 389– 398.
@@ -12,3 +13,14 @@
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2010a) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología. (Decimocuarta parte: orden Passeriformes, familias Malaconotidae a Passeridae). Ardeola 57(1): 199-205.
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2010b) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (Decimoquinta parte: orden Passeriformes, familias Ploceidae a Parulidae). Ardeola 57(2): 449-456.
+ 
+ 
+ Revisar:
+ 
+ * Gutiérrez R, De Juana E, Lorenzo JA (2012). Lista de las aves de España. SEO/BirdLife.
+ 
+ * SEO/BirdLife: Lista de las aves de España http://www.seo.org/wp-content/uploads/2012/10/Lista_-Aves_Espana_2012.pdf
+ 
+ * Gill F, Donsker D (2015) (Eds) IOC World Bird List (v 5.2). doi: 10.14344/IOC.ML.5.2.
+ 
+ * Madroño A, González C, Atienza JC (Eds) (2004) Libro Rojo de las Aves de España. Dirección General para la Biodiversidad-SEO/BirdLife. Madrid-España, 452 pp. 
