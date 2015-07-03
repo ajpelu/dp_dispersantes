@@ -15,7 +15,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 ## DarwinCore-Related Task 
 ## Database   
 * :white_check_mark: ~~Creation of the database with tables (@ajpelu)~~
-* :large_orange_diamond: Import raw data into database:
+* :white_check_mark: Import raw data into database:
   * :white_check_mark:~~Observations (@ajpelu)~~
   * :white_check_mark:~~Transects info~~ We created a table called `transects_info.csv` with the next fields: id_transecto, nombre, longitud, habitat, long, lat, datum, continent, country, province, town.
 * :white_check_mark: Create query to generate Dwc-occurrences and Dwc-measurementOrFActs
