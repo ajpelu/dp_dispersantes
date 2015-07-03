@@ -70,7 +70,7 @@ familypasser$per <- round((familypasser$records/sum(familypasser$records)*100),2
 #Test that we have 28437 records. 
 sum(familypasser$records)
               
-write.csv(family, file = paste(di,"/data/taxo_coverage_output/passerfamily_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(familypasser, file = paste(di,"/data/taxo_coverage_output/passerfamily_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
 
 familypasser 
 ```
@@ -85,7 +85,7 @@ genus$per <- round((genus$records/sum(genus$records)*100),2)
 #Test that we have 28437 records. 
 sum(genus$records)
               
-write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""), row.names=FALSE, quote= FALSE)
+write.csv(genus, file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""), row.names=FALSE, quote= FALSE, sep="")
 
 
 # Genus of Passeriformes. 
