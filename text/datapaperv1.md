@@ -89,7 +89,9 @@ The present study was conducted in the Sierra Nevada National Park (SE Spain). H
 
 ... algo así como que se ha estudiado la comunidad de aves paseriformes en el pasado. Y también citar que con estos datos (los históricos y los del obsnev) se ha realizado una evaluación de las comunidades de paseriformes en Sierra Nevada, lo que ha permitido detectar un declive ... (Zamora & Barea, 2015) 
 
+... Ojo incluir la tesis de R. Zamora
 
+Cambiar la aproximación, parecida a esto http://zookeys.pensoft.net/articles.php?id=3489 
 
 ## Taxonomic coverage
 
