@@ -1,5 +1,6 @@
-# Dataset of Passerine bird communities in Sierra Nevada, Spain
+# Dataset of Passerine bird communities in a high mountain (Sierra Nevada, Spain)
 
+:red_circle: Include authors
 
 [^1]: 
 
@@ -16,6 +17,11 @@ Academic editor:
 ---
 
 **Resource citation**: 
+
+iEcolab, University of Granada-Andalusian Environmental Center (Andalusian Institute for Earth
+System Research) (2015) Passerine bird communities in a high mountain (Sierra Nevada, Spain). :red_circle: XXXXX data records. Contributed by University of Granada, OBSNEV, Agencia de Medio Ambiente y Agua de Andalucía, 
+Archila Gallegos F, Arias Navarro A, Barea-Azcón JM, Bueno de la Rosa V; Cobos L; Contreras Parody F, Debén Duarte C, Foronda J, Galdo Fuentes P, Hernández Soto I, Lopera E, López Martinez A, López-Sanjuán R, Lozano Rubio AJ; Marín Escribano JM; Martín Jaramillo J; Martos García C, Morillas Fernández D, Rodríguez G. Online at :red_circle: http://www.gbif.
+es:8080/ipt/resource.do?r=borreguiles and :red_circle: http://obsnev.es/noticia.html?id=7839, version 1.0 (:red_circle: last updated on 2014-10-10). Resource ID: GBIF Key: :red_circle:  http://www.gbif.org/dataset/ff7d3d4a-6c31-4876-8339-a1794f7d0316
 
 [^2]: see Appendix.
 
