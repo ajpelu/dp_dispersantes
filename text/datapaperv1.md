@@ -23,12 +23,11 @@ System Research) (2015) Passerine bird communities in a high mountain (Sierra Ne
 Archila Gallegos F, Arias Navarro A, Barea-Azcón JM, Bueno de la Rosa V; Cobos L; Contreras Parody F, Debén Duarte C, Foronda J, Galdo Fuentes P, Hernández Soto I, Lopera E, López Martinez A, López-Sanjuán R, Lozano Rubio AJ; Marín Escribano JM; Martín Jaramillo J; Martos García C, Morillas Fernández D, Rodríguez G. Online at :red_circle: http://www.gbif.
 es:8080/ipt/resource.do?r=borreguiles and :red_circle: http://obsnev.es/noticia.html?id=7839, version 1.0 (:red_circle: last updated on 2014-10-10). Resource ID: GBIF Key: :red_circle:  http://www.gbif.org/dataset/ff7d3d4a-6c31-4876-8339-a1794f7d0316
 
-[^2]: see Appendix.
 
 ## Abstract
 
 ## Keywords
-Aves, Passerine birds, Sierra Nevada (Spain), global change monitoring, occurrences, abundance   
+Aves, Passerine birds, Sierra Nevada (Spain), global change monitoring, mediterranean high-mountain, occurrences, abundance,    
 
 ## Data published through
 
@@ -81,6 +80,14 @@ The Sierra Nevada Global Change Observatory is linked to other national (Zamora 
 Sierra Nevada Global Change Observatory is collecting socio-ecological information on the major ecosystem types found in Sierra Nevada. This information is being integrated in an Information System (http://obsnev.es/linaria.html - Pérez-Pérez et al. 2012. (Free access upon registration). The dataset described here is a good example of this idea. *We have created a relational database to store the birds inventories prepared in 2004–2005¿???. Thanks to this work, all this valuable and unique information will be available to scientists and environmental managers worldwide.*
 
 :red_circle: Hablar algo del seguimiento de las comunidades de fauna en el OBSNEV 
+
+... En la intro decir algo como: 
+
+Historical information about Passerine bird communities in Sierra Nevada was compiled by ...
+The present study was conducted in the Sierra Nevada National Park (SE Spain). Historical information was compiled by R. Zamora during the early 1980s (Zamora and Camacho, 1984; Zamora, 1987; 1988a, b; 1990). Recent censuses were conducted from 2008 to 2012 by the Global Change Observatory of Sierra Nevada (by J. M. Barea-Azcón, rangers of the Sierra Nevada National Park and collaborators), this entailing resurveys of the same historical sites, using the same methodology as Zamora and Camacho (1984) and Zamora (1987; 1988a, b; 1990). A description of the three study sites (fig. 1) follows.
+
+
+... algo así como que se ha estudiado la comunidad de aves paseriformes en el pasado. Y también citar que con estos datos (los históricos y los del obsnev) se ha realizado una evaluación de las comunidades de paseriformes en Sierra Nevada, lo que ha permitido detectar un declive ... (Zamora & Barea, 2015) 
 
 
 
