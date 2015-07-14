@@ -1,4 +1,4 @@
-# Dataset of Bird communities in Sierra Nevada, Spain (OBSNEV)
+# Dataset of Passerine bird communities in Sierra Nevada, Spain
 
 
 [^1]: 
