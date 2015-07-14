@@ -28,6 +28,7 @@ es:8080/ipt/resource.do?r=borreguiles and :red_circle: http://obsnev.es/noticia.
 ## Abstract
 
 ## Keywords
+Aves, Passerine birds, Sierra Nevada (Spain), global change monitoring, occurrences, abundance   
 
 ## Data published through
 
@@ -39,11 +40,10 @@ Sierra Nevada Global-Change Observatory (OBSNEV)
 ### Personnel
 Regino Jesús Zamora Rodríguez (Scientific Coordinator, Principal Investigator, University of Granada); Francisco Javier Sánchez Gutiérrez (Director of the Sierra Nevada National Park and Natural Park).
 
-**Data compilation editors**: 
-
-**Development**: 
-
 ### Funding
+Sierra Nevada Global Change Observatory is funded by Andalusian Regional Government
+(via Environmental Protection Agency) and by the Spanish Government (via
+“Fundación Biodiversidad”, which is a Public Foundation).
 
 ### Study area description
 Sierra Nevada (Andalusia, SE Spain), is a mountainous region with an altitudinal range between 860 m and 3482 m a.s.l. covering more than 2000 km2 (Figure 1). The climate is Mediterranean, characterized by cold winters and hot summers, with pronounced summer drought (July-August). The annual average temperature decreases in altitude from 12–16°C below 1500 m to 0°C above 3000 m a.s.l., and the annual average precipitation is about 600 mm. Additionally, the complex orography of the mountains causes strong climatic contrasts between the sunny, dry south-facing slopes and the shaded, wetter north-facing slopes. Annual precipitation ranges from less than 250 mm in the lowest parts of the mountain range to more than 700 mm in the summit areas. Winter precipitation is mainly in the form of snow above 2000 m of altitude.
@@ -79,6 +79,9 @@ FALTA IMAGEN DEL ESQUEMA DEL OBSNV
 The Sierra Nevada Global Change Observatory is linked to other national (Zamora and Bonet 2011) and international monitoring networks: GLOCHAMORE (Global Change in Mountain Regions) (Björnsen 2005), GLOCHAMOST (Global Change in Mountain Sites) (Schaaf 2009), LTER-Spain (Long-Term Ecological Research).
 
 Sierra Nevada Global Change Observatory is collecting socio-ecological information on the major ecosystem types found in Sierra Nevada. This information is being integrated in an Information System (http://obsnev.es/linaria.html - Pérez-Pérez et al. 2012. (Free access upon registration). The dataset described here is a good example of this idea. *We have created a relational database to store the birds inventories prepared in 2004–2005¿???. Thanks to this work, all this valuable and unique information will be available to scientists and environmental managers worldwide.*
+
+:red_circle: Hablar algo del seguimiento de las comunidades de fauna en el OBSNEV 
+
 
 
 ## Taxonomic coverage
