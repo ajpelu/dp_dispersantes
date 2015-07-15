@@ -50,6 +50,7 @@ Sierra Nevada (Andalusia, SE Spain), is a mountainous region with an altitudinal
 This mountain area comprises 27 habitat types from the habitat directive. It contains 31 animal species (20 birds, 5 mammals, 4 invertebrates, 2 amphibians and reptiles) and 20 plant species listed in the Annex I and II of habitat and bird directives. It is thus considered one of the most important biodiversity hotspots in the Mediterranean region (Blanca 1996, Blanca et al. 1998, Cañadas et al. 2014).
 
 Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. The area includes 61 municipalities with more than 90, 000 inhabitants. The main economic activities are agriculture, tourism, cattle raising, beekeeping, mining, and skiing (Bonet el al. 2010).
+
 ![Figure 1](/figures/mapaslocalizacion.jpg)
 
 *Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.The red lines are where sampling transects were made*
@@ -58,26 +59,39 @@ Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNE
 
 Sierra Nevada Global Change Observatory (OBSNEV) (Bonet et al. 2011) is a long-term research project which is being undertaken at Sierra Nevada Biosphere Reserve (SE Spain). It is intended to compile the information necessary for identifying as early as possible the impacts of global change, in order to design management mechanisms to minimize these impacts and adapt the system to new scenarios (Aspizua et al. 2010, Bonet el al. 2010). The general objectives are to:
 
-• Evaluate the functioning of ecosystems in the Sierra Nevada Nature Reserve, their natural processes and dynamics over a medium-term timescale.
+ * Evaluate the functioning of ecosystems in the Sierra Nevada Nature Reserve, their natural processes and dynamics over a medium-term timescale.
 
-• Identify population dynamics, phenological changes, and conservation issues regarding key species that could be considered indicators of ecological processes.
+ * Identify population dynamics, phenological changes, and conservation issues regarding key species that could be considered indicators of ecological processes.
 
-• Identify the impact of global change on monitored species, ecosystems, and natural resources, providing an overview of trends of change that could help foster ecosystem resilience.
+ * Identify the impact of global change on monitored species, ecosystems, and natural resources, providing an overview of trends of change that could help foster ecosystem resilience.
 
-• Design mechanisms to assess the effectiveness and efficiency of management activities performed in the Sierra Nevada in order to implement an adaptive management framework.
+ * Design mechanisms to assess the effectiveness and efficiency of management activities performed in the Sierra Nevada in order to implement an adaptive management framework.
 
-• Help to disseminate information of general interest concerning the values and importance of Sierra Nevada.
+ * Help to disseminate information of general interest concerning the values and importance of Sierra Nevada.
 
-The Sierra Nevada Global Change Observatory has four cornerstones (Figure 2): 1) a monitoring program with 40 methodologies that collect information on ecosystem functioning; 2) an information system to store and manage all the information gathered; 3) a plan to promote adaptive management of natural resources using the knowledge amassed through the monitoring programme; and 4) an outreach program to disseminate all the available information to potential users.
+The Sierra Nevada Global Change Observatory has four cornerstones:
+
+ * A monitoring program with 40 methodologies that collect information on ecosystem functioning (Aspizua et al. 2012; 2014).
+ * An information system to store and manage all the information gathered (http://obsnev.es/linaria.html - Pérez-Pérez et al. 2012; Free access upon registration).
+ * A plan to promote adaptive management of natural resources using the data amassed through the monitoring programme.
+ * An outreach programme to disseminate all the available information to potential users (see News Portal of the project at http://obsnev.es and the wiki of the project at http://wiki.obsnev.es, Pérez-Luque et al. 2012)
+
+The Sierra Nevada Global Change Observatory is linked to other national (Zamora and Bonet 2011) and international monitoring networks: GLOCHAMORE (Global Change in Mountain Regions) (Björnsen 2005), GLOCHAMOST (Global Change in Mountain Sites) (Schaaf 2009), LTER-Spain (Long-Term Ecological Research). This project is also involved in several European projects like MS-MONINA (FP7 project. www.ms-monina.eu) or EU BON (Hoffmann et al. 2014). 
 
 
-FALTA IMAGEN DEL ESQUEMA DEL OBSNV
 
-*Figure 2: Structure of the Sierra Nevada Global Change Observatory. The four cornerstones of the research project are shown: monitoring program, adaptive management, information systems and dissemination. A monitoring program is needed to identify the impacts of global change over Sierra Nevada. The information compiled needs to be transformed into useful knowledge for the managers to carry out an active and adaptive management of natural resources. To achieve this, it is essential that all data be integrated and analysed in an information system. Finally, the general public should be informed of both the results obtained and methodologies used, through effective outreach activities.*
 
-The Sierra Nevada Global Change Observatory is linked to other national (Zamora and Bonet 2011) and international monitoring networks: GLOCHAMORE (Global Change in Mountain Regions) (Björnsen 2005), GLOCHAMOST (Global Change in Mountain Sites) (Schaaf 2009), LTER-Spain (Long-Term Ecological Research).
+
+
+
+
+
+
 
 Sierra Nevada Global Change Observatory is collecting socio-ecological information on the major ecosystem types found in Sierra Nevada. This information is being integrated in an Information System (http://obsnev.es/linaria.html - Pérez-Pérez et al. 2012. (Free access upon registration). The dataset described here is a good example of this idea. *We have created a relational database to store the birds inventories prepared in 2004–2005¿???. Thanks to this work, all this valuable and unique information will be available to scientists and environmental managers worldwide.*
+
+
+
 
 :red_circle: Hablar algo del seguimiento de las comunidades de fauna en el OBSNEV 
 
