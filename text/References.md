@@ -37,3 +37,7 @@ la Junta de Andalucía, Granada, 41 - 49.
  
  * Zamora R (1990) Seasonal variations of a passerine community in a mediterranean high-mountain. Ardeola 37: 219–228.
  
+ * Zamora R, Barea-Azcón JM (2015) Long-Term changes in mountain passerine bird communities in the Sierra Nevada (southern Spain): A 30-year case study.  Ardeola 62(1): 3-18.  
+
+
+ 
