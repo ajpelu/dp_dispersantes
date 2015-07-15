@@ -19,3 +19,5 @@
  * Gutiérrez R, De Juana E, Lorenzo JA (2012). Lista de las aves de España. Versión online 1.0: nombres castellano, científico e inglés. SEO/BirdLife. http://www.seo.org/wp-content/uploads/2012/10/Lista_-Aves_Espana_2012.pdf
  
  * Madroño A, González C, Atienza JC (2004) Libro Rojo de las Aves de España. Dirección General para la Biodiversidad-SEO/BirdLife. Madrid-España, 452 pp. 
+ 
+ * Pleguezuelos JM (1991). Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
