@@ -1,5 +1,7 @@
 ### References 
 
+ * Barea-Azcón JM, Martín-Jaramillo J, López R (2012). Paseriformes y otras aves. In: Aspizua R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds). Observatorio de Cambio Global Sierra Nevada: metodologías de seguimiento. Consejería de Medio Ambiente, Junta de Andalucía. 86-87. 
+ 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2004) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (Novena parte: orden Passeriformes, familias Cotingidae a Motacillidae). Ardeola 51(2): 491–499.
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2005) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (décima parte: orden Passeriformes, familias Campephagidae a Turdidae). Ardeola 52(2): 389– 398.
@@ -38,6 +40,11 @@ la Junta de Andalucía, Granada, 41 - 49.
  * Zamora R (1990) Seasonal variations of a passerine community in a mediterranean high-mountain. Ardeola 37: 219–228.
  
  * Zamora R, Barea-Azcón JM (2015) Long-Term changes in mountain passerine bird communities in the Sierra Nevada (southern Spain): A 30-year case study.  Ardeola 62(1): 3-18.  
+
+
+
+
+
 
 
  
