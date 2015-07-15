@@ -80,6 +80,23 @@ The Sierra Nevada Global Change Observatory is linked to other national (Zamora 
 
 
 
+Studies of bird communities in this mountain region go back to the 1850s, with the first published records of field observations recorded by ornithologists (Pleguezuelos 1991; Garzón-Gutierrez 2012). A recent review of the ornithology in the Sierra Nevada was accomplished by Garzón-Gutiérrez (2012). All those works include passerine birds, but specific studies focusing specifically on Passerine birds communities on this mountain region were carried out during the early 1980s (Zamora and Camacho 1984, Zamora 1987a, 1987b, 1988a, 1988b, 1990). 
+Monitoring methodologies of the OBSNEV include re-visiting old plots to assess long-term populations trends, changes in phenology, shifts in community composition among others. 
+
+
+
+ha retomado esos estudios (citar dossier) y ha realizado desde 2007 un estudio de la comunidad de aves paseriformes en las mismas localidades y en otras con el fin de evaluar la evolución de las comunidades (citar Zamora and Barea-Azcón 2015)
+
+
+
+The main aims of the monitoring of birds in
+Sierra Nevada are: to ascertain the trends of
+their populations over time, to determine the
+shifts in community composition, to record
+possible changes in phenology of arrival and
+departure of migratory species, and finally to
+assess the state of the ecosystems inhabited as
+a means of foreseeing possible problems.
 
 
 
@@ -98,7 +115,9 @@ Sierra Nevada Global Change Observatory is collecting socio-ecological informati
 ... En la intro decir algo como: 
 
 Historical information about Passerine bird communities in Sierra Nevada was compiled by ...
-The present study was conducted in the Sierra Nevada National Park (SE Spain). Historical information was compiled by R. Zamora during the early 1980s (Zamora and Camacho, 1984; Zamora, 1987; 1988a, b; 1990). Recent censuses were conducted from 2008 to 2012 by the Global Change Observatory of Sierra Nevada (by J. M. Barea-Azcón, rangers of the Sierra Nevada National Park and collaborators), this entailing resurveys of the same historical sites, using the same methodology as Zamora and Camacho (1984) and Zamora (1987; 1988a, b; 1990). A description of the three study sites (fig. 1) follows.
+The present study was conducted in the Sierra Nevada National Park (SE Spain).
+
+Historical information was compiled by R. Zamora during the early 1980s (Zamora and Camacho, 1984; Zamora, 1987; 1988a, b; 1990). Recent censuses were conducted from 2008 to 2012 by the Global Change Observatory of Sierra Nevada (by J. M. Barea-Azcón, rangers of the Sierra Nevada National Park and collaborators), this entailing resurveys of the same historical sites, using the same methodology as Zamora and Camacho (1984) and Zamora (1987; 1988a, b; 1990). A description of the three study sites (fig. 1) follows.
 
 
 ... algo así como que se ha estudiado la comunidad de aves paseriformes en el pasado. Y también citar que con estos datos (los históricos y los del obsnev) se ha realizado una evaluación de las comunidades de paseriformes en Sierra Nevada, lo que ha permitido detectar un declive ... (Zamora & Barea, 2015) 
