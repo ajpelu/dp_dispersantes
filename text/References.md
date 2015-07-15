@@ -25,4 +25,15 @@ la Junta de Andalucía, Granada, 41 - 49.
  
  * Pleguezuelos JM (1991) Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
  
+ * Zamora R, Camacho I (1984) Evolución estacional de la comunidad de aves en un robledal de Sierra Nevada. Doñana Acta Vertebrata 11: 129–150.
+ 
+ * Zamora R (1987a) Dinámica temporal y selección de hábitat de los passeriformes de la alta montaña de Sierra Nevada (Granada). PhD thesis, Granada, Spain: University of Granada. 
+ 
+ * Zamora R (1987b). Variaciones altitudinales en la composición de las comunidades nidificantes de aves de Sierra Nevada. Doñana Acta Vertebrata 14: 83–106.
+ 
+ * Zamora R (1988a) Composición y estructura de la comunidad de Passeriformes de la alta montaña de Sierra Nevada. Ardeola 35: 197–220.
+ 
+ * Zamora R (1988b) Estructura morfológica de una comunidad de Passeriformes de alta montaña (Sierra Nevada, SE de España). Ardeola 35: 71–95.
+ 
+ * Zamora R (1990) Seasonal variations of a passerine community in a mediterranean high-mountain. Ardeola 37: 219–228.
  
