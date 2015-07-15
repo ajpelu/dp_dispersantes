@@ -104,12 +104,6 @@ a means of foreseeing possible problems.
 
 
 
-
-Sierra Nevada Global Change Observatory is collecting socio-ecological information on the major ecosystem types found in Sierra Nevada. This information is being integrated in an Information System (http://obsnev.es/linaria.html - Pérez-Pérez et al. 2012. (Free access upon registration). The dataset described here is a good example of this idea. *We have created a relational database to store the birds inventories prepared in 2004–2005¿???. Thanks to this work, all this valuable and unique information will be available to scientists and environmental managers worldwide.*
-
-
-
-
 :red_circle: Hablar algo del seguimiento de las comunidades de fauna en el OBSNEV 
 
 ... En la intro decir algo como: 
