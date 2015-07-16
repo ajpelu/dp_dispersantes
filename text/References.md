@@ -39,6 +39,8 @@
 
  * Pleguezuelos JM (1991) Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
  
+ * Sanz JJ (2002) Climate change and birds: Have their ecological consequences already been detected in the Mediterranean region?. Ardeola 49(1): 109-120.
+ 
  * Zamora R, Camacho I (1984) Evolución estacional de la comunidad de aves en un robledal de Sierra Nevada. Doñana Acta Vertebrata 11: 129–150.
  
  * Zamora R (1987a) Dinámica temporal y selección de hábitat de los passeriformes de la alta montaña de Sierra Nevada (Granada). PhD thesis, Granada, Spain: University of Granada. 
