@@ -27,6 +27,8 @@
  * Magurran AE, Baillie SR, Buckland ST, Dick JM, Elston DA, Scott EM, Smith RI, Somerfield PJ, Watt AD (2010) Long-term datasets in biodiversity research and monitoring: assessing change in ecological communities through time. Trends in Ecology and Evolution, 25: 574–582. 
  * Müller F, Gnauck A, Wenkel KO, Schubert H, Bredemeier M (2010) Theoretical demands for long-term ecological research and the management of long-term data sets. In: Müller F, Baessler C, Schubert H, Klotz S (Eds) Long-term ecological research. Between theory and application. Springer, New York. 11-25. 
  
+ * Pacifi M, Foden WB, Visconti P, Watson JEM, Butchart SHM, Kovacs KM, Scheffers BR, Hole DG, Martin TG, Akcakaya HT, Corlett RT, Huntley B, Bickford D, Carr JA, Hoffmann AA, Midgley GF, Pearce-Kelly P, Pearson RG, Williams SE, Willis SG, Young B, Rondinini C (2015) Assessing species vulnerability to climate change. Nature Climate Change 5: 215-224.
+ 
  * Pleguezuelos JM (1991) Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
  
  * Zamora R, Camacho I (1984) Evolución estacional de la comunidad de aves en un robledal de Sierra Nevada. Doñana Acta Vertebrata 11: 129–150.
