@@ -35,6 +35,8 @@
  
  * Pearce-Higgins JW, Green RE (2014) Birds and Climate Change. Impacts and conservation responses. Cambridge University Press. United Kingdom. 
  
+ * Pearce-Higgins JW, Eglington SN, Martay B, Chamberlain DE (2015) Drivers of climate change impacts on bird communities. Journal of Animal Ecology, 84(4): 943–954. 
+
  * Pleguezuelos JM (1991) Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
  
  * Zamora R, Camacho I (1984) Evolución estacional de la comunidad de aves en un robledal de Sierra Nevada. Doñana Acta Vertebrata 11: 129–150.
