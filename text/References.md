@@ -22,6 +22,8 @@
  
  * Gill F, Donsker D (2015) IOC World Bird List (v 5.2). doi: 10.14344/IOC.ML.5.2.
  
+ * Gregory RD, Willis SG, Jiguet F, Voříšek P, Klvaňová A, van Strien A, Huntley B, Collingham YC, Couvet D, Green RE (2009) An indicator of the impact of climatic change on European bird populations. PLoS ONE 4, e4678.  
+ 
  * Gutiérrez R, De Juana E, Lorenzo JA (2012) Lista de las aves de España. Versión online 1.0: nombres castellano, científico e inglés. SEO/BirdLife. http://www.seo.org/wp-content/uploads/2012/10/Lista_-Aves_Espana_2012.pdf
  
  * Madroño A, González C, Atienza JC (2004) Libro Rojo de las Aves de España. Dirección General para la Biodiversidad-SEO/BirdLife. Madrid-España, 452 pp. 
