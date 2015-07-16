@@ -1,5 +1,7 @@
 ### References 
 
+ * Barbet-Massin M, Thuiller W, Jiguet F (2012) The fate of European breeding birds under climate, land-use and dispersal scenarios. Global Change Biology 18 (3): 881–890. 
+ 
  * Barea-Azcón JM, Martín-Jaramillo J, López R (2012). Paseriformes y otras aves. In: Aspizua R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds). Observatorio de Cambio Global Sierra Nevada: metodologías de seguimiento. Consejería de Medio Ambiente, Junta de Andalucía. 86-87. 
  
  * Crick H (2004) The impact of climate change on birds. Ibis 146: 48-56
