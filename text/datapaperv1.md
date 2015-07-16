@@ -1,4 +1,4 @@
-# Dataset of Passerine bird communities in a high mountain (Sierra Nevada, Spain)
+# Dataset of Passerine bird communities in a mediterranean high mountain (Sierra Nevada, Spain)
 
 :red_circle: Include authors
 
@@ -79,6 +79,10 @@ The Sierra Nevada Global Change Observatory has four cornerstones:
 The Sierra Nevada Global Change Observatory is linked to other national (Zamora and Bonet 2011) and international monitoring networks: GLOCHAMORE (Global Change in Mountain Regions) (Björnsen 2005), GLOCHAMOST (Global Change in Mountain Sites) (Schaaf 2009), LTER-Spain (Long-Term Ecological Research). This project is also involved in several European projects like MS-MONINA (FP7 project. www.ms-monina.eu) or EU BON (Hoffmann et al. 2014). 
 
 
+Birds are the most analysed taxa to asses vulnerability to climate change (Pacifi et al. 2015). There are scientific evidences of the effects of global change on birds communities (Crick 2004, Pearce-Higgins and Green 2014, Pearce-Higgins et al. 2015). Most of studies supporting those impacts are based on long-term dataset (e.g. Gregory et al. 2009). Long-term datasets have been recognized as a key component in monitoring biodiversity (Magurran et al 2010). However, it is often difficult to maintain long-term monitoring programs. In this sense re-sampling old studies can help to integrate short-term researches into a long-term dataset to assess change in ecological communities (Müller et al. 2010). 
+
+
+
 
 Studies of bird communities in this mountain region go back to the 1850s, with the first published records of field observations recorded by ornithologists (Pleguezuelos 1991; Garzón-Gutierrez 2012). A recent review of the ornithology in the Sierra Nevada was accomplished by Garzón-Gutiérrez (2012). All those works include passerine birds, but specific studies focusing specifically on Passerine birds communities on this mountain region were carried out during the early 1980s (Zamora and Camacho 1984, Zamora 1987a, 1987b, 1988a, 1988b, 1990). 
 Monitoring methodologies of the OBSNEV include re-visiting old plots to assess long-term populations trends, changes in phenology, shifts in community composition among others. 
@@ -97,6 +101,17 @@ possible changes in phenology of arrival and
 departure of migratory species, and finally to
 assess the state of the ecosystems inhabited as
 a means of foreseeing possible problems.
+
+
+
+NOTES: 
+Climate change and birds 
+http://climaterisk.com.au/documents/publications/Climate%20Risk_Report_Bird%20Species%20ClimateChange.pdf
+
+
+Predicted variations in species richness showed large decreases in the southern regions of Europe 
+Barbet-Massin et al. 2012 10.1111/j.1365-2486.2011.02552.x 
+
 
 
 
