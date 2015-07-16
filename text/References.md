@@ -24,6 +24,7 @@
  
  * Madroño A, González C, Atienza JC (2004) Libro Rojo de las Aves de España. Dirección General para la Biodiversidad-SEO/BirdLife. Madrid-España, 452 pp. 
  
+ * Magurran AE, Baillie SR, Buckland ST, Dick JM, Elston DA, Scott EM, Smith RI, Somerfield PJ, Watt AD (2010) Long-term datasets in biodiversity research and monitoring: assessing change in ecological communities through time. Trends in Ecology and Evolution, 25: 574–582. 
  * Müller F, Gnauck A, Wenkel KO, Schubert H, Bredemeier M (2010) Theoretical demands for long-term ecological research and the management of long-term data sets. In: Müller F, Baessler C, Schubert H, Klotz S (Eds) Long-term ecological research. Between theory and application. Springer, New York. 11-25. 
  
  * Pleguezuelos JM (1991) Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
