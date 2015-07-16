@@ -34,7 +34,8 @@ Aves, Passerine birds, Sierra Nevada (Spain), global change monitoring, mediterr
 Birds are the most analysed taxa to asses vulnerability of species to climate change (Pacifi et al. 2015). There are scientific evidences of the effects of global change on birds communities (Crick 2004, Pearce-Higgins and Green 2014, Pearce-Higgins et al. 2015). Most of studies supporting those impacts are based on long-term datasets (e.g. Gregory et al. 2009). Long-term datasets have been recognized as a key component for monitoring biodiversity (Magurran et al 2010), and are considered one of the major requirements for the identificación of changes in phenology (Sanz 2002). However, it is often difficult to maintain long-term monitoring programs. In this sense re-sampling old studies can help to integrate short-term researches into a long-term dataset and would provide a potential source of data to assess changes in ecological communities (Sanz 2002, Müller et al. 2010). This is relevant for Mediterranean region where there are the need both for more bird studies and making available long-term datasets (Sanz 2002), specially considering that predicted variations in species richness showed large decreased in the southern regions of Europe (Barbet-Massin et al. 2012). 
 
 
-
+In this paper we provide a dataset of monitoring passerine bird communities ... 
+The dataset is integrated into Information System of Sierra Nevada Global Change Observatory (OBSNEV) and is also freely available via the Internet 
 
 
 
