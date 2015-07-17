@@ -224,10 +224,19 @@ This dataset includes a total of 28437 records of the order Passeriformes. There
 
 ### Study extent description
 
+This dataset covers three representative habitats within Sierra Nevada mountain range: Pyrenean oak forests; high mountain scrubland; and high-mountain summits.  :red_circle: 3 o 4?? 
+
 :red_circle: Include information about the four types of sampled ecosystem (like the description done in Zamora and Barea-Azcon 2015) :red_circle: JMBA task 
 
 ### Sampling description
+:red_circle: Algo similar a esto: 
+Bird censuses were made during the breeding season (May, June and July) --> comprobar esto
 
+
+Sampling procedure was the line-transect method (Verner, 1985)
+
+The sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line. Transect lengths ranged from 2.6 to 3 km in the Pyrenean oak forest and from 2.5 to 4 km in both the Juniper scrubland and the high-mountain summits. Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early 
+morning, under appropriate climatic conditions.
 
 
 ### Quality control description
