@@ -86,67 +86,9 @@ The Sierra Nevada Global Change Observatory has four cornerstones:
 The Sierra Nevada Global Change Observatory is linked to other national (Zamora and Bonet 2011) and international monitoring networks: GLOCHAMORE (Global Change in Mountain Regions) (Björnsen 2005), GLOCHAMOST (Global Change in Mountain Sites) (Schaaf 2009), LTER-Spain (Long-Term Ecological Research). This project is also involved in several European projects like MS-MONINA (FP7 project. www.ms-monina.eu) or EU BON (Hoffmann et al. 2014). 
 
 
- 
-
-
-
-
-Studies of bird communities in this mountain region go back to the 1850s, with the first published records of field observations recorded by ornithologists (Pleguezuelos 1991; Garzón-Gutierrez 2012). A recent review of the ornithology in the Sierra Nevada was accomplished by Garzón-Gutiérrez (2012). All those works include passerine birds, but specific studies focusing specifically on Passerine birds communities on this mountain region were carried out during the early 1980s (Zamora and Camacho 1984, Zamora 1987a, 1987b, 1988a, 1988b, 1990). 
-Monitoring methodologies of the OBSNEV include re-visiting old plots to assess long-term populations trends, changes in phenology, shifts in community composition among others. 
-
-
-
-ha retomado esos estudios (citar dossier) y ha realizado desde 2007 un estudio de la comunidad de aves paseriformes en las mismas localidades y en otras con el fin de evaluar la evolución de las comunidades (citar Zamora and Barea-Azcón 2015)
-
-
-
-The main aims of the monitoring of birds in
-Sierra Nevada are: to ascertain the trends of
-their populations over time, to determine the
-shifts in community composition, to record
-possible changes in phenology of arrival and
-departure of migratory species, and finally to
-assess the state of the ecosystems inhabited as
-a means of foreseeing possible problems.
-
-
-
-NOTES: 
-Climate change and birds 
-http://climaterisk.com.au/documents/publications/Climate%20Risk_Report_Bird%20Species%20ClimateChange.pdf
-
-
-Predicted variations in species richness showed large decreases in the southern regions of Europe 
-Barbet-Massin et al. 2012 10.1111/j.1365-2486.2011.02552.x 
-
-
-
-
-
-
-
-
-:red_circle: Hablar algo del seguimiento de las comunidades de fauna en el OBSNEV 
-
-... En la intro decir algo como: 
-
-Historical information about Passerine bird communities in Sierra Nevada was compiled by ...
-The present study was conducted in the Sierra Nevada National Park (SE Spain).
-
-Historical information was compiled by R. Zamora during the early 1980s (Zamora and Camacho, 1984; Zamora, 1987; 1988a, b; 1990). Recent censuses were conducted from 2008 to 2012 by the Global Change Observatory of Sierra Nevada (by J. M. Barea-Azcón, rangers of the Sierra Nevada National Park and collaborators), this entailing resurveys of the same historical sites, using the same methodology as Zamora and Camacho (1984) and Zamora (1987; 1988a, b; 1990). A description of the three study sites (fig. 1) follows.
-
-
-... algo así como que se ha estudiado la comunidad de aves paseriformes en el pasado. Y también citar que con estos datos (los históricos y los del obsnev) se ha realizado una evaluación de las comunidades de paseriformes en Sierra Nevada, lo que ha permitido detectar un declive ... (Zamora & Barea, 2015) 
-
-... Ojo incluir la tesis de R. Zamora
-
-Cambiar la aproximación, parecida a esto http://zookeys.pensoft.net/articles.php?id=3489 
-
 ## Taxonomic coverage
 
-This dataset includes a total of 28437 records of the order Passeriformes. There are 16 families represented in this dataset.
-
-In this collection, 44 genus are represented (Figure 3), with Emberiza, Cyanistes, Turdus, Fringilla and Parus being the genus with highest number of records.
+This dataset includes a total of 28437 records of the order Passeriformes. There are 16 families represented in this dataset (Figure 2). A total of 44 genus are represented  in this collection, with *Emberiza*, *Cyanistes*, *Turdus, *Fringilla* and *Parus* being the genus with highest number of records (Figure 3).
 
 ![Figure 2](/figures/plot_families_passeri.jpg)
 
