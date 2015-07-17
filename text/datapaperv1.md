@@ -31,23 +31,11 @@ Aves, Passerine birds, Sierra Nevada (Spain), global change monitoring, mediterr
 
 ## Introduction
 
-Birds are the most analysed taxa to asses vulnerability of species to climate change (Pacifi et al. 2015). There are scientific evidences of the effects of global change on birds communities (Crick 2004, Pearce-Higgins and Green 2014, Pearce-Higgins et al. 2015). Most of studies supporting those impacts are based on long-term datasets (e.g. Gregory et al. 2009). Long-term datasets have been recognized as a key component for monitoring biodiversity (Magurran et al 2010), and are considered one of the major requirements for the identificación of changes in phenology (Sanz 2002). However, it is often difficult to maintain long-term monitoring programs. In this sense re-sampling old studies can help to integrate short-term researches into a long-term dataset and would provide a potential source of data to assess changes in ecological communities (Sanz 2002, Müller et al. 2010). This is relevant for Mediterranean region where there are the need both for more bird studies and making available long-term datasets (Sanz 2002), specially considering that predicted variations in species richness showed large decreased in the southern regions of Europe (Barbet-Massin et al. 2012). 
+Birds are the most analysed taxa to assess vulnerability of species to climate change (Pacifi et al. 2015). There are scientific evidences of the effects of global change on birds communities (Crick 2004, Pearce-Higgins and Green 2014, Pearce-Higgins et al. 2015). Most of studies supporting those impacts are based on long-term datasets (e.g. Gregory et al. 2009). Long-term datasets have been recognized as a key component for monitoring biodiversity (Magurran et al 2010), and are considered one of the major requirements for the identificación of changes in phenology (Sanz 2002). However, it is often difficult to maintain long-term monitoring programs. In this sense re-sampling old studies can help to integrate short-term researches into long-term datasets and would provide a potential source of data to assess changes in ecological communities (Sanz 2002, Müller et al. 2010). This is relevant for Mediterranean region where there are the need both for more bird studies and making available long-term datasets (Sanz 2002), specially considering that predicted variations in species richness showed large decreased in the southern regions of Europe (Barbet-Massin et al. 2012). 
 
+In this paper we provide a dataset of passerine bird communities from Sierra Nevada, a mediterranean high mountain region. The dataset comes from Sierra Nevada Global Change Observatory (OBSNEV), a monitoring scheme designed to evaluate the potential impacts of global change in this mountain area. Monitoring methodologies of the OBSNEV include re-visiting old plots to assess long-term populations trends, changes in phenology, shifts in community composition among others. 
 
-In this paper we provide a dataset of monitoring passerine bird communities ... 
-The dataset is integrated into Information System of Sierra Nevada Global Change Observatory (OBSNEV) and is also freely available via the Internet 
-
-
-
-
-
-
-
-
-
-
-
-
+Studies of bird communities in Sierra Nevada mountain region go back to the 1850s, with the first published records of field observations recorded by ornithologists (Pleguezuelos 1991; Garzón-Gutierrez 2012). A recent review of ornithology in the Sierra Nevada was accomplished by Garzón-Gutiérrez (2012). All those works include passerine birds, but specific studies focusing specifically on Passerine birds communities on this mountain region were carried out during the early 1980s (Zamora and Camacho 1984, Zamora 1987a, 1987b, 1988a, 1988b, 1990). The dataset presented here contributes to increase the knowledge of Passerine birds in this mountain area and allows to carry out assessment of populations trends (e.g. Zamora and Barea 2015). 
 
 
 ## Project details
