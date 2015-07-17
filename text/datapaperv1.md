@@ -88,7 +88,7 @@ The Sierra Nevada Global Change Observatory is linked to other national (Zamora 
 
 ## Taxonomic coverage
 
-This dataset includes a total of 28437 records of the order Passeriformes. There are 16 families represented in this dataset (Figure 2). A total of 44 genus are represented  in this collection, with *Emberiza*, *Cyanistes*, *Turdus, *Fringilla* and *Parus* being the genus with highest number of records (Figure 3).
+This dataset includes a total of 28437 records of the order Passeriformes. There are 16 families represented in this dataset (Figure 2). Nearly one third of the specimens belong to the family Fringillidae. A total of 44 genus are represented in this collection, with *Emberiza*, *Cyanistes*, *Turdus, *Fringilla* and *Parus* being the genus with highest number of records (Figure 3).
 
 ![Figure 2](/figures/plot_families_passeri.jpg)
 
