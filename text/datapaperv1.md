@@ -239,6 +239,7 @@ The sampling procedure was the line-transect method (Verner, 1985), with a bandw
 morning, under appropriate climatic conditions.
 
 
+Incluir la referencia de la metodología del obsnev  Barea-Azcón JM et al (2012, 2014)
 ### Quality control description
 
 ## Dataset
