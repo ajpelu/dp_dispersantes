@@ -60,7 +60,7 @@ Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNE
 
 ![Figure 1](/figures/mapaslocalizacion.jpg)
 
-*Figure 2: Location of Sierra Nevada (southern Spain) and boundaries of the National and Natural Parks.The red lines are where sampling transects were made*
+*Figure 1. Location of Sierra Nevada (southern Spain) (a) and boundaries of the National and Natural Parks. Red lines indicates location of sampled transects* 
 
 ### Design description
 
