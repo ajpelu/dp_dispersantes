@@ -224,7 +224,11 @@ This dataset includes a total of 28437 records of the order Passeriformes. There
 
 ### Study extent description
 
+:red_circle: Include information about the four types of sampled ecosystem (like the description done in Zamora and Barea-Azcon 2015) :red_circle: JMBA task 
+
 ### Sampling description
+
+
 
 ### Quality control description
 
