@@ -52,7 +52,11 @@ p <- ggplot(df1, aes(fecha, nombre_cientifico_ord)) +
 
 p 
 
-tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1000, height = 1200)
+tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1400, height = 1200)
+plot(p)
+dev.off()
+
+jpeg(filename = paste(di,'/figures/plot_time_records.jpg',sep=""), width = 1400, height = 1200)
 plot(p)
 dev.off()
 ```

@@ -72,7 +72,16 @@ p
 ![plot of chunk plot](plot_time_coverage_files/figure-markdown_github/plot.png)
 
 ``` r
-tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1000, height = 1200)
+tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1400, height = 1200)
+plot(p)
+dev.off()
+```
+
+    ## pdf 
+    ##   2
+
+``` r
+jpeg(filename = paste(di,'/figures/plot_time_records.jpg',sep=""), width = 1400, height = 1200)
 plot(p)
 dev.off()
 ```
