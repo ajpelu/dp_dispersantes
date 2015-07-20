@@ -7,6 +7,8 @@
  * Barea-Azcón JM, Martín-Jaramillo J, López R (2014) Passerines and other birds. In: Aspizua R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds). Sierra Nevada Global Change Observatory. Monitoring methodologies. Consejería de Medio Ambiente, Junta de Andalucía. 86-87. 
  
  * Crick H (2004) The impact of climate change on birds. Ibis 146: 48-56
+ 
+ * EC (1979) Council Directive 79/409/EEC of 2 April 1979 on the conservation of wild birds. Official Journal L 103. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31979L0409:EN:HTML
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2004) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (Novena parte: orden Passeriformes, familias Cotingidae a Motacillidae). Ardeola 51(2): 491–499.
 
