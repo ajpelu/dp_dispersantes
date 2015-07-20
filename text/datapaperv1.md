@@ -191,7 +191,11 @@ This dataset includes a total of 28437 records of the order Passeriformes. There
 
 *Table 1*: scientific name, Status on the Spanish Red List, Birds Directive, Bern, Bonn, Authority, English Name and Spanish Name. 
 
-^a Bern: Convention on the Conservation of European Wildlife and Natural Habitats (Bern Convention).
+^a 2010 Red List of Spanish vascular flora (Madroño et al. 2004).
+
+^b Species included in the Birds Directive Annexes (EC 1979).
+
+^c Bern: Convention on the Conservation of European Wildlife and Natural Habitats (Bern Convention).
 
 ## Spatial coverage
 
