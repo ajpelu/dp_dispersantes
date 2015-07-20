@@ -44,11 +44,17 @@ df1 <- within(df1,
 ```
 
 ```{r plot, fig.height=8, fig.width=12}
-ggplot(df1, aes(fecha, nombre_cientifico_ord)) + 
+p <- ggplot(df1, aes(fecha, nombre_cientifico_ord)) + 
   geom_point(aes(size=numero), col='blue') + 
   scale_size_continuous('Number\nof\nRecords', breaks=c(25,50,75,100,150))+
   theme_bw() + scale_x_date(labels=date_format("%Y"), breaks = '1 year') +
   xlab('Year') + ylab('')
+
+p 
+
+tiff(filename = paste(di,'/figures/plot_time_records.jpg',sep=""), width = 1000, height = 1200)
+plot(p)
+dev.off()
 ```
 
 
