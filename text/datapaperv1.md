@@ -273,8 +273,8 @@ For the measurement data, the Darwin Core elements included are: :red_circle: id
 
 ### Quality control description
 
-## Dataset
-### Dataset description
+## Dataset description
+
 **Object name**: Darwin Core Archive Dataset of Passerine bird communities in a mediterranean high mountain (Sierra Nevada, Spain)
 
 **Character encoding**: UTF-8
@@ -283,17 +283,15 @@ For the measurement data, the Darwin Core elements included are: :red_circle: id
 
 **Format version**: 1.0
 
-http://maerua.iict.pt/ipt/archive.do?r=iict_bird_angola
+**Distribution**: :red_circle: url 
 
-Distribution: http://maerua.iict.pt/ipt/archive.do?r=iict_bird_angola
+**Publication date of data**: 2013-10-09
 
-Publication date of data: 2013-10-09
+**Language**: English
 
-Language: Portuguese
+**Licenses of use**: :red_circle: Use of the data for commercial or for-profit applications is permitted only via written permission from Instituto de Investigação Científica Tropical. Data are provided to users, but should not be passed on to third parties or redistributed. It is explicitly forbidden to incorporate these data into other databases of free or restricted access.
 
-Licenses of use: Use of the data for commercial or for-profit applications is permitted only via written permission from Instituto de Investigação Científica Tropical. Data are provided to users, but should not be passed on to third parties or redistributed. It is explicitly forbidden to incorporate these data into other databases of free or restricted access.
-
-Metadata language: English
+**Metadata language**: English
 
 Date of metadata creation: 2013-08-22
 
