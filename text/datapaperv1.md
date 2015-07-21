@@ -209,8 +209,6 @@ Observations in the collection included in this datapaer date from November 2007
 *Figure 4: Temporal coverage of the dataset. For each taxon (y-axis) the temporal coverage is showed including a point. Point size is proportional to monthly records of each taxon.* 
 
 
-
-
 ## Sampling methods
 
 | id_transec | nombre                  | longitud  | habitat  | long              | lat              | datum     | continent | country | province | town          | Elevation |
@@ -236,23 +234,25 @@ Observations in the collection included in this datapaer date from November 2007
 
 ### Study extent description
 
-This dataset covers three representative habitats within Sierra Nevada mountain range: Pyrenean oak forests; high mountain scrubland; and high-mountain summits.  :red_circle: 3 o 4?? 
+This dataset covers three representative habitats within Sierra Nevada mountain range: forest (Pyrenean oak stands); shrub (thorny thickets on the edge of the forest as well as common juniper and Spanish juniper areas) and summit environments. These ecosystems were selected based on criteria of singularity and ecological functionality in the context of Sierra Nevada (Barea-Azcón et al. 2014, 2014). 
 
-:red_circle: Include information about the four types of sampled ecosystem (like the description done in Zamora and Barea-Azcon 2015) :red_circle: JMBA task 
+:red_circle: Include information about the three types of sampled ecosystem (like the description done in Zamora and Barea-Azcon 2015) :red_circle: JMBA task 
 
 ### Sampling description
-:red_circle: Algo similar a esto: 
-Bird censuses were made during the breeding season (May, June and July) --> comprobar esto
+
+Sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line (Barea-Azcón et al 2012, 2014). A total of 16 transect were sampled with lengths ranged from 1.9 to 3 km (Table 2). Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early morning, under appropriate climatic conditions. The observer walks at a constant speed of 2 to 4 km/h.
 
 
-Sampling procedure was the line-transect method (Verner, 1985)
+:red_circle: cybertraker or Open Data Kit 
 
-The sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line. Transect lengths ranged from 2.6 to 3 km in the Pyrenean oak forest and from 2.5 to 4 km in both the Juniper scrubland and the high-mountain summits. Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early 
-morning, under appropriate climatic conditions.
+Field data were recorded by a PDA-based system. For this purpose forms were created with Open Data Kit (http://opendatakit.org) (Anokwa et al. 2009, Hartung et al. 2010) software. A video with an example of the sequence created to recorded field data is available at https://www.youtube.com/watch?v=tFyG2SvaNvA. 
 
 
-Incluir la referencia de la metodología del obsnev  Barea-Azcón JM et al (2012, 2014)
+
+Incluir la referencia de la metodología del obsnev  
 ### Quality control description
+
+## Quality control description:
 
 ## Dataset
 
