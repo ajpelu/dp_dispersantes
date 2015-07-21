@@ -61,6 +61,7 @@ Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNE
 ![Figure 1](/figures/mapaslocalizacion.jpg)
 
 *Figure 1. Location of Sierra Nevada (southern Spain) (a) and boundaries of the National and Natural Parks. Red lines indicates location of sampled transects* 
+:red_circle: LOLA --> Ajustar tamaño del mapa. Transectos en color segun tres categorias de transectos
 
 ### Design description
 
@@ -240,19 +241,13 @@ This dataset covers three representative habitats within Sierra Nevada mountain 
 
 ### Sampling description
 
-Sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line (Barea-Azcón et al 2012, 2014). A total of 16 transect were sampled with lengths ranged from 1.9 to 3 km (Table 2). Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early morning, under appropriate climatic conditions. The observer walks at a constant speed of 2 to 4 km/h.
-
+Sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line (Barea-Azcón et al 2012, 2014). A total of 16 transect were sampled with lengths ranged from 1.9 to 3 km (Table 2). Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early morning, under appropriate climatic conditions. The observer walks at a constant speed of 2 to 4 km/h. 
 
 :red_circle: cybertraker or Open Data Kit 
 
-Field data were recorded by a PDA-based system. For this purpose forms were created with Open Data Kit (http://opendatakit.org) (Anokwa et al. 2009, Hartung et al. 2010) software. A video with an example of the sequence created to recorded field data is available at https://www.youtube.com/watch?v=tFyG2SvaNvA. 
+Field data were recorded by a PDA-based system. For this purpose forms were created with Open Data Kit software (http://opendatakit.org) (Anokwa et al. 2009, Hartung et al. 2010). A video with an example of the sequence created to recorded field data is available at https://www.youtube.com/watch?v=tFyG2SvaNvA. 
 
-
-
-Incluir la referencia de la metodología del obsnev  
 ### Quality control description
-
-## Quality control description:
 
 ## Dataset
 
