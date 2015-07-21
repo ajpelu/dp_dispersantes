@@ -210,7 +210,29 @@ Observations in the collection included in this datapaer date from November 2007
 *Figure 4: Temporal coverage of the dataset. For each taxon (y-axis) the temporal coverage is showed including a point. Point size is proportional to monthly records of each taxon.* 
 
 
-## Sampling methods
+## Collection name
+
+Dataset of Passerine bird communities in a mediterranean high mountain (Sierra Nevada, Spain)
+
+## Collection identifier
+
+:red_circle: http://www.gbif.es:8080/ipt/resource.do?r=borreguiles
+
+
+## Methods 
+### Study extent description
+
+This dataset covers three representative habitats within Sierra Nevada mountain range: forest (Pyrenean oak stands); shrub (thorny thickets on the edge of the forest as well as common juniper and Spanish juniper areas) and summit environments. These ecosystems were selected based on criteria of singularity and ecological functionality in the context of Sierra Nevada (Barea-Azcón et al. 2014, 2014). 
+
+:red_circle: Include information about the three types of sampled ecosystem (like the description done in Zamora and Barea-Azcon 2015) :red_circle: JMBA task 
+
+### Sampling description
+
+Sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line (Barea-Azcón et al 2012, 2014). A total of 16 transect were sampled with lengths ranged from 1.9 to 3 km (Table 2). Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early morning, under appropriate climatic conditions. The observer walks at a constant speed of 2 to 4 km/h. 
+
+:red_circle: cybertraker or Open Data Kit 
+
+Field data were recorded by a PDA-based system. For this purpose forms were created with Open Data Kit software (http://opendatakit.org) (Anokwa et al. 2009, Hartung et al. 2010). A video with an example of the sequence created to recorded field data is available at https://www.youtube.com/watch?v=tFyG2SvaNvA.
 
 | id_transec | nombre                  | longitud  | habitat  | long              | lat              | datum     | continent | country | province | town          | Elevation |
 |------------|-------------------------|-----------|----------|-------------------|------------------|-----------|-----------|---------|----------|---------------|-----------|
@@ -233,23 +255,53 @@ Observations in the collection included in this datapaer date from November 2007
 
 *Table 2*: information about the transects of our study (id_transecto, nombre, longitud, habitat, long, lat, datum, continent, country, province, town).
 
-### Study extent description
+### Method step description
 
-This dataset covers three representative habitats within Sierra Nevada mountain range: forest (Pyrenean oak stands); shrub (thorny thickets on the edge of the forest as well as common juniper and Spanish juniper areas) and summit environments. These ecosystems were selected based on criteria of singularity and ecological functionality in the context of Sierra Nevada (Barea-Azcón et al. 2014, 2014). 
+All data were stored in a normalized database and incorporated into the Information System of Sierra Nevada Global-Change Observatory. Taxonomic and spatial validations were made on this database (see Quality-control description). A custom-made SQL view of the database was performed to gather occurrence data and other variables associated with occurrence data, specifically:
 
-:red_circle: Include information about the three types of sampled ecosystem (like the description done in Zamora and Barea-Azcon 2015) :red_circle: JMBA task 
+Bird abundance: number of birds recorded :red_circle: 
 
-### Sampling description
+Distance: :red_circle: 
 
-Sampling procedure was the line-transect method (Verner, 1985), with a bandwidth of 50 m, 25 m on each side of the line (Barea-Azcón et al 2012, 2014). A total of 16 transect were sampled with lengths ranged from 1.9 to 3 km (Table 2). Sight and sound records within the sample area were accepted as contacts. All transects were sampled in the early morning, under appropriate climatic conditions. The observer walks at a constant speed of 2 to 4 km/h. 
+The occurrence and measurement data were accommodated to fulfill the Darwin Core Standard (Wieczorek et al. 2009, 2012). We used Darwin Core Archive Validator tool (http://tools.gbif.org/dwca-validator/) to check whether the dataset meets Darwin Core specifications. The Integrated Publishing Toolkit (IPT v2.0.5) (Robertson et al. 2014) of the Spanish node of the Global Biodiversity Information Facility (GBIF) (http://www.gbif.es:8080/ipt) was used both to upload the Darwin Core Archive and to fill out the metadata.
 
-:red_circle: cybertraker or Open Data Kit 
+The Darwin Core elements for the occurrence data included in the dataset are: :red_circle: occurrenceId, modified, language, basisOfRecord, institutionCode, collectionCode, datasetName, catalogNumber, scientificName, kingdom, phylum, class, order, family, genus, specificEpithet, infraspecificEpithet, scientificNameAuthorship, continent, country, countryCode, stateProvince, county, locality, minimumElevationInMeters, maximumElevationInMeters, decimalLongitude, decimalLatitude, coordinateUncertaintyinMeters, geodeticDatum, recordedBy, DayCollected, MonthCollected, YearCollected, EventDate.
 
-Field data were recorded by a PDA-based system. For this purpose forms were created with Open Data Kit software (http://opendatakit.org) (Anokwa et al. 2009, Hartung et al. 2010). A video with an example of the sequence created to recorded field data is available at https://www.youtube.com/watch?v=tFyG2SvaNvA. 
+For the measurement data, the Darwin Core elements included are: :red_circle: id, measurementID, measurementType, measurementValue, measurementAccuracy, measurementUnit, measurementDeterminedDate, measurementDeterminedBy, measurementMethod, measurementRemarks.
+
+ 
 
 ### Quality control description
 
 ## Dataset
+### Dataset description
+**Object name**: Darwin Core Archive Dataset of Passerine bird communities in a mediterranean high mountain (Sierra Nevada, Spain)
+
+**Character encoding**: UTF-8
+
+**Format name**: Darwin Core Archive format
+
+**Format version**: 1.0
+
+http://maerua.iict.pt/ipt/archive.do?r=iict_bird_angola
+
+Distribution: http://maerua.iict.pt/ipt/archive.do?r=iict_bird_angola
+
+Publication date of data: 2013-10-09
+
+Language: Portuguese
+
+Licenses of use: Use of the data for commercial or for-profit applications is permitted only via written permission from Instituto de Investigação Científica Tropical. Data are provided to users, but should not be passed on to third parties or redistributed. It is explicitly forbidden to incorporate these data into other databases of free or restricted access.
+
+Metadata language: English
+
+Date of metadata creation: 2013-08-22
+
+Hierarchy level: Dataset
+
+
+
+
 
 ### Suggested citation for the latest version of the dataset
 
