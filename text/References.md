@@ -1,5 +1,7 @@
 ### References 
 
+ * Anokwa Y, Hartung C, Brunette W, Borriello G, Lerer A (2009) Open source data collection in the developing world. Computer 42(10): 97-99.  doi: 10.1109/MC.2009.328
+ 
  * Barbet-Massin M, Thuiller W, Jiguet F (2012) The fate of European breeding birds under climate, land-use and dispersal scenarios. Global Change Biology 18 (3): 881–890. 
  
  * Barea-Azcón JM, Martín-Jaramillo J, López R (2012) Paseriformes y otras aves. In: Aspizua R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds). Observatorio de Cambio Global Sierra Nevada: metodologías de seguimiento. Consejería de Medio Ambiente, Junta de Andalucía. 86-87. 
@@ -7,8 +9,6 @@
  * Barea-Azcón JM, Martín-Jaramillo J, López R (2014) Passerines and other birds. In: Aspizua R, Barea-Azcón JM, Bonet FJ, Pérez-Luque AJ, Zamora R (Eds). Sierra Nevada Global Change Observatory. Monitoring methodologies. Consejería de Medio Ambiente, Junta de Andalucía. 86-87. 
  
  * Crick H (2004) The impact of climate change on birds. Ibis 146: 48-56
- 
- * EC (1979) Council Directive 79/409/EEC of 2 April 1979 on the conservation of wild birds. Official Journal L 103. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31979L0409:EN:HTML
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2004) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (Novena parte: orden Passeriformes, familias Cotingidae a Motacillidae). Ardeola 51(2): 491–499.
 
@@ -24,6 +24,8 @@
 
  * De Juana E, Del Hoyo J, Fernández-Cruz M, Ferrer X, Sáez-Royuela R, Sargatal J (2010b) Nombres en castellano de las aves del mundo recomendados por la Sociedad Española de Ornitología (Decimoquinta parte: orden Passeriformes, familias Ploceidae a Parulidae). Ardeola 57(2): 449-456.
  
+ * EC (1979) Council Directive 79/409/EEC of 2 April 1979 on the conservation of wild birds. Official Journal L 103. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31979L0409:EN:HTML
+ 
  * Garzón Gutiérrez J (2012) Revisión histórica de la ornitología en Sierra Nevada. In: Garzón Gutiérrez J, Henares Civantos I (Eds) Las Aves de Sierra Nevada. Consejería de Agricultura, Pesca y Medio Ambiente de la Junta de Andalucía, Granada, 41-49.
  
  * Gill F, Donsker D (2015) IOC World Bird List (v 5.2). doi: 10.14344/IOC.ML.5.2.
@@ -31,6 +33,8 @@
  * Gregory RD, Willis SG, Jiguet F, Voříšek P, Klvaňová A, van Strien A, Huntley B, Collingham YC, Couvet D, Green RE (2009) An indicator of the impact of climatic change on European bird populations. PLoS ONE 4, e4678.  
  
  * Gutiérrez R, De Juana E, Lorenzo JA (2012) Lista de las aves de España. Versión online 1.0: nombres castellano, científico e inglés. SEO/BirdLife. http://www.seo.org/wp-content/uploads/2012/10/Lista_-Aves_Espana_2012.pdf
+ 
+ * Hartung C, Anokwa Y, Brunette W, Lerer A, Tseng C, Borriello G (2010) Open Data Kit: tools to build information services for developing regions. In: Proceedings of the 4th ACM/IEEE International Conference on Information and Communication Technologies and Development: http://dx.doi.org/10.1145/2369220.2369236 
  
  * Madroño A, González C, Atienza JC (2004) Libro Rojo de las Aves de España. Dirección General para la Biodiversidad-SEO/BirdLife. Madrid-España, 452 pp. 
  
