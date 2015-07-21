@@ -64,6 +64,10 @@
  * Zamora R (1990) Seasonal variations of a passerine community in a mediterranean high-mountain. Ardeola 37: 219–228.
  
  * Zamora R, Barea-Azcón JM (2015) Long-Term changes in mountain passerine bird communities in the Sierra Nevada (southern Spain): A 30-year case study.  Ardeola 62(1): 3-18.  
+ 
+ * Wieczorek J, Döring M, De Giovanni R, Robertson T, Vieglais D (2009) Darwin Core Terms: A quick reference guide. http://rs.tdwg.org/dwc/terms/ [accessed 10.05.2015].
+ 
+ * Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T, Vieglais D (2012) Darwin Core: An evolving community-developed biodiversity data standard. PLoS ONE 7(1): e29715. doi: 10.1371/journal.pone.0029715
 
 
 
