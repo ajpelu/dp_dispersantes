@@ -206,7 +206,7 @@ Observations in the collection included in this datapaer date from November 2007
 
 ![Figure 4](/figures/plot_time_records.jpg)
 
-*Figure 4: Temporal coverage of the dataset. For each taxon (y-axis) the temporal coverage is showed including a point. Point size is proportional to monthly records of a taxon.* 
+*Figure 4: Temporal coverage of the dataset. For each taxon (y-axis) the temporal coverage is showed including a point. Point size is proportional to monthly records of each taxon.* 
 
 
 
