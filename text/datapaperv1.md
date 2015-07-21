@@ -202,7 +202,7 @@ This dataset includes a total of 28437 records of the order Passeriformes. There
 ### Bounding box for covered area
 
 ## Temporal coverage
-Observations in the collection included in this datapaer date from November 2007 to April 2015 (Figure 3).  
+Observations in the collection included in this datapaer date from November 2007 to April 2015 (Figure 4).  
 
 ![Figure 4](/figures/plot_time_records.jpg)
 
