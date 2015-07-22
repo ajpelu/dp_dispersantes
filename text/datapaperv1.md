@@ -259,17 +259,15 @@ Field data were recorded by a PDA-based system. For this purpose forms were crea
 
 All data were stored in a normalized database and incorporated into the Information System of Sierra Nevada Global-Change Observatory. Taxonomic and spatial validations were made on this database (see Quality-control description). A custom-made SQL view of the database was performed to gather occurrence data and other variables associated with occurrence data, specifically:
 
-Bird abundance: number of birds recorded :red_circle: 
-
-Distance: :red_circle: 
+ * Birds Count: Number of individual recorded by the observer within transect (see *Sampling description*)
+ 
+ * Distance: Distance of the contact (bird) to transect line. The distance is estimated by eye. 
 
 The occurrence and measurement data were accommodated to fulfill the Darwin Core Standard (Wieczorek et al. 2009, 2012). We used Darwin Core Archive Validator tool (http://tools.gbif.org/dwca-validator/) to check whether the dataset meets Darwin Core specifications. The Integrated Publishing Toolkit (IPT v2.0.5) (Robertson et al. 2014) of the Spanish node of the Global Biodiversity Information Facility (GBIF) (http://www.gbif.es:8080/ipt) was used both to upload the Darwin Core Archive and to fill out the metadata.
 
-The Darwin Core elements for the occurrence data included in the dataset are: :red_circle: occurrenceId, modified, language, basisOfRecord, institutionCode, collectionCode, datasetName, catalogNumber, scientificName, kingdom, phylum, class, order, family, genus, specificEpithet, infraspecificEpithet, scientificNameAuthorship, continent, country, countryCode, stateProvince, county, locality, minimumElevationInMeters, maximumElevationInMeters, decimalLongitude, decimalLatitude, coordinateUncertaintyinMeters, geodeticDatum, recordedBy, DayCollected, MonthCollected, YearCollected, EventDate.
+The Darwin Core elements for the occurrence data included in the dataset are: :red_circle: occurrenceId, modified, language, basisOfRecord, institutionCode, collectionCode, catalogNumber, scientificName, kingdom, phylum, class, order, family, genus, specificEpithet, scientificNameAuthorship, continent, country, countryCode, stateProvince, county, locality, minimumElevationInMeters, maximumElevationInMeters, decimalLongitude, decimalLatitude, coordinateUncertaintyinMeters, geodeticDatum, recordedBy, DayCollected, MonthCollected, YearCollected, EventDate.
 
-For the measurement data, the Darwin Core elements included are: :red_circle: id, measurementID, measurementType, measurementValue, measurementAccuracy, measurementUnit, measurementDeterminedDate, measurementDeterminedBy, measurementMethod, measurementRemarks.
-
- 
+For the measurement data, the Darwin Core elements included are: measurementID, measurementType, measurementValue, measurementAccuracy, measurementUnit, measurementDeterminedDate, measurementDeterminedBy, measurementMethod. 
 
 ### Quality control description
 
