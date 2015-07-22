@@ -49,6 +49,8 @@
 
  * Pleguezuelos JM (1991) Evolución histórica de la avifauna nidificante en el SE de la Península Ibérica (1850-1985). Consejería de Cultura y Medio Ambiente. Junta de Andalucia. 61 pp. 
  
+ * Robertson T, Döring M, Guralnick R, Bloom D, Wieczorek J, Braak K, Otegui J, Russell L, Desmet P (2014) The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet. PLoS ONE 9(8): e102623, doi: 10.1371/journal.pone.0102623. 
+ 
  * Sanz JJ (2002) Climate change and birds: Have their ecological consequences already been detected in the Mediterranean region?. Ardeola 49(1): 109-120.
  
  * Zamora R, Camacho I (1984) Evolución estacional de la comunidad de aves en un robledal de Sierra Nevada. Doñana Acta Vertebrata 11: 129–150.
