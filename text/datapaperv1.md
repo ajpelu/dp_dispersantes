@@ -270,6 +270,11 @@ The Darwin Core elements for the occurrence data included in the dataset are: :r
 For the measurement data, the Darwin Core elements included are: measurementID, measurementType, measurementValue, measurementAccuracy, measurementUnit, measurementDeterminedDate, measurementDeterminedBy, measurementMethod. 
 
 ### Quality control description
+The sampling transects were georeferenced using a Garmin eTrex Legend GPS (WGS 84 Datum) with an accuracy of ±5 m. We also used colour digital orthophotographs provided by the Andalusian Cartography Institute and GIS (ArcGIS 9.2; ESRI, Redlands, California, USA) to verify that the geographical coordinates of the transect were correct (Chapman and Wieczorek 2006).
+
+For the identification of the specimes several fields guides were used (:red_circle: Preguntar.; Del Hoyo Handbook of the birds of the worl ¿que volumenes?; Garzón-Gutierrez and Henares, 2012). The scientific names were checked with database of the IOC World Bird List (v 5.52) (Gill and Donkster 2015). We also used the R package taxize (Chamberlian and Szocs 2013, Chamberlain et al. 2014) to verify the taxonomical classification.
+
+We also performed validation procedures (Chapman 2005a, 2005b) (geopraphic coordinate format, coordinates within country/provincial boundaries, absence of ASCII anomalous characters in the dataset) with DARWIN_TEST (v3.2) software (Ortega-Maqueda and Pando 2008).
 
 ## Dataset description
 
@@ -283,7 +288,7 @@ For the measurement data, the Darwin Core elements included are: measurementID, 
 
 **Distribution**: :red_circle: url 
 
-**Publication date of data**: 2013-10-09
+**Publication date of data**: :red_circle: 2015-?? 
 
 **Language**: English
 
@@ -291,24 +296,12 @@ For the measurement data, the Darwin Core elements included are: measurementID, 
 
 **Metadata language**: English
 
-Date of metadata creation: 2013-08-22
+**Date of metadata creation**: 2015-05-10
 
-Hierarchy level: Dataset
+**Hierarchy level**: Dataset
 
-
-
-
-
-### Suggested citation for the latest version of the dataset
 
 ## Acknowledgements
 
 ## References
 
-### References cited within the metadata
-
-### References used to build the dataset
-
-## Appendix
-
-### Contributors
