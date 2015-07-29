@@ -7,7 +7,8 @@ output:
 
 We want to generate the table1passer with information about the next fields: nombre_cientifico, id_dicc_especies, Spanish Red List, IUCN Global, Birds Directive, Bern, Born, Authority, English name and Spanish name and save as `./tables/table1passer.md`
 
-We have information of the species `./data/taxa_list_STATUS.csv`. we created this csv by hand with information of the 'Libro Rojo de Aves de España'. 
+We have information of the species `./data/taxa_list_STATUS.csv`. We created this csv by hand. For the column "IUCN Red List Category (Spain)" with information of the 'Libro Rojo de Aves de Espa?a'. 
+
 To know what species are Passeriformes, we need to add the 'order' column from `./data/taxonomy.csv`
 
 We save this table as `/data/taxa_list_STATUS_passer.csv`. With the tables generator tool, we will create the `table1passer`.
@@ -38,4 +39,31 @@ status_passeri$IUCN.Global <- NULL
 write.table(status_passeri, file = paste(di,"/data/taxa_list_STATUS_passer.csv", sep=""), row.names=FALSE, quote= FALSE, sep = ";")
 ```
 
+Modifications: We have to do some changes to get the final table. 
 
+1. We remove the id_dicc_especies column because it is not necessary in the final table.
+
+2. We combine the scientific name with the authory. 
+
+3. We have to change the name of the columns. We save this table as `./data/taxa_passer_modif.csv`
+
+4. Add the column "IUCN Red List Category (Europe)". For this column we use information from " Appendix 1 of 'Red List status of all European bird species and their protection status under international legislation, conventions and agreements'
+
+
+```{r}
+#Open the file 
+data <- read.csv(file=paste(di,"/data/taxa_list_STATUS_passer.csv", sep=""), header=TRUE, sep=";")
+
+##1.Delete id_dicc_species
+data$id_dicc_especies <- NULL
+head(data)
+
+##2.Combine names
+install.packages('tidyr')
+library('tidyr')
+##La funci?n unite nos permite unir el contenido de dos columnas, separando con el car?cter que queramos y borrar las dos columnas antiguas. 
+data<- unite(data, nombre_cientif, nombre_cientifico, Authority, sep=' ', remove=TRUE)
+
+#Rename columns
+names(data) <- c("Nombre Cient?fico", " ")
+```
