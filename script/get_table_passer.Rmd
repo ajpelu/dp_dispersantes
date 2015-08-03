@@ -47,7 +47,7 @@ Modifications: We have to do some changes to get the final table.
 
 3. We have to change the name of the columns. We save this table as `./data/taxa_passer_modif.csv`
 
-4. Add the column "IUCN Red List Category (Europe)". For this column we use information from " Appendix 1 of 'Red List status of all European bird species and their protection status under international legislation, conventions and agreements'
+4. Add the column "IUCN Red List Category (Europe)". For this column we use information from " Appendix 1 of 'Red List status of all European bird species and their protection status under international legislation, conventions and agreements'. We add this column by hand and save the table as `./data/taxa_passer_modif2.csv`. 
 
 
 ```{r}
@@ -64,6 +64,8 @@ library('tidyr')
 ##La funci?n unite nos permite unir el contenido de dos columnas, separando con el car?cter que queramos y borrar las dos columnas antiguas. 
 data<- unite(data, nombre_cientif, nombre_cientifico, Authority, sep=' ', remove=TRUE)
 
-#Rename columns
-names(data) <- c("Nombre Cient?fico", " ")
+#3. Rename columns
+names(data) <- c("Scientific name", "Spanish Red List", "Birds Directive", "Bern", "Bonn", "Spanish Name", "English Name")
+
+write.table(data, file = paste(di,"/data/taxa_passer_modif.csv", sep=""), row.names=FALSE, quote= FALSE, sep = ";", fileEncoding='UTF-8')
 ```
