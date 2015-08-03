@@ -51,11 +51,12 @@ Modifications: We have to do some changes to get the final table.
 
 
 ```{r}
-#Open the file 
 data <- read.csv(file=paste(di,"/data/taxa_list_STATUS_passer.csv", sep=""), header=TRUE, sep=";")
 
-##1.Delete id_dicc_species
+##1.Delete id_dicc_species, Spanish name and English name
 data$id_dicc_especies <- NULL
+data$Spanish.Name <- NULL
+data$English.Name <- NULL
 head(data)
 
 ##2.Combine names
@@ -65,7 +66,7 @@ library('tidyr')
 data<- unite(data, nombre_cientif, nombre_cientifico, Authority, sep=' ', remove=TRUE)
 
 #3. Rename columns
-names(data) <- c("Scientific name", "Spanish Red List", "Birds Directive", "Bern", "Bonn", "Spanish Name", "English Name")
+names(data) <- c("Scientific name", "Spanish Red List", "Birds Directive", "Bern", "Bonn")
 
-write.table(data, file = paste(di,"/data/taxa_passer_modif.csv", sep=""), row.names=FALSE, quote= FALSE, sep = ";", fileEncoding='UTF-8')
+write.table(data, file = paste(di,"/data/taxa_passer_modif.csv", sep=""), row.names=FALSE, quote= FALSE, sep = ";")
 ```
