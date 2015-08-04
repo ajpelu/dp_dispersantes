@@ -42,6 +42,8 @@ Then, we need to add the elevational values. We get these values with Qgis. This
 
 Finally, we have to do some changes in the `data/transects_info_altura.csv`. We have to remove the columns that we don't need (X and Y) and change the name of the hdr by Elevation.
 
+Export the csv. as `/data/transects_info_complete.csv`.
+
 ``` r
 alt <- read.table(file=paste(di,"/data/transects_info_altura.csv", sep=""), header=TRUE, sep=",", fileEncoding='UTF-8')
 altitude <- alt[,-c(1,2)]
@@ -53,4 +55,41 @@ colnames(altitude)[colnames(altitude)=="hdr"] <- "Elevation"
 altitude$Elevation <- round(altitude$Elevation,0)
 
 write.csv(altitude, file = paste(di,"/data/transects_info_complete.csv", sep=""), row.names=FALSE, quote= FALSE, fileEncoding='UTF-8')
+```
+
+We have to do some changes to get the final table. This changes are:
+
+-   1.  Delete the next columns: country, continent, datum and id\_transect.
+-   1.  Change the names of the columns.
+-   1.  Change the name of Habitats: Robledal -\> Forest, Matorral -\> Shrub, Altas -\> Summit
+-   1.  Round values of longitude (transect) and longitude and latitude (coordinates).
+-   1.  Finally, we export the csv. as `/data/transects_info_table.csv`.
+
+``` r
+trans <- read.table(file=paste(di,"/data/transects_info_complete.csv", sep=""), header=TRUE, sep=",", fileEncoding='UTF-8')
+
+## 1. Delete columns
+trans$datum <- NULL
+trans$continent <- NULL
+trans$country <- NULL
+trans$province <- NULL
+trans$id_transec <- NULL
+
+##2. Change name of columns
+names(trans) <- c("Location", "Lenght", "Habitat", "Longitude", "Latitude", "Town", "Elevation")
+
+##3. Change the names of habitats. 
+trans$Habitat <- as.character(trans$Habitat)
+trans$Habitat[trans$Habitat == "Robledal"] <- "Forest"
+trans$Habitat[trans$Habitat == "Enebral"] <- "Shrub"
+trans$Habitat[trans$Habitat == "Matorral"] <- "Shrub"
+trans$Habitat[trans$Habitat == "Altas"] <- "Summit"
+
+##4.Round values. The values of Lenght without decimals and the values of Longitude and Latitude with 5 decimals.
+trans$Lenght <- round(trans$Lenght,0)
+trans$Longitude <- round(trans$Longitude,5)
+trans$Latitude <- round(trans$Latitude,5)
+
+##5. Export the file
+write.csv(trans, file = paste(di,"/data/transects_info_table.csv", sep=""), row.names=FALSE, quote= FALSE, fileEncoding='UTF-8')
 ```
