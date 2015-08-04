@@ -58,10 +58,10 @@ This mountain area comprises 27 habitat types from the habitat directive. It con
 
 Sierra Nevada has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. The area includes 61 municipalities with more than 90, 000 inhabitants. The main economic activities are agriculture, tourism, cattle raising, beekeeping, mining, and skiing (Bonet el al. 2010).
 
-![Figure 1](/figures/mapaslocalizacion.jpg)
+![Figure 1](/figures/mapa_location_final.jpg)
 
 *Figure 1. Location of Sierra Nevada (southern Spain) (a) and boundaries of the National and Natural Parks. Red lines indicates location of sampled transects* 
-:red_circle: LOLA --> Ajustar tamaño del mapa. Transectos en color segun tres categorias de transectos
+:white_check_mark: LOLA --> Ajustar tamaño del mapa. Transectos en color segun tres categorias de transectos
 
 ### Design description
 
@@ -117,80 +117,80 @@ This dataset includes a total of 28437 records of the order Passeriformes. There
 
 ### Common names
 
-| nombre_cientifico             | id_dicc_especies | Spanish.Red.List | Birds.Directive | Bern | Bonn | Authority        | Spanish.Name           | English.Name              |
-|-------------------------------|------------------|------------------|-----------------|------|------|------------------|------------------------|---------------------------|
-| Aegithalos caudatus           | 380              | NE               |                 | III  |      | Scopoli, 1769    | Acentor alpino         | Long-tailed Tit           |
-| Alauda arvensis               | 234              | NE               |                 | III  |      | Linnaeus, 1758   | Acentor común          | Eurasian Skylark          |
-| Anthus campestris             | 264              | NE               |                 | III  |      | Linnaeus, 1758   | Alcaudón común         | Tawny Pipit               |
-| Anthus spinoletta             | 261              | NE               |                 |      |      | Linnaeus, 1758   | Alcaudón norteńo       | Water Pipit               |
-| Carduelis cannabina           | 447              | NE               | II              |      |      | Linnaeus, 1758   | Arrendajo euroasiático | Common Linnet             |
-| Carduelis carduelis           | 446              | NE               | I               | III  | II   | Linnaeus, 1758   | Azor común             | European Goldfinch        |
-| Carduelis chloris             | 445              | NE               |                 | III  |      | Linnaeus, 1758   | Bisbita alpina         | European Greenfinch       |
-| Carduelis spinus              | 448              | NE               | I               | III  |      | Linnaeus, 1758   | Bisbita campestre      | Eurasian Siskin           |
-| Certhia brachydactyla         | 392              | NE               |                 | III  |      | Linnaeus, 1758   | Carbonero común        | Short-toed Treecreeper    |
-| Cinclus cinclus               | 279              | NE               |                 | III  |      | Linnaeus, 1758   | Carbonero garrapinos   | White-throated Dipper     |
-| Coccothraustes coccothraustes | 440              | NE               |                 | III  |      | Linnaeus, 1758   | Chochín común          | Hawfinch                  |
-| Corvus corax                  | 419              | NE               | I               | III  |      | Linnaeus, 1758   | Chova piquirroja       | Northern Raven            |
-| Corvus monedula               | 420              | NE               |                 | III  |      | Linnaeus, 1758   | Cogujada común         | Eurasian Jackdaw          |
-| Cyanistes caeruleus           | 375              | NE               |                 | III  | II   | Linnaeus, 1758   | Colirrojo real         | Eurasian Blue Tit         |
-| Emberiza cia                  | 466              | NE               |                 | III  | II   | Linnaeus, 1758   | Collalba gris          | Rock Bunting              |
-| Emberiza cirlus               | 464              | NE               |                 | III  | II   | Linnaeus, 1758   | Collalba rubia         | Cirl Bunting              |
-| Emberiza hortulana            | 465              | NE               |                 | III  |      | Linnaeus, 1758   | Críalo europeo         | Ortolan Bunting           |
-| Erithacus rubecula            | 296              | NE               |                 | III  |      | Linnaeus, 1758   | Cuco común             | European Robin            |
-| Fringilla coelebs             | 436              | NE               |                 | III  | II   | Gmelin, JF, 1789 | Curruca cabecinegra    | Common Chaffinch          |
-| Fringilla montifringilla      | 437              | NE               |                 | III  | II   | Linnaeus, 1758   | Curruca capirotada     | Brambling                 |
-| Galerida cristata             | 238              | NE               |                 | III  | II   | Pallas, 1764     | Curruca carrasqueńa    | Crested Lark              |
-| Galerida theklae              | 239              | NE               | I               | III  | II   | Boddaert, 1783   | Curruca rabilarga      | Thekla Lark               |
-| Garrulus glandarius           | 433              | NE               |                 | III  | II   | Temminck, 1820   | Curruca tomillera      | Eurasian Jay              |
-| Hippolais polyglotta          | 347              | NE               |                 | III  | II   | Latham, 1787     | Curruca zarcera        | Melodious Warbler         |
-| Lanius excubitor              | 406              |                  | I               | III  |      | Linnaeus, 1758   | Escribano hortelano    | Great Grey Shrike         |
-| Lanius senator                | 405              | NT               |                 | III  |      | Linnaeus, 1766   | Escribano montesino    | Woodchat Shrike           |
-| Lophophanes cristatus         | 377              |                  |                 | III  |      | Linnaeus, 1766   | Escribano soteńo       | European Crested Tit      |
-| Loxia curvirostra             | 452              | NE               |                 | III  |      | Linnaeus, 1758   | Escribano triguero     | Red Crossbill             |
-| Lullula arborea               | 236              | NE               |                 | III  |      | Temminck, 1820   | Estornino negro        | Woodlark                  |
-| Luscinia megarhynchos         | 298              | NE               | I               | III  | II   | Linnaeus, 1758   | Gavilán común          | Common Nightingale        |
-| Miliaria calandra             | 474              | NE               |                 |      |      | Linnaeus, 1758   | Gorrión común          | Corn Bunting              |
-| Monticola saxatilis           | 314              | NE               | II              |      |      | Linnaeus, 1758   | Grajilla occidental    | Common Rock Thrush        |
-| Motacilla alba                | 268              | NE               |                 |      |      | Linnaeus, 1758   | Herrerillo capuchino   | White Wagtail             |
-| Motacilla cinerea             | 269              | NE               |                 |      |      | Linnaeus, 1758   | Herrerillo común       | Grey Wagtail              |
-| Muscicapa striata             | 364              | NE               |                 | III  |      | Linnaeus, 1758   | Jilguero europeo       | Spotted Flycatcher        |
-| Oenanthe hispanica            | 310              | NT               |                 | III  |      | Linnaeus, 1758   | Jilguero lúgano        | Black-eared Wheatear      |
-| Oenanthe oenanthe             | 309              | NE               |                 | III  |      | Linnaeus, 1758   | Lavandera alba         | Northern Wheatear         |
-| Oriolus oriolus               | 402              | NE               |                 | III  |      | Tunstall, 1771   | Lavandera cascadeńa    | Eurasian Golden Oriole    |
-| Parus major                   | 371              | NE               |                 | III  |      | Linnaeus, 1758   | Mirlo acuático europeo | Great Tit                 |
-| Passer domesticus             | 412              | NE               |                 | III  | II   | Linnaeus, 1758   | Mirlo capiblanco       | House Sparrow             |
-| Periparus ater                | 373              | NE               |                 | III  | II   | Linnaeus, 1758   | Mirlo común            | Coal Tit                  |
-| Petronia petronia             | 416              | NE               |                 | III  |      | Linnaeus, 1758   | Mito común             | Rock Sparrow              |
-| Phoenicurus ochruros          | 304              | NE               |                 | III  |      | Scopoli, 1769    | Mochuelo común         | Black Redstart            |
-| Phoenicurus phoenicurus       | 303              | VU               |                 | III  | II   | Vieillot, 1817   | Mosquitero común       | Common Redstart           |
-| Phylloscopus bonelli          | 350              | NE               |                 | III  | II   | Vieillot, 1819   | Mosquitero papialbo    | Western Bonelli's Warbler |
-| Phylloscopus collybita        | 353              | NE               |                 | III  |      | Linnaeus, 1758   | Oropéndola europea     | Common Chiffchaff         |
-| Pica pica                     | 431              | NE               | I,II,III        |      |      | Linnaeus, 1758   | Paloma torcaz          | Eurasian Magpie           |
-| Prunella collaris             | 286              | NE               |                 | III  |      | Linnaeus, 1758   | Pardillo común         | Alpine Accentor           |
-| Prunella modularis            | 285              | NE               | II,III          | III  |      | Linnaeus, 1758   | Perdiz roja            | Dunnock                   |
-| Pyrrhocorax pyrrhocorax       | 426              | NT               |                 | III  | II   | Linnaeus, 1758   | Petirrojo europeo      | Red-billed Chough         |
-| Regulus ignicapillus          | 361              | NE               | I               | III  |      | Linnaeus, 1758   | Pico picapinos         | Common Firecrest          |
-| Saxicola rubetra              | 307              | NE               |                 | III  |      | Linnaeus, 1758   | Picogordo común        | Whinchat                  |
-| Saxicola torquata             | 306              | NE               |                 | III  |      | Linnaeus, 1758   | Pinzón real            | African Stonechat         |
-| Serinus citrinella            | 443              | NE               | I               | III  |      | Linnaeus, 1758   | Pinzón vulgar          | Citril Finch              |
-| Serinus serinus               | 442              | NE               |                 | III  |      | Linnaeus, 1758   | Piquituerto común      | European Serin            |
-| Sitta europaea                | 386              | NE               |                 | III  |      | Linnaeus, 1758   | Pito real              | Eurasian Nuthatch         |
-| Sturnus unicolor              | 459              | NE               |                 | III  | II   | Linnaeus, 1766   | Roquero rojo           | Spotless Starling         |
-| Sylvia atricapilla            | 324              | NE               |                 | III  | II   | Brehm, CL, 1831  | Ruiseńor común         | Eurasian Blackcap         |
-| Sylvia cantillans             | 320              | NE               |                 | III  |      | Linnaeus, 1766   | Serín verdecillo       | Subalpine Warbler         |
-| Sylvia communis               | 323              | NE               |                 | III  | II   | Linnaeus, 1766   | Tarabilla común        | Common Whitethroat        |
-| Sylvia conspicillata          | 321              | LC*              |                 | III  | II   | Linnaeus, 1758   | Tarabilla norteńa      | Spectacled Warbler        |
-| Sylvia melanocephala          | 326              | NE               | II              | III  |      | Linnaeus, 1758   | Tórtola europea        | Sardinian Warbler         |
-| Sylvia undata                 | 318              | NE               |                 | III  |      | Linnaeus, 1758   | Trepador azul          | Dartford Warbler          |
-| Troglodytes troglodytes       | 282              | NE               | II              |      |      | Linnaeus, 1758   | Urraca común           | Eurasian Wren             |
-| Turdus iliacus                | 291              | NE               |                 | III  |      | Linnaeus, 1758   | Verderón común         | Redwing                   |
-| Turdus merula                 | 293              | NE               |                 | III  |      | Pallas, 1764     | Verderón serrano       | Common Blackbird          |
-| Turdus philomelos             | 290              | NE               |                 | III  | II   | Vieillot, 1817   | Zarcero políglota      | Song Thrush               |
-| Turdus pilaris                | 292              | NE               | II              | III  | II   | Linnaeus, 1758   | Zorzal alirrojo        | Fieldfare                 |
-| Turdus torquatus              | 294              | NE               | II              | III  | II   | Linnaeus, 1758   | Zorzal charlo          | Ring Ouzel                |
-| Turdus viscivorus             | 289              | NE               | II              | III  | II   | Brehm, CL, 1831  | Zorzal común           | Mistle Thrush             |
+| Scientific name                              | Bern | Bonn | Birds Directive | Spanish Red List | IUCN Red List Category (Europe) |
+|----------------------------------------------|------|------|-----------------|------------------|---------------------------------|
+| Aegithalos caudatus Scopoli, 1769            | III  |      |                 | NE               | LC                              |
+| Alauda arvensis Linnaeus, 1758               | III  |      |                 | NE               | LC                              |
+| Anthus campestris Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Anthus spinoletta Linnaeus, 1758             |      |      |                 | NE               | LC                              |
+| Carduelis cannabina Linnaeus, 1758           |      |      | II              | NE               | LC                              |
+| Carduelis carduelis Linnaeus, 1758           | III  | II   | I               | NE               | LC                              |
+| Carduelis chloris Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Carduelis spinus Linnaeus, 1758              | III  |      | I               | NE               | LC                              |
+| Certhia brachydactyla Linnaeus, 1758         | III  |      |                 | NE               | LC                              |
+| Cinclus cinclus Linnaeus, 1758               | III  |      |                 | NE               | LC                              |
+| Coccothraustes coccothraustes Linnaeus, 1758 | III  |      |                 | NE               | LC                              |
+| Corvus corax Linnaeus, 1758                  | III  |      | I               | NE               | LC                              |
+| Corvus monedula Linnaeus, 1758               | III  |      |                 | NE               | LC                              |
+| Cyanistes caeruleus Linnaeus, 1758           | III  | II   |                 | NE               | LC                              |
+| Emberiza cia Linnaeus, 1758                  | III  | II   |                 | NE               | LC                              |
+| Emberiza cirlus Linnaeus, 1758               | III  | II   |                 | NE               | LC                              |
+| Emberiza hortulana Linnaeus, 1758            | III  |      |                 | NE               | LC                              |
+| Erithacus rubecula Linnaeus, 1758            | III  |      |                 | NE               | LC                              |
+| Fringilla coelebs Gmelin, JF, 1789           | III  | II   |                 | NE               | LC                              |
+| Fringilla montifringilla Linnaeus, 1758      | III  | II   |                 | NE               | LC                              |
+| Galerida cristata Pallas, 1764               | III  | II   |                 | NE               | LC                              |
+| Galerida theklae Boddaert, 1783              | III  | II   | I               | NE               | LC                              |
+| Garrulus glandarius Temminck, 1820           | III  | II   |                 | NE               | LC                              |
+| Hippolais polyglotta Latham, 1787            | III  | II   |                 | NE               | LC                              |
+| Lanius excubitor Linnaeus, 1758              | III  |      | I               |                  | VU                              |
+| Lanius senator Linnaeus, 1766                | III  |      |                 | NT               | LC                              |
+| Lophophanes cristatus Linnaeus, 1766         | III  |      |                 |                  | LC                              |
+| Loxia curvirostra Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Lullula arborea Temminck, 1820               | III  |      |                 | NE               | LC                              |
+| Luscinia megarhynchos Linnaeus, 1758         | III  | II   | I               | NE               | LC                              |
+| Miliaria calandra Linnaeus, 1758             |      |      |                 | NE               | LC                              |
+| Monticola saxatilis Linnaeus, 1758           |      |      | II              | NE               | LC                              |
+| Motacilla alba Linnaeus, 1758                |      |      |                 | NE               | LC                              |
+| Motacilla cinerea Linnaeus, 1758             |      |      |                 | NE               | LC                              |
+| Muscicapa striata Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Oenanthe hispanica Linnaeus, 1758            | III  |      |                 | NT               | LC                              |
+| Oenanthe oenanthe Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Oriolus oriolus Tunstall, 1771               | III  |      |                 | NE               | LC                              |
+| Parus major Linnaeus, 1758                   | III  |      |                 | NE               | LC                              |
+| Passer domesticus Linnaeus, 1758             | III  | II   |                 | NE               | LC                              |
+| Periparus ater Linnaeus, 1758                | III  | II   |                 | NE               | LC                              |
+| Petronia petronia Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Phoenicurus ochruros Scopoli, 1769           | III  |      |                 | NE               | LC                              |
+| Phoenicurus phoenicurus Vieillot, 1817       | III  | II   |                 | VU               | LC                              |
+| Phylloscopus bonelli Vieillot, 1819          | III  | II   |                 | NE               | LC                              |
+| Phylloscopus collybita Linnaeus, 1758        | III  |      |                 | NE               | LC                              |
+| Pica pica Linnaeus, 1758                     |      |      | I,II,III        | NE               | LC                              |
+| Prunella collaris Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Prunella modularis Linnaeus, 1758            | III  |      | II,III          | NE               | LC                              |
+| Pyrrhocorax pyrrhocorax Linnaeus, 1758       | III  | II   |                 | NT               | LC                              |
+| Regulus ignicapillus Linnaeus, 1758          | III  |      | I               | NE               | LC                              |
+| Saxicola rubetra Linnaeus, 1758              | III  |      |                 | NE               | LC                              |
+| Saxicola torquata Linnaeus, 1758             | III  |      |                 | NE               | LC                              |
+| Serinus citrinella Linnaeus, 1758            | III  |      | I               | NE               | LC                              |
+| Serinus serinus Linnaeus, 1758               | III  |      |                 | NE               | LC                              |
+| Sitta europaea Linnaeus, 1758                | III  |      |                 | NE               | LC                              |
+| Sturnus unicolor Linnaeus, 1766              | III  | II   |                 | NE               | LC                              |
+| Sylvia atricapilla Brehm, CL, 1831           | III  | II   |                 | NE               | LC                              |
+| Sylvia cantillans Linnaeus, 1766             | III  |      |                 | NE               | LC                              |
+| Sylvia communis Linnaeus, 1766               | III  | II   |                 | NE               | LC                              |
+| Sylvia conspicillata Linnaeus, 1758          | III  | II   |                 | LC*              | LC                              |
+| Sylvia melanocephala Linnaeus, 1758          | III  |      | II              | NE               | LC                              |
+| Sylvia undata Linnaeus, 1758                 | III  |      |                 | NE               | NT                              |
+| Troglodytes troglodytes Linnaeus, 1758       |      |      | II              | NE               | LC                              |
+| Turdus iliacus Linnaeus, 1758                | III  |      |                 | NE               | NT                              |
+| Turdus merula Pallas, 1764                   | III  |      |                 | NE               | LC                              |
+| Turdus philomelos Vieillot, 1817             | III  | II   |                 | NE               | LC                              |
+| Turdus pilaris Linnaeus, 1758                | III  | II   | II              | NE               | LC                              |
+| Turdus torquatus Linnaeus, 1758              | III  | II   | II              | NE               | LC                              |
+| Turdus viscivorus Brehm, CL, 1831            | III  | II   | II              | NE               | LC                              |
 
-*Table 1*: scientific name, Status on the Spanish Red List, Birds Directive, Bern, Bonn, Authority, English Name and Spanish Name. 
+*Table 1*: scientific name, Status on the Spanish Red List, Birds Directive, Bern, Bonn. 
 
 ^a 2010 Red List of Spanish vascular flora (Madroño et al. 2004).
 
@@ -234,26 +234,26 @@ Sampling procedure was the line-transect method (Verner, 1985), with a bandwidth
 
 Field data were recorded by a PDA-based system. For this purpose forms were created with Open Data Kit software (http://opendatakit.org) (Anokwa et al. 2009, Hartung et al. 2010). A video with an example of the sequence created to recorded field data is available at https://www.youtube.com/watch?v=tFyG2SvaNvA.
 
-| id_transec | nombre                  | longitud  | habitat  | long              | lat              | datum     | continent | country | province | town          | Elevation |
-|------------|-------------------------|-----------|----------|-------------------|------------------|-----------|-----------|---------|----------|---------------|-----------|
-| 2          | Robledal de Cáñar       | 2556.5298 | Robledal | -3.42922477432114 | 36.9532887435748 | EPSG:4326 | Europe    | Spain   | Granada  | Cáñar         | 1736      |
-| 3          | Dehesa del Río Dúrcal   | 3292.0968 | Matorral | -3.4825484185117  | 37.0255219615825 | EPSG:4326 | Europe    | Spain   | Granada  | Dúrcal        | 2033      |
-| 4          | Robledal de Dílar       | 2553.5233 | Robledal | -3.4779923344565  | 37.0582435559381 | EPSG:4326 | Europe    | Spain   | Granada  | Dílar         | 1605      |
-| 5          | Collado de Matas Verdes | 2237.8476 | Matorral | -3.44706525163785 | 37.0909104320862 | EPSG:4326 | Europe    | Spain   | Granada  | Monachil      | 1918      |
-| 6          | El Purche               | 1944.6154 | Matorral | -3.47800522790772 | 37.1311703196516 | EPSG:4326 | Europe    | Spain   | Granada  | Monachil      | 1453      |
-| 7          | Collado del Sabinar     | 2745.7166 | Enebral  | -3.41847579389466 | 37.1199648466673 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2036      |
-| 8          | Campos de Otero         | 2264.3894 | Enebral  | -3.39303899145178 | 37.110002259989  | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2143      |
-| 9          | Cortijo del Hornillo    | 3044.1891 | Robledal | -3.36805976575712 | 37.1246708701512 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 1585      |
-| 10         | Loma Papeles            | 2539.1295 | Enebral  | -3.34016301032019 | 37.1434473847064 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2113      |
-| 11         | Dehesa de las Hoyas     | 2436.9556 | Enebral  | -3.31736455361945 | 37.1724322915398 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2074      |
-| 12         | Dehesa del Camarate     | 2805.2497 | Robledal | -3.25376437527153 | 37.179745620126  | EPSG:4326 | Europe    | Spain   | Granada  | Lugros        | 1575      |
-| 13         | Lanteira                | 2515.5455 | Matorral | -3.17253571891539 | 37.1409148327318 | EPSG:4326 | Europe    | Spain   | Granada  | Lanteira      | 1794      |
-| 14         | Laguna Seca             | 2530.9713 | Altas    | -2.96153251681199 | 37.0992089463673 | EPSG:4326 | Europe    | Spain   | Granada  | Huéneja       | 2295      |
-| 15         | Aguas Verdes            | 2431.8785 | Altas    | -3.35893193419854 | 37.0540490753807 | EPSG:4326 | Europe    | Spain   | Granada  | Capileira     | 3149      |
-| 16         | Hoya Mora               | 2046.6233 | Altas    | -3.37719365945146 | 37.0896246101516 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2407      |
-| 17         | Papeles alto            | 2309.5885 | Altas    | -3.30981228543378 | 37.1357062152652 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2420      |
+| Location                | Lenght | Habitat | Longitude | Latitude | Town          | Elevation |
+|-------------------------|--------|---------|-----------|----------|---------------|-----------|
+| Robledal de Cáñar       | 2557   | Forest  | -3.42922  | 36.95329 | Cáñar         | 1736      |
+| Dehesa del Río Dúrcal   | 3292   | Shrub   | -3.48255  | 37.02552 | Dúrcal        | 2033      |
+| Robledal de Dílar       | 2554   | Forest  | -3.47799  | 37.05824 | Dílar         | 1605      |
+| Collado de Matas Verdes | 2238   | Shrub   | -3.44707  | 37.09091 | Monachil      | 1918      |
+| El Purche               | 1945   | Shrub   | -3.47801  | 37.13117 | Monachil      | 1453      |
+| Collado del Sabinar     | 2746   | Shrub   | -3.41848  | 37.11996 | Güejar Sierra | 2036      |
+| Campos de Otero         | 2264   | Shrub   | -3.39304  | 37.11    | Güejar Sierra | 2143      |
+| Cortijo del Hornillo    | 3044   | Forest  | -3.36806  | 37.12467 | Güejar Sierra | 1585      |
+| Loma Papeles            | 2539   | Shrub   | -3.34016  | 37.14345 | Güejar Sierra | 2113      |
+| Dehesa de las Hoyas     | 2437   | Shrub   | -3.31736  | 37.17243 | Güejar Sierra | 2074      |
+| Dehesa del Camarate     | 2805   | Forest  | -3.25376  | 37.17975 | Lugros        | 1575      |
+| Lanteira                | 2516   | Shrub   | -3.17254  | 37.14091 | Lanteira      | 1794      |
+| Laguna Seca             | 2531   | Summit  | -2.96153  | 37.09921 | Huéneja       | 2295      |
+| Aguas Verdes            | 2432   | Summit  | -3.35893  | 37.05405 | Capileira     | 3149      |
+| Hoya Mora               | 2047   | Summit  | -3.37719  | 37.08962 | Güejar Sierra | 2407      |
+| Papeles alto            | 2310   | Summit  | -3.30981  | 37.13571 | Güejar Sierra | 2420      |
 
-*Table 2*: information about the transects of our study (id_transecto, nombre, longitud, habitat, long, lat, datum, continent, country, province, town).
+*Table 2*: information about the transects of our study.
 
 ### Method step description
 
