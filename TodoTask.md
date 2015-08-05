@@ -52,10 +52,11 @@ We have to fix:
 *~~ A duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. We have data from the two records and actually is the same species.~~
 
 
-* :red_circle: ANTONIO. Check this. I think maybe it is not important, but I noticed these mistakes. There are some species that changed their names. I found this information in the European Red List of Birds (https://ec.europa.eu/environment/nature/conservation/species/redlist/downloads/European_birds.pdf). This species are the next: 
+* :red_circle: ANTONIO. Check this. I think maybe it is not important, but I noticed these mistakes. There are some species that changed their names. I found this information in the European Red List of Birds (https://ec.europa.eu/environment/nature/conservation/species/redlist/downloads/European_birds.pdf). 
 
-*Serinus citrinella* now is called *Carduelis citrinella* 
-*Periparus ater* now is called *Parus ater*
-*Cyanistes caeruleus* now is called *Parus caeruleus*
-*Saxicola torquata* now is called *Saxicola torquatus*
-*Lophophanes cristatus* now is called *Parus cristatus*
+This species are the next: 
+* *Serinus citrinella* now is called *Carduelis citrinella* 
+* *Periparus ater* now is called *Parus ater*
+* *Cyanistes caeruleus* now is called *Parus caeruleus*
+* *Saxicola torquata* now is called *Saxicola torquatus*
+* *Lophophanes cristatus* now is called *Parus cristatus*
