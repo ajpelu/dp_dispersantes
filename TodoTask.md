@@ -18,6 +18,7 @@ Example: If you type `~~This is a finished task~~` you get ~~This is a finished 
 * :white_check_mark: Import raw data into database:
   * :white_check_mark:~~Observations (@ajpelu)~~
   * :white_check_mark:~~Transects info~~ We created a table called `transects_info.csv` with the next fields: id_transecto, nombre, longitud, habitat, long, lat, datum, continent, country, province, town.
+  
 * :white_check_mark: Create query to generate Dwc-occurrences and Dwc-measurementOrFActs
 
 ### Taxonomic Coverage 
@@ -36,6 +37,8 @@ I created two maps using ArcGIS, one of Sierra Nevada (with the transects) and o
 
 * :white_check_mark:~~Creat a table with info of the transects with two targets: metadata table and Dwc-occurrences table.~~
 
+  We did some changes in the table called `transects_info.csv` to get the final table that we include in the data paper. These changes are described in the script `script/transecto_info.Rmd`.
+
 ### Document structure 
 * :white_check_mark: ~~Create a `md` file with the structure of the DP. See this [example](https://github.com/peterdesmet/vascan-data-paper/blob/master/paper.md)~~ 
 We create a file called `datapaperv1.md`.
@@ -48,6 +51,11 @@ We create a file called `datapaperv1.md`.
 We have to fix:
 *~~ A duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. We have data from the two records and actually is the same species.~~
 
-* We have to change the name of *Serinus citrinella* that now is called *Carduelis citrinella*, *Periparus ater* that now is called *Parus ater* and *Cyanistes caeruleus* now is called *Parus caeruleus*.
 
+* :red_circle: ANTONIO. Check this. I think maybe it is not important, but I noticed these mistakes. There are some species that changed their names. I found this information in the European Red List of Birds (https://ec.europa.eu/environment/nature/conservation/species/redlist/downloads/European_birds.pdf). This species are the next: 
 
+*Serinus citrinella* now is called *Carduelis citrinella* 
+*Periparus ater* now is called *Parus ater*
+*Cyanistes caeruleus* now is called *Parus caeruleus*
+*Saxicola torquata* now is called *Saxicola torquatus*
+*Lophophanes cristatus* now is called *Parus cristatus*
