@@ -16,13 +16,12 @@ We save this table as `/data/taxa_list_STATUS_passer.csv`. With the tables gener
 
 ```{r}
 #di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
-
 di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
 
 taxonomy <- read.csv(file=paste(di,"/data/taxonomy.csv", sep=""), header=TRUE, sep=",")
 
 ##Unimos a la tabla del Status de las especies, la columna orden
-tax_status <- read.csv(file=paste(di,"/data/taxa_list_STATUS.csv", sep=""), header=TRUE, sep=",")
+tax_status <- read.table(file=paste(di,"/data/taxa_list_STATUS.csv", sep=""), header=TRUE, sep=",")
 order <- taxonomy[,c('order','id_dicc_especies')]
 library('plyr')
 status_passer <- join(tax_status, order, by='id_dicc_especies')
