@@ -25,3 +25,33 @@ We generate the table2 and save as `./tables/table2_transectinfo.md`
 | 15         | Aguas Verdes            | 2431.8785 | Altas    | -3.35893193419854 | 37.0540490753807 | EPSG:4326 | Europe    | Spain   | Granada  | Capileira     | 3149      |
 | 16         | Hoya Mora               | 2046.6233 | Altas    | -3.37719365945146 | 37.0896246101516 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2407      |
 | 17         | Papeles alto            | 2309.5885 | Altas    | -3.30981228543378 | 37.1357062152652 | EPSG:4326 | Europe    | Spain   | Granada  | Güejar Sierra | 2420      |
+
+
+We have to do some changes in `/data/transects_info_complete.csv`to get the final table. This changes are:
+
+* 1. Delete the next columns: country, continent, datum and id_transect. 
+* 2. Change the names of the columns. 
+* 3. Change the name of Habitats: Robledal -> Forest, Matorral -> Shrub, Altas -> Summit
+* 4. Round values of longitude (transect) and longitude and latitude (coordinates). 
+* 5. Finally, we export the csv. as `/data/transects_info_table.csv`.
+
+The final table that we include in the data paper is:
+
+| Location                | Lenght | Habitat | Longitude | Latitude | Town          | Elevation |
+|-------------------------|--------|---------|-----------|----------|---------------|-----------|
+| Robledal de Cáñar       | 2557   | Forest  | -3.42922  | 36.95329 | Cáñar         | 1736      |
+| Dehesa del Río Dúrcal   | 3292   | Shrub   | -3.48255  | 37.02552 | Dúrcal        | 2033      |
+| Robledal de Dílar       | 2554   | Forest  | -3.47799  | 37.05824 | Dílar         | 1605      |
+| Collado de Matas Verdes | 2238   | Shrub   | -3.44707  | 37.09091 | Monachil      | 1918      |
+| El Purche               | 1945   | Shrub   | -3.47801  | 37.13117 | Monachil      | 1453      |
+| Collado del Sabinar     | 2746   | Shrub   | -3.41848  | 37.11996 | Güejar Sierra | 2036      |
+| Campos de Otero         | 2264   | Shrub   | -3.39304  | 37.11    | Güejar Sierra | 2143      |
+| Cortijo del Hornillo    | 3044   | Forest  | -3.36806  | 37.12467 | Güejar Sierra | 1585      |
+| Loma Papeles            | 2539   | Shrub   | -3.34016  | 37.14345 | Güejar Sierra | 2113      |
+| Dehesa de las Hoyas     | 2437   | Shrub   | -3.31736  | 37.17243 | Güejar Sierra | 2074      |
+| Dehesa del Camarate     | 2805   | Forest  | -3.25376  | 37.17975 | Lugros        | 1575      |
+| Lanteira                | 2516   | Shrub   | -3.17254  | 37.14091 | Lanteira      | 1794      |
+| Laguna Seca             | 2531   | Summit  | -2.96153  | 37.09921 | Huéneja       | 2295      |
+| Aguas Verdes            | 2432   | Summit  | -3.35893  | 37.05405 | Capileira     | 3149      |
+| Hoya Mora               | 2047   | Summit  | -3.37719  | 37.08962 | Güejar Sierra | 2407      |
+| Papeles alto            | 2310   | Summit  | -3.30981  | 37.13571 | Güejar Sierra | 2420      |

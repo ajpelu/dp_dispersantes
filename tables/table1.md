@@ -190,4 +190,81 @@ Te information of the process to get `/data/taxa_list_STATUS_passer.csv` is on `
 
 
 
+To get the final table we did some changes. This `./data/taxa_passer_modif2.csv`. is the table that we include in the data paper:
+
+
+| Scientific name                              | Spanish Red List | Birds Directive | Bern | Bonn | IUCN Red List Category (Europe) |
+|----------------------------------------------|------------------|-----------------|------|------|---------------------------------|
+| Aegithalos caudatus Linnaeus, 1758           | NE               |                 | III  |      | LC                              |
+| Alauda arvensis Linnaeus, 1758               | NE               |                 | III  |      | LC                              |
+| Anthus campestris Linnaeus, 1758             | NE               |                 | III  |      | LC                              |
+| Anthus spinoletta Linnaeus, 1758             | NE               |                 |      |      | LC                              |
+| Carduelis cannabina Linnaeus, 1758           | NE               | II              |      |      | LC                              |
+| Carduelis carduelis Linnaeus, 1758           | NE               | I               | III  | II   | LC                              |
+| Carduelis chloris Linnaeus, 1758             | NE               |                 | III  |      | LC                              |
+| Carduelis spinus Linnaeus, 1758              | NE               | I               | III  |      | LC                              |
+| Certhia brachydactyla Brehm, CL, 1820        | NE               |                 | III  |      | LC                              |
+| Cinclus cinclus Linnaeus, 1758               | NE               |                 | III  |      | LC                              |
+| Coccothraustes coccothraustes Linnaeus, 1758 | NE               |                 | III  |      | LC                              |
+| Corvus corax Linnaeus, 1758                  | NE               | I               | III  |      | LC                              |
+| Corvus monedula Linnaeus, 1758               | NE               |                 | III  |      | LC                              |
+| Cyanistes caeruleus Linnaeus, 1758           | NE               |                 | III  | II   | LC                              |
+| Emberiza cia Linnaeus, 1766                  | NE               |                 | III  | II   | LC                              |
+| Emberiza cirlus Linnaeus, 1766               | NE               |                 | III  | II   | LC                              |
+| Emberiza hortulana Linnaeus, 1758            | NE               |                 | III  |      | LC                              |
+| Erithacus rubecula Linnaeus, 1758            | NE               |                 | III  |      | LC                              |
+| Fringilla coelebs Linnaeus, 1758             | NE               |                 | III  | II   | LC                              |
+| Fringilla montifringilla Linnaeus, 1758      | NE               |                 | III  | II   | LC                              |
+| Galerida cristata Linnaeus, 1758             | NE               |                 | III  | II   | LC                              |
+| Galerida theklae Brehm, AE, 1857             | NE               | I               | III  | II   | LC                              |
+| Garrulus glandarius Linnaeus, 1758           | NE               |                 | III  | II   | LC                              |
+| Hippolais polyglotta Vieillot, 1817          | NE               |                 | III  | II   | LC                              |
+| Lanius excubitor Linnaeus, 1758              |                  | I               | III  |      | VU                              |
+| Lanius senator Linnaeus, 1758                | NT               |                 | III  |      | LC                              |
+| Lophophanes cristatus Linnaeus, 1758         |                  |                 | III  |      | LC                              |
+| Loxia curvirostra Linnaeus, 1758             | NE               |                 | III  |      | LC                              |
+| Lullula arborea Linnaeus, 1758               | NE               |                 | III  |      | LC                              |
+| Luscinia megarhynchos Brehm, CL, 1831        | NE               | I               | III  | II   | LC                              |
+| Miliaria calandra Linnaeus, 1758             | NE               |                 |      |      | LC                              |
+| Monticola saxatilis Linnaeus, 1766           | NE               | II              |      |      | LC                              |
+| Motacilla alba Linnaeus, 1758                | NE               |                 |      |      | LC                              |
+| Motacilla cinerea Tunstall, 1771             | NE               |                 |      |      | LC                              |
+| Muscicapa striata Pallas, 1764               | NE               |                 | III  |      | LC                              |
+| Oenanthe hispanica Linnaeus, 1758            | NT               |                 | III  |      | LC                              |
+| Oenanthe oenanthe Linnaeus, 1758             | NE               |                 | III  |      | LC                              |
+| Oriolus oriolus Linnaeus, 1758               | NE               |                 | III  |      | LC                              |
+| Parus major Linnaeus, 1758                   | NE               |                 | III  |      | LC                              |
+| Passer domesticus Linnaeus, 1758             | NE               |                 | III  | II   | LC                              |
+| Periparus ater Linnaeus, 1758                | NE               |                 | III  | II   | LC                              |
+| Petronia petronia Linnaeus, 1766             | NE               |                 | III  |      | LC                              |
+| Phoenicurus ochruros Gmelin, SG, 1774        | NE               |                 | III  |      | LC                              |
+| Phoenicurus phoenicurus Linnaeus, 1758       | VU               |                 | III  | II   | LC                              |
+| Phylloscopus bonelli Vieillot, 1819          | NE               |                 | III  | II   | LC                              |
+| Phylloscopus collybita Vieillot, 1817        | NE               |                 | III  |      | LC                              |
+| Pica pica Linnaeus, 1758                     | NE               | I,II,III        |      |      | LC                              |
+| Prunella collaris Scopoli, 1769              | NE               |                 | III  |      | LC                              |
+| Prunella modularis Linnaeus, 1758            | NE               | II,III          | III  |      | LC                              |
+| Pyrrhocorax pyrrhocorax Linnaeus, 1758       | NT               |                 | III  | II   | LC                              |
+| Regulus ignicapillus Temminck, 1820          | NE               | I               | III  |      | LC                              |
+| Saxicola rubetra Linnaeus, 1758              | NE               |                 | III  |      | LC                              |
+| Saxicola torquata Linnaeus, 1766             | NE               |                 | III  |      | LC                              |
+| Serinus citrinella Pallas, 1764              | NE               | I               | III  |      | LC                              |
+| Serinus serinus Linnaeus, 1766               | NE               |                 | III  |      | LC                              |
+| Sitta europaea Linnaeus, 1758                | NE               |                 | III  |      | LC                              |
+| Sturnus unicolor Temminck, 1820              | NE               |                 | III  | II   | LC                              |
+| Sylvia atricapilla Linnaeus, 1758            | NE               |                 | III  | II   | LC                              |
+| Sylvia cantillans Pallas, 1764               | NE               |                 | III  |      | LC                              |
+| Sylvia communis Latham, 1787                 | NE               |                 | III  | II   | LC                              |
+| Sylvia conspicillata Temminck, 1820          | LC*              |                 | III  | II   | LC                              |
+| Sylvia melanocephala Gmelin, JF, 1789        | NE               | II              | III  |      | LC                              |
+| Sylvia undata Boddaert, 1783                 | NE               |                 | III  |      | NT                              |
+| Troglodytes troglodytes Linnaeus, 1758       | NE               | II              |      |      | LC                              |
+| Turdus iliacus Linnaeus, 1758                | NE               |                 | III  |      | NT                              |
+| Turdus merula Linnaeus, 1758                 | NE               |                 | III  |      | LC                              |
+| Turdus philomelos Brehm, CL, 1831            | NE               |                 | III  | II   | LC                              |
+| Turdus pilaris Linnaeus, 1758                | NE               | II              | III  | II   | LC                              |
+| Turdus torquatus Linnaeus, 1758              | NE               | II              | III  | II   | LC                              |
+| Turdus viscivorus Linnaeus, 1758             | NE               | II              | III  | II   | LC                              |
+
+
 
