@@ -1,71 +1,71 @@
-nombre_cientifico;id_dicc_especies;Spanish.Red.List;Birds.Directive;Bern;Bonn;Authority;Spanish.Name;English.Name
-Aegithalos caudatus;380;NE;;III;;Scopoli, 1769;Mito común;Long-tailed Tit
-Alauda arvensis;234;NE;;III;;Linnaeus, 1758;Alondra común;Eurasian Skylark
-Anthus campestris;264;NE;;III;;Linnaeus, 1758;Bisbita campestre;Tawny Pipit
-Anthus spinoletta;261;NE;;;;Linnaeus, 1758;Bisbita alpino;Water Pipit
-Carduelis cannabina;447;NE;II;;;Linnaeus, 1758;Pardillo común;Common Linnet
-Carduelis carduelis;446;NE;I;III;II;Linnaeus, 1758;Jilguero europeo;European Goldfinch
-Carduelis chloris;445;NE;;III;;Linnaeus, 1758;Verderón común;European Greenfinch
-Carduelis spinus;448;NE;I;III;;Linnaeus, 1758;Lúgano;Eurasian Siskin
-Certhia brachydactyla;392;NE;;III;;Linnaeus, 1758;Agateador común;Short-toed Treecreeper
-Cinclus cinclus;279;NE;;III;;Linnaeus, 1758;Mirlo acuático europeo;White-throated Dipper
-Coccothraustes coccothraustes;440;NE;;III;;Linnaeus, 1758;Picogordo común;Hawfinch
-Corvus corax;419;NE;I ;III;;Linnaeus, 1758;Cuervo común;Northern Raven
-Corvus monedula;420;NE;;III;;Linnaeus, 1758;Grajilla occidental;Eurasian Jackdaw
-Cyanistes caeruleus;375;NE;;III;II;Linnaeus, 1758;Herrerillo común;Eurasian Blue Tit
-Emberiza cia;466;NE;;III;II;Linnaeus, 1758;Escribano montesino;Rock Bunting
-Emberiza cirlus;464;NE;;III;II;Linnaeus, 1758;Escribano soteño;Cirl Bunting
-Emberiza hortulana;465;NE;;III;;Linnaeus, 1758;Escribano hortelano;Ortolan Bunting
-Erithacus rubecula;296;NE;;III;;Linnaeus, 1758;Petirrojo europeo;European Robin
-Fringilla coelebs;436;NE;;III;II;Gmelin, JF, 1789;Pinzón vulgar;Common Chaffinch
-Fringilla montifringilla;437;NE;;III;II;Linnaeus, 1758;Pinzón real;Brambling
-Galerida cristata;238;NE;;III;II;Pallas, 1764;Cogujada común;Crested Lark
-Galerida theklae;239;NE;I;III;II;Boddaert, 1783;Cogujada montesina;Thekla Lark
-Garrulus glandarius;433;NE;;III;II;Temminck, 1820;Garrulus glandarius;Eurasian Jay
-Hippolais polyglotta;347;NE;;III;II;Latham, 1787;Zarcero común ;Melodious Warbler
-Lanius excubitor;406;;I;III;;Linnaeus, 1758;Alcaudón real;Great Grey Shrike
-Lanius senator;405;NT;;III;;Linnaeus, 1766;Alcaudón común;Woodchat Shrike
-Lophophanes cristatus;377;;;III;;Linnaeus, 1766;Herrerillo capuchino;European Crested Tit
-Loxia curvirostra;452;NE;;III;;Linnaeus, 1758;Piquituerto común;Red Crossbill
-Lullula arborea;236;NE;;III;;Temminck, 1820;Alondra totovía;Woodlark
-Luscinia megarhynchos;298;NE;I;III;II;Linnaeus, 1758;Ruiseñor común;Common Nightingale
-Miliaria calandra;474;NE;;;;Linnaeus, 1758;Triguero;Corn Bunting
-Monticola saxatilis;314;NE;II;;;Linnaeus, 1758;Roquero rojo;Common Rock Thrush
-Motacilla alba;268;NE;;;;Linnaeus, 1758;Lavandera blanca;White Wagtail
-Motacilla cinerea;269;NE;;;;Linnaeus, 1758;Lavandera cascadeña;Grey Wagtail
-Muscicapa striata;364;NE;;III;;Linnaeus, 1758;Papamoscas gris;Spotted Flycatcher
-Oenanthe hispanica;310;NT;;III;;Linnaeus, 1758;Collalba rubia;Black-eared Wheatear
-Oenanthe oenanthe;309;NE;;III;;Linnaeus, 1758;Collalba gris;Northern Wheatear
-Oriolus oriolus;402;NE;;III;;Tunstall, 1771;Oropéndola europea;Eurasian Golden Oriole
-Parus major;371;NE;;III;;Linnaeus, 1758;Carbonero común ;Great Tit
-Passer domesticus;412;NE;;III;II;Linnaeus, 1758;Gorrión común;House Sparrow
-Periparus ater;373;NE;;III;II;Linnaeus, 1758;Carbonero garrapinos;Coal Tit
-Petronia petronia;416;NE;;III;;Linnaeus, 1758;Gorrión chillón;Rock Sparrow
-Phoenicurus ochruros;304;NE;;III;;Scopoli, 1769;Colirrojo tizón;Black Redstart
-Phoenicurus phoenicurus;303;VU;;III;II;Vieillot, 1817;Colirrojo real;Common Redstart
-Phylloscopus bonelli;350;NE;;III;II;Vieillot, 1819;Mosquitero papialbo;Western Bonelli's Warbler
-Phylloscopus collybita;353;NE;;III;;Linnaeus, 1758;Mosquitero común;Common Chiffchaff
-Pica pica;431;NE;I,II,III;;;Linnaeus, 1758;Urraca común;Eurasian Magpie
-Prunella collaris;286;NE;;III;;Linnaeus, 1758;Acentor alpino;Alpine Accentor
-Prunella modularis;285;NE;II,III;III;;Linnaeus, 1758;Acentor común;Dunnock
-Pyrrhocorax pyrrhocorax;426;NT;;III;II;Linnaeus, 1758;Chova piquirroja;Red-billed Chough
-Regulus ignicapillus;361;NE;I;III;;Linnaeus, 1758;Reyezuelo listado;Common Firecrest
-Saxicola rubetra;307;NE;;III;;Linnaeus, 1758;Tarabilla norteña;Whinchat
-Saxicola torquata;306;NE;;III;;Linnaeus, 1758;Tarabilla común;African Stonechat
-Serinus citrinella;443;NE;I;III;;Linnaeus, 1758;Verderón serrano;Citril Finch
-Serinus serinus;442;NE;;III;;Linnaeus, 1758;Verdecillo;European Serin
-Sitta europaea;386;NE;;III;;Linnaeus, 1758;Trepador azul;Eurasian Nuthatch
-Sturnus unicolor;459;NE;;III;II;Linnaeus, 1766;Estornino negro;Spotless Starling
-Sylvia atricapilla;324;NE;;III;II;Brehm, CL, 1831;Curruca capirotada;Eurasian Blackcap
-Sylvia cantillans;320;NE;;III;;Linnaeus, 1766;Curruca carrasqueña;Subalpine Warbler
-Sylvia communis;323;NE;;III;II;Linnaeus, 1766;Curruca zarcera;Common Whitethroat
-Sylvia conspicillata;321;LC*;;III;II;Linnaeus, 1758;Curruca tomillera;Spectacled Warbler
-Sylvia melanocephala;326;NE;II;III;;Linnaeus, 1758;Curruca cabecinegra;Sardinian Warbler
-Sylvia undata;318;NE;;III;;Linnaeus, 1758;Curruca rabilarga;Dartford Warbler
-Troglodytes troglodytes;282;NE;II;;;Linnaeus, 1758;Chochín;Eurasian Wren
-Turdus iliacus;291;NE;;III;;Linnaeus, 1758;Zorzal alirrojo;Redwing
-Turdus merula;293;NE;;III;;Pallas, 1764;Mirlo común ;Common Blackbird
-Turdus philomelos;290;NE;;III;II;Vieillot, 1817;Zorzal común ;Song Thrush
-Turdus pilaris;292;NE;II;III;II;Linnaeus, 1758;Zorzal real;Fieldfare
-Turdus torquatus;294;NE;II;III;II;Linnaeus, 1758;Mirlo capiblanco;Ring Ouzel
-Turdus viscivorus;289;NE;II;III;II;Brehm, CL, 1831;Zorzal charlo;Mistle Thrush
+nombre_cientifico;id_dicc_especies;Spanish.Red.List;Birds.Directive;Bern;Bonn;Spanish.Name;English.Name;Authority
+Aegithalos caudatus;380;NE;;III;;Mito común;Long-tailed Tit;Linnaeus, 1758
+Alauda arvensis;234;NE;;III;;Alondra común;Eurasian Skylark;Linnaeus, 1758
+Anthus campestris;264;NE;;III;;Bisbita campestre;Tawny Pipit;Linnaeus, 1758
+Anthus spinoletta;261;NE;;;;Bisbita alpino;Water Pipit;Linnaeus, 1758
+Carduelis cannabina;447;NE;II;;;Pardillo común;Common Linnet;Linnaeus, 1758
+Carduelis carduelis;446;NE;I;III;II;Jilguero europeo;European Goldfinch;Linnaeus, 1758
+Carduelis chloris;445;NE;;III;;Verderón común;European Greenfinch;Linnaeus, 1758
+Carduelis spinus;448;NE;I;III;;Lúgano;Eurasian Siskin;Linnaeus, 1758
+Certhia brachydactyla;392;NE;;III;;Agateador común;Short-toed Treecreeper;Brehm, CL, 1820
+Cinclus cinclus;279;NE;;III;;Mirlo acuático europeo;White-throated Dipper;Linnaeus, 1758
+Coccothraustes coccothraustes;440;NE;;III;;Picogordo común;Hawfinch;Linnaeus, 1758
+Corvus corax;419;NE;I ;III;;Cuervo común;Northern Raven;Linnaeus, 1758
+Corvus monedula;420;NE;;III;;Grajilla occidental;Eurasian Jackdaw;Linnaeus, 1758
+Cyanistes caeruleus;375;NE;;III;II;Herrerillo común;Eurasian Blue Tit;Linnaeus, 1758
+Emberiza cia;466;NE;;III;II;Escribano montesino;Rock Bunting;Linnaeus, 1766
+Emberiza cirlus;464;NE;;III;II;Escribano soteño;Cirl Bunting;Linnaeus, 1766
+Emberiza hortulana;465;NE;;III;;Escribano hortelano;Ortolan Bunting;Linnaeus, 1758
+Erithacus rubecula;296;NE;;III;;Petirrojo europeo;European Robin;Linnaeus, 1758
+Fringilla coelebs;436;NE;;III;II;Pinzón vulgar;Common Chaffinch;Linnaeus, 1758
+Fringilla montifringilla;437;NE;;III;II;Pinzón real;Brambling;Linnaeus, 1758
+Galerida cristata;238;NE;;III;II;Cogujada común;Crested Lark;Linnaeus, 1758
+Galerida theklae;239;NE;I;III;II;Cogujada montesina;Thekla Lark;Brehm, AE, 1857
+Garrulus glandarius;433;NE;;III;II;Garrulus glandarius;Eurasian Jay;Linnaeus, 1758
+Hippolais polyglotta;347;NE;;III;II;Zarcero común ;Melodious Warbler;Vieillot, 1817
+Lanius excubitor;406;;I;III;;Alcaudón real;Great Grey Shrike;Linnaeus, 1758
+Lanius senator;405;NT;;III;;Alcaudón común;Woodchat Shrike;Linnaeus, 1758
+Lophophanes cristatus;377;;;III;;Herrerillo capuchino;European Crested Tit;Linnaeus, 1758
+Loxia curvirostra;452;NE;;III;;Piquituerto común;Red Crossbill;Linnaeus, 1758
+Lullula arborea;236;NE;;III;;Alondra totovía;Woodlark;Linnaeus, 1758
+Luscinia megarhynchos;298;NE;I;III;II;Ruiseñor común;Common Nightingale;Brehm, CL, 1831
+Miliaria calandra;474;NE;;;;Triguero;Corn Bunting;Linnaeus, 1758
+Monticola saxatilis;314;NE;II;;;Roquero rojo;Common Rock Thrush;Linnaeus, 1766
+Motacilla alba;268;NE;;;;Lavandera blanca;White Wagtail;Linnaeus, 1758
+Motacilla cinerea;269;NE;;;;Lavandera cascadeña;Grey Wagtail;Tunstall, 1771
+Muscicapa striata;364;NE;;III;;Papamoscas gris;Spotted Flycatcher;Pallas, 1764
+Oenanthe hispanica;310;NT;;III;;Collalba rubia;Black-eared Wheatear;Linnaeus, 1758
+Oenanthe oenanthe;309;NE;;III;;Collalba gris;Northern Wheatear;Linnaeus, 1758
+Oriolus oriolus;402;NE;;III;;Oropéndola europea;Eurasian Golden Oriole;Linnaeus, 1758
+Parus major;371;NE;;III;;Carbonero común ;Great Tit;Linnaeus, 1758
+Passer domesticus;412;NE;;III;II;Gorrión común;House Sparrow;Linnaeus, 1758
+Periparus ater;373;NE;;III;II;Carbonero garrapinos;Coal Tit;Linnaeus, 1758
+Petronia petronia;416;NE;;III;;Gorrión chillón;Rock Sparrow;Linnaeus, 1766
+Phoenicurus ochruros;304;NE;;III;;Colirrojo tizón;Black Redstart;Gmelin, SG, 1774
+Phoenicurus phoenicurus;303;VU;;III;II;Colirrojo real;Common Redstart;Linnaeus, 1758
+Phylloscopus bonelli;350;NE;;III;II;Mosquitero papialbo;Western Bonelli's Warbler;Vieillot, 1819
+Phylloscopus collybita;353;NE;;III;;Mosquitero común;Common Chiffchaff;Vieillot, 1817
+Pica pica;431;NE;I,II,III;;;Urraca común;Eurasian Magpie;Linnaeus, 1758
+Prunella collaris;286;NE;;III;;Acentor alpino;Alpine Accentor;Scopoli, 1769
+Prunella modularis;285;NE;II,III;III;;Acentor común;Dunnock;Linnaeus, 1758
+Pyrrhocorax pyrrhocorax;426;NT;;III;II;Chova piquirroja;Red-billed Chough;Linnaeus, 1758
+Regulus ignicapillus;361;NE;I;III;;Reyezuelo listado;Common Firecrest;Temminck, 1820
+Saxicola rubetra;307;NE;;III;;Tarabilla norteña;Whinchat;Linnaeus, 1758
+Saxicola torquata;306;NE;;III;;Tarabilla común;African Stonechat;Linnaeus, 1766
+Serinus citrinella;443;NE;I;III;;Verderón serrano;Citril Finch;Pallas, 1764
+Serinus serinus;442;NE;;III;;Verdecillo;European Serin;Linnaeus, 1766
+Sitta europaea;386;NE;;III;;Trepador azul;Eurasian Nuthatch;Linnaeus, 1758
+Sturnus unicolor;459;NE;;III;II;Estornino negro;Spotless Starling;Temminck, 1820
+Sylvia atricapilla;324;NE;;III;II;Curruca capirotada;Eurasian Blackcap;Linnaeus, 1758
+Sylvia cantillans;320;NE;;III;;Curruca carrasqueña;Subalpine Warbler;Pallas, 1764
+Sylvia communis;323;NE;;III;II;Curruca zarcera;Common Whitethroat;Latham, 1787
+Sylvia conspicillata;321;LC*;;III;II;Curruca tomillera;Spectacled Warbler;Temminck, 1820
+Sylvia melanocephala;326;NE;II;III;;Curruca cabecinegra;Sardinian Warbler;Gmelin, JF, 1789
+Sylvia undata;318;NE;;III;;Curruca rabilarga;Dartford Warbler;Boddaert, 1783
+Troglodytes troglodytes;282;NE;II;;;Chochín;Eurasian Wren;Linnaeus, 1758
+Turdus iliacus;291;NE;;III;;Zorzal alirrojo;Redwing;Linnaeus, 1758
+Turdus merula;293;NE;;III;;Mirlo común ;Common Blackbird;Linnaeus, 1758
+Turdus philomelos;290;NE;;III;II;Zorzal común ;Song Thrush;Brehm, CL, 1831
+Turdus pilaris;292;NE;II;III;II;Zorzal real;Fieldfare;Linnaeus, 1758
+Turdus torquatus;294;NE;II;III;II;Mirlo capiblanco;Ring Ouzel;Linnaeus, 1758
+Turdus viscivorus;289;NE;II;III;II;Zorzal charlo;Mistle Thrush;Linnaeus, 1758
