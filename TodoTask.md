@@ -48,7 +48,7 @@ We create a file called `datapaperv1.md`.
 * :white_check_mark: ~~Get list of taxa~~. See [this script](https://github.com/ajpelu/dp_dispersantes/blob/master/script/get_taxalist.md)
 * :white_check_mark: ~~Fill out a table with status, protection, etc.~~ 
 
-We have to fix:
+:white_check_mark:We have to fix:
 *~~ A duplicate record. The species *Acanthis cannabina*, now is called *Carduelis cannabina*. We have data from the two records and actually is the same species.~~
 
 
