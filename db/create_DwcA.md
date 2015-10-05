@@ -61,23 +61,23 @@ We need to fill the full name of the observers. For this purpose:
 | Asuncion Arias            | Arias Navarro, A.      |           |
 | Jose Miguel Barea Azcón   | Barea-Azcón, J.M.      |           |
 | Veronica                  | Bueno de la Rosa, V.   |           |
-| Libertad                  | Cobos, L.              | CONFIRMAR |
+| Libertad                  | Cobos, L.              |           |
 | Fracisco Contreras Parody | Contreras Parody, F.   |           |
 | Cristina Debén            | Debén Duarte, C.       |           |
-| Javier Foronda            | Foronda, J.            | CONFIRMAR |
+| Javier Foronda            | Foronda, J.            |           |
 | Pablo Galdo               | Galdo Fuentes, P.      |           |
 | Isacio                    | Hernández Soto, I.     |           |
-| Emilio Lopera             | Lopera, E.             | CONFIRMAR |
+| Emilio Lopera             | Lopera, E.             |           |
 | Andrés López              | López Martinez, A.     |           |
 | Rogelio López             | López-Sanjuán, R.      |           |
-| Angel                     | Lozano Rubio, A.J.     | CONFIRMAR |
+| Angel                     | Lozano Rubio, A.J.     |           |
 | J. M. Marín               | Marín Escribano, J.M.  |           |
 | Javier Martín Jaramillo   | Martín Jaramillo, J.   |           |
 | Cristina Martos           | Martos García, C.      |           |
 | D. Morillar               | Morillas Fernández, D. |           |
-| Guillermo Rodríguez       | Rodríguez, G.          | CONFIRMAR |
-| Mentxu                    |                        | BUSCAR    |
-| Juan Pablo                |                        | BUSCAR    |
+| Guillermo Rodríguez       | Rodríguez, G.          |           |
+| Mentxu                    | Pulido Poyal, C.       |           |
+| Juan Pablo                |                        | DELETE    |
 
  * We created a table within database (a copy of `dicc_recordedBy`) called `dicc_recordedBy_valid` 
  
