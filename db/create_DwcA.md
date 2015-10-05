@@ -536,7 +536,7 @@ WHERE
 
 Anyway, the sql code to generate `adis_dwca` table is: 
 
-We filter to 'Passeriformes' order, then the `adis_dwca` got 28146 records (`select count(*) from adis_dwca;`). 
+We filter to 'Passeriformes' order, then the `adis_dwca` got 27847 records (`select count(*) from adis_dwca;`). 
 
 ```sql
 CREATE TABLE adis_dwca AS
@@ -595,6 +595,7 @@ FROM
   public.taxonomy_complete, 
   public.transect_info_complete
 WHERE 
+  /*Temporal constraint*/ dis_raw.fechai > '2007-12-31' AND 
   "dicc_recordedBy_valid".adis_visita_id = dis_raw.adis_visita_id AND
   dis_raw.adis_transecto_id = transect_info_complete.id_transect AND
   dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies AND 
