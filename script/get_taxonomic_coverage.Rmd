@@ -11,9 +11,15 @@ Our aim is get the taxonomic coverage. First of all, we read our file within all
 At the same time, we get the taxonomy coverage only of the order Passeriformes, because we will use only these data for our dp. We get the families and genus of Passeriformes. 
 
 ```{r}
-#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+# Set wd 
+machine <- 'ajpeluLap'
 
-di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+di <- paste('/Users/', machine, '/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes', sep='')
+
+# di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+
+# We work with occurrences table 
+df <- read.csv(file=paste(di,"/data/dicc_dwc/ocurrences.csv", sep=""), header=TRUE, sep=";")
 
 # Read the archive of the species records
 registros <- read.csv(file=paste(di,"/db/raw_data_from_linaria_corregida.csv", sep=""), header=TRUE, sep=";")
