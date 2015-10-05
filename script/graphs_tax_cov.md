@@ -1,101 +1,21 @@
----
-title: "tax_cov_graphs"
-output:
-  md_document:
-    variant: markdown_github
----
+Create taxonomic coverage graphs
+================================
 
-# Create taxonomic coverage graphs 
+Family graphs
+-------------
 
-```{r, echo=FALSE}
-# Set wd 
-machine <- 'ajpeluLap'
-di <- paste('/Users/', machine, '/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes', sep='')
+![](graphs_tax_cov_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-# di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+    ## quartz_off_screen 
+    ##                 2
 
-# orden<- read.csv(file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep="") )
-# familia<- read.csv(file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""))
-# genero<- read.csv(file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""))
+    ## quartz_off_screen 
+    ##                 2
 
-familia <- read.csv(file = paste(di,"/data/taxo_coverage_output/fam_cov2008.csv", sep=""))
-genero <- read.csv(file = paste(di,"/data/taxo_coverage_output/gen_cov2008.csv", sep=""))
+Genus graphs
+------------
 
-# # Reorder the Family column levels to records-sorted order.
-# orden$Order <- reorder(orden$Order, orden$records)
-# 
-# p <- ggplot(data=orden, aes(x=Order, y=per)) +
-#   geom_bar(stat="identity", fill='#CC0000') + 
-#   xlab("Orders") + ylab("Percentage") +
-#   geom_text(aes(label = records, y = per), vjust=-0.8 , size = 5) + 
-#   theme_bw() + ylim(c(0,100))+
-#   theme(panel.grid.major.x= element_blank(),
-#         axis.title = element_text(size = 14),
-#         axis.text.x= element_text(size = 12, angle = 90))
-# 
-# jpeg(filename = paste(di,'/figures/plot_order.jpg',sep=""), width = 800, height = 600)
-# plot(p)
-# dev.off()
-
-```
-
-
-
-## Family graphs
-
-```{r, echo=FALSE}
-library(ggplot2)
-# Reorder the Family column levels to records-sorted order.
-# familia$family <- reorder(familia$family, familia$n_records)
-
-# Increase the font size of the y-axis tick labels
-# 
-# # Reorder
-# familia_reord <- transform(familia, family= reorder(family, order(family, decreasing = TRUE)))
-# 
-# 
-# f<- ggplot(familia, aes(x=family, y=per)) + 
-#     geom_bar(stat='identity',  fill='#006600') +
-#     coord_flip() +
-#     theme_bw() +
-#     geom_text(aes(label = n_records, y = per), hjust=-0.08, size = 5) +
-#     labs (y = "% records" , x ="Family") +
-#     theme(axis.text.y=element_text(size=rel(1.5)),
-#     axis.title = element_text(size = 14))
-#    
-# f
-# 
-# jpeg(filename = paste(di,'/figures/plot_family.jpg',sep=""), width = 1000, height = 600)
-# plot(f)
-# pdf()
-# dev.off()
-
-# families_passeri$Families <- reorder(families_passeri$Families, families_passeri$records)
-
-pa <- ggplot(data=familia, aes(x=family, y=per)) +
-  geom_bar(stat="identity", fill='#CC0000') + 
-  xlab("Families") + ylab("Percentage") +
-  geom_text(aes(label = n_records, y = per), vjust=-0.6 , size = 4.2) + 
-  theme_bw() + ylim(c(0,30))+
-  theme(panel.grid.major.x= element_blank(),
-        axis.title = element_text(size = 14, vjust=0.5),
-        axis.text.x= element_text(size = 12, angle=90, vjust = 0.2),
-        axis.text.y=element_text(size=rel(1.3)))
-pa
-
-
-jpeg(filename = paste(di,'/figures/plot_families_passeri.jpg',sep=""), width = 800, height = 600)
-plot(pa)
-dev.off()
-
-pdf(paste(di,'/figures/plot_families_passeri.pdf',sep=""), width = 8, height = 6)
-plot(pa)
-dev.off()
-```
-
-## Genus graphs
-
-```{r}
+``` r
 # genus_passeri<- read.csv(file = paste(di,"/data/genus_passeri.csv", sep="") )
 
 
@@ -113,15 +33,29 @@ ge <- ggplot(data=genero, aes(x=genus, y=per)) +
         axis.title = element_text(size = 14),
         axis.text.x= element_text(size = 12))
 ge
+```
 
+![](graphs_tax_cov_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
+``` r
 jpeg(filename = paste(di,'/figures/plot_genus_passeri.jpg',sep=""), width = 800, height = 600)
 plot(ge)
 dev.off()
+```
 
+    ## quartz_off_screen 
+    ##                 2
+
+``` r
 pdf(paste(di,'/figures/plot_genus_passeri.pdf',sep=""), width = 12, height = 8)
 plot(ge)
 dev.off()
+```
 
+    ## quartz_off_screen 
+    ##                 2
+
+``` r
 # # Reorder the Genus column levels to records-sorted order.
 # 
 # genero$Genus <- reorder(genero$Genus, genero$records)
@@ -148,8 +82,7 @@ dev.off()
 #    
 ```
 
-
-```{r}
+``` r
 # families_passeri<- read.csv(file = paste(di,"/data/familes_passeri.csv", sep="") )
 # 
 # # Reorder the Families column levels to records-sorted order.
