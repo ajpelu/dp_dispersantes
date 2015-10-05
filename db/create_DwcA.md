@@ -529,14 +529,14 @@ SELECT DISTINCT
   dis_raw.adis_visita_id 
 FROM 
   public.dis_raw LEFT JOIN public."dicc_recordedBy" ON
-  dis_raw.adis_visita_id = "dicc_recordedBy".adis_visita_id 
+  dis_raw.adis_visita_id = "dicc_recordedBy_valid".adis_visita_id 
 WHERE 
   "dicc_recordedBy".adis_visita_id IS NULL;
 ```
 
 Anyway, the sql code to generate `adis_dwca` table is: 
 
-We filter to 'Passeriformes' order, then the `adis_dwca` got 28146 records. 
+We filter to 'Passeriformes' order, then the `adis_dwca` got 28146 records (`select count(*) from adis_dwca;`). 
 
 ```sql
 CREATE TABLE adis_dwca AS
@@ -550,7 +550,7 @@ CREATE TABLE adis_dwca AS
   'ADIS' AS collectionCode,
   'humanObservation' AS basisOfRecord, 
   CONCAT('ADIS-', dis_raw.id) AS catalogNumber,
-  "dicc_recordedBy".recordedby AS recordedBy, 
+  "dicc_recordedBy_valid".recordedby AS recordedBy, 
   
  /* Temporal Coverage */
   dis_raw.fechai AS eventDate,
@@ -590,12 +590,12 @@ CREATE TABLE adis_dwca AS
   dis_raw.distancia, 
   dis_raw.desplazamiento
 FROM 
-  public."dicc_recordedBy", 
+  public."dicc_recordedBy_valid", 
   public.dis_raw, 
   public.taxonomy_complete, 
   public.transect_info_complete
 WHERE 
-  "dicc_recordedBy".adis_visita_id = dis_raw.adis_visita_id AND
+  "dicc_recordedBy_valid".adis_visita_id = dis_raw.adis_visita_id AND
   dis_raw.adis_transecto_id = transect_info_complete.id_transect AND
   dis_raw.id_dicc_especies = taxonomy_complete.id_dicc_especies AND 
   taxonomy_complete."order" = 'Passeriformes');
