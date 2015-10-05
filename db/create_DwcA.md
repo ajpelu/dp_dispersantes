@@ -348,7 +348,7 @@ SET recordedby='Galdo Fuentes, P., Foronda, J.'
 WHERE recordedby='Pablo Galdo, Javier Foronda';
 ```
 
-NOTE THAT WE NEED TO CONFIRM SOME NAMES. Once, we will use `dicc_recordedBy_valid` for the dwc queries. 
+~~NOTE THAT WE NEED TO CONFIRM SOME NAMES~~. Once, we will use `dicc_recordedBy_valid` for the dwc queries. 
 
 #### Get raw data from Linaria
 
