@@ -256,7 +256,7 @@ SET recordedby='Galdo Fuentes, P., Rodríguez, G., Hernández Soto, I.'
 WHERE recordedby='Pablo Galdo, Guillermo Rodriguez, Isacio';
 
 UPDATE "dicc_recordedBy_valid"
-SET recordedby='Lopera, E.; Archila Gallegos, F.'
+SET recordedby='Lopera, E., Archila Gallegos, F.'
 WHERE recordedby='Emilio Lopera, Fanny Archila';
 
 UPDATE "dicc_recordedBy_valid"
