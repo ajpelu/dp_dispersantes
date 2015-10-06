@@ -256,7 +256,7 @@ SET recordedby='Galdo Fuentes, P., Rodríguez, G., Hernández Soto, I.'
 WHERE recordedby='Pablo Galdo, Guillermo Rodriguez, Isacio';
 
 UPDATE "dicc_recordedBy_valid"
-SET recordedby='Lopera, E.; Archila Gallegos, F.'
+SET recordedby='Lopera, E., Archila Gallegos, F.'
 WHERE recordedby='Emilio Lopera, Fanny Archila';
 
 UPDATE "dicc_recordedBy_valid"
@@ -422,9 +422,14 @@ UPDATE dis_raw
 SET nombre_cientifico='Carduelis cannabina', id_dicc_especies='447'
 WHERE nombre_cientifico='Acanthis cannabina'; 
 ```
+
+##### Limit the temporal range 
+We selected only records sampled from 01/01/2008. 
 * Export the table with updated taxonomy to  `/db/raw_data_from_linaria_corregida.csv` by the query: 
 ```sql 
-SELECT * FROM dis_raw;
+SELECT * FROM dis_raw WHERE
+/*Temporal constraint*/ dis_raw.fechai > '2007-12-31'; 
+
 ```
 
 #### Taxonomic info

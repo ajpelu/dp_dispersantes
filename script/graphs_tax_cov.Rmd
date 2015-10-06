@@ -7,34 +7,35 @@ output:
 
 # Create taxonomic coverage graphs 
 
-We exported in pdf the orders graph. We don't export the other two graphs because it's not finished.
-
-
 ```{r, echo=FALSE}
-#di <- '/Users/ajpelu/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes'
+# Set wd 
+machine <- 'ajpeluLap'
+di <- paste('/Users/', machine, '/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes', sep='')
 
-di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
+# di <- '/Users/iecolab/Documents/Lola/dp_dispersantes'
 
-orden<- read.csv(file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep="") )
-familia<- read.csv(file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""))
-genero<- read.csv(file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""))
+# orden<- read.csv(file = paste(di,"/data/taxo_coverage_output/orden_cov.csv", sep="") )
+# familia<- read.csv(file = paste(di,"/data/taxo_coverage_output/family_cov.csv", sep=""))
+# genero<- read.csv(file = paste(di,"/data/taxo_coverage_output/genus_cov.csv", sep=""))
 
-# Reorder the Family column levels to records-sorted order.
+familia <- read.csv(file = paste(di,"/data/taxo_coverage_output/fam_cov2008.csv", sep=""))
+genero <- read.csv(file = paste(di,"/data/taxo_coverage_output/gen_cov2008.csv", sep=""))
 
-orden$Order <- reorder(orden$Order, orden$records)
-
-p <- ggplot(data=orden, aes(x=Order, y=per)) +
-  geom_bar(stat="identity", fill='#CC0000') + 
-  xlab("Orders") + ylab("Percentage") +
-  geom_text(aes(label = records, y = per), vjust=-0.8 , size = 5) + 
-  theme_bw() + ylim(c(0,100))+
-  theme(panel.grid.major.x= element_blank(),
-        axis.title = element_text(size = 14),
-        axis.text.x= element_text(size = 12, angle = 90))
-
-jpeg(filename = paste(di,'/figures/plot_order.jpg',sep=""), width = 800, height = 600)
-plot(p)
-dev.off()
+# # Reorder the Family column levels to records-sorted order.
+# orden$Order <- reorder(orden$Order, orden$records)
+# 
+# p <- ggplot(data=orden, aes(x=Order, y=per)) +
+#   geom_bar(stat="identity", fill='#CC0000') + 
+#   xlab("Orders") + ylab("Percentage") +
+#   geom_text(aes(label = records, y = per), vjust=-0.8 , size = 5) + 
+#   theme_bw() + ylim(c(0,100))+
+#   theme(panel.grid.major.x= element_blank(),
+#         axis.title = element_text(size = 14),
+#         axis.text.x= element_text(size = 12, angle = 90))
+# 
+# jpeg(filename = paste(di,'/figures/plot_order.jpg',sep=""), width = 800, height = 600)
+# plot(p)
+# dev.off()
 
 ```
 
@@ -43,80 +44,42 @@ dev.off()
 ## Family graphs
 
 ```{r, echo=FALSE}
-
+library(ggplot2)
 # Reorder the Family column levels to records-sorted order.
-
-familia$Family <- reorder(familia$Family, familia$records)
-
-# Increase the font size of the y-axis tick labels
-
-f<- ggplot(familia, aes(x=Family, y=per)) + 
-    geom_bar(stat='identity',  fill='#006600') +
-    coord_flip() +
-    theme_bw() +
-    geom_text(aes(label = records, y = per), hjust=-0.08, size = 5) +
-    labs (y = "% records" , x ="Family") +
-    theme(axis.text.y=element_text(size=rel(1.5)),
-    axis.title = element_text(size = 14))
-   
-f
-
-jpeg(filename = paste(di,'/figures/plot_family.jpg',sep=""), width = 1000, height = 600)
-plot(f)
-dev.off()
-
-## Falta aumentar las divisiones del eje x, porcentajes.
-
- 
-```
-
-## Genus graphs
-
-```{r}
-
-# Reorder the Genus column levels to records-sorted order.
-
-genero$Genus <- reorder(genero$Genus, genero$records)
+# familia$family <- reorder(familia$family, familia$n_records)
 
 # Increase the font size of the y-axis tick labels
+# 
+# # Reorder
+# familia_reord <- transform(familia, family= reorder(family, order(family, decreasing = TRUE)))
+# 
+# 
+# f<- ggplot(familia, aes(x=family, y=per)) + 
+#     geom_bar(stat='identity',  fill='#006600') +
+#     coord_flip() +
+#     theme_bw() +
+#     geom_text(aes(label = n_records, y = per), hjust=-0.08, size = 5) +
+#     labs (y = "% records" , x ="Family") +
+#     theme(axis.text.y=element_text(size=rel(1.5)),
+#     axis.title = element_text(size = 14))
+#    
+# f
+# 
+# jpeg(filename = paste(di,'/figures/plot_family.jpg',sep=""), width = 1000, height = 600)
+# plot(f)
+# pdf()
+# dev.off()
 
-g <-  ggplot(genero, aes(x=Genus, y=per)) + 
-      geom_bar(stat='identity',  fill='#666699') +
-      coord_flip()+
-      theme_bw()+
-      geom_text(aes(label = records, y = per), hjust=-0.3, size = 3.5) +
-      labs (y = "% records" , x ="Genus") +
-      theme(axis.text.y=element_text(size=rel(1)),
-        axis.title = element_text(size = 14))
-  
-g
+# families_passeri$Families <- reorder(families_passeri$Families, families_passeri$records)
 
-jpeg(filename = paste(di,'/figures/plot_genero.jpg',sep=""), width = 800, height = 600)
-plot(g)
-dev.off()
-   
-## Hay mucho hueco entre los géneros y las barras?
-   
-   
-```
-
-## Graphs of Families by Order Passeriformes
-
-```{r}
-families_passeri<- read.csv(file = paste(di,"/data/familes_passeri.csv", sep="") )
-
-# Reorder the Families column levels to records-sorted order.
-
-families_passeri$Families <- reorder(families_passeri$Families, families_passeri$records)
-
-pa <- ggplot(data=families_passeri, aes(x=Families, y=per)) +
+pa <- ggplot(data=familia, aes(x=family, y=per)) +
   geom_bar(stat="identity", fill='#CC0000') + 
   xlab("Families") + ylab("Percentage") +
-  geom_text(aes(label = records, y = per), vjust=-0.6 , size = 4.2) + 
+  geom_text(aes(label = n_records, y = per), vjust=-0.6 , size = 4.2) + 
   theme_bw() + ylim(c(0,30))+
   theme(panel.grid.major.x= element_blank(),
-        axis.title = element_text(size = 14, vjust= -0.5),
-        axis.text.x= element_text(size = 12, angle=90),
+        axis.title = element_text(size = 14, vjust=0.5),
+        axis.text.x= element_text(size = 12, angle=90, vjust = 0.2),
         axis.text.y=element_text(size=rel(1.3)))
 pa
 
@@ -124,22 +87,27 @@ pa
 jpeg(filename = paste(di,'/figures/plot_families_passeri.jpg',sep=""), width = 800, height = 600)
 plot(pa)
 dev.off()
+
+pdf(paste(di,'/figures/plot_families_passeri.pdf',sep=""), width = 8, height = 6)
+plot(pa)
+dev.off()
 ```
 
-## Graphs of Genus by Order Passeriformes
+## Genus graphs
 
 ```{r}
-genus_passeri<- read.csv(file = paste(di,"/data/genus_passeri.csv", sep="") )
+# genus_passeri<- read.csv(file = paste(di,"/data/genus_passeri.csv", sep="") )
 
-# Reorder the Families column levels to records-sorted order.
 
-genus_passeri$Genus <- reorder(genus_passeri$Genus, genus_passeri$records)
+# genus_passeri$Genus <- reorder(genus_passeri$Genus, genus_passeri$records)
 
-ge <- ggplot(data=genus_passeri, aes(x=Genus, y=per)) +
-  geom_bar(stat="identity", fill='#CC0000') + 
+genero$genus <- reorder(genero$genus, genero$n_records)
+
+ge <- ggplot(data=genero, aes(x=genus, y=per)) +
+  geom_bar(stat="identity", fill='#CC0000', width=.8) + 
   coord_flip()+
   xlab("Genus") + ylab("Percentage") +
-  geom_text(aes(label = records, y = per), hjust=-0.4 , size = 4) + 
+  geom_text(aes(label = n_records, y = per), hjust=-0.4 , size = 4) + 
   theme_bw() + ylim(c(0,13))+
   theme(panel.grid.major.x= element_blank(),
         axis.title = element_text(size = 14),
@@ -149,4 +117,83 @@ ge
 jpeg(filename = paste(di,'/figures/plot_genus_passeri.jpg',sep=""), width = 800, height = 600)
 plot(ge)
 dev.off()
+
+pdf(paste(di,'/figures/plot_genus_passeri.pdf',sep=""), width = 12, height = 8)
+plot(ge)
+dev.off()
+
+# # Reorder the Genus column levels to records-sorted order.
+# 
+# genero$Genus <- reorder(genero$Genus, genero$records)
+# 
+# # Increase the font size of the y-axis tick labels
+# 
+# g <-  ggplot(genero, aes(x=Genus, y=per)) + 
+#       geom_bar(stat='identity',  fill='#666699') +
+#       coord_flip()+
+#       theme_bw()+
+#       geom_text(aes(label = records, y = per), hjust=-0.3, size = 3.5) +
+#       labs (y = "% records" , x ="Genus") +
+#       theme(axis.text.y=element_text(size=rel(1)),
+#         axis.title = element_text(size = 14))
+#   
+# g
+# 
+# jpeg(filename = paste(di,'/figures/plot_genero.jpg',sep=""), width = 800, height = 600)
+# plot(g)
+# dev.off()
+#    
+# ## Hay mucho hueco entre los géneros y las barras?
+#    
+#    
+```
+
+
+```{r}
+# families_passeri<- read.csv(file = paste(di,"/data/familes_passeri.csv", sep="") )
+# 
+# # Reorder the Families column levels to records-sorted order.
+# 
+# families_passeri$Families <- reorder(families_passeri$Families, families_passeri$records)
+# 
+# pa <- ggplot(data=families_passeri, aes(x=Families, y=per)) +
+#   geom_bar(stat="identity", fill='#CC0000') + 
+#   xlab("Families") + ylab("Percentage") +
+#   geom_text(aes(label = records, y = per), vjust=-0.6 , size = 4.2) + 
+#   theme_bw() + ylim(c(0,30))+
+#   theme(panel.grid.major.x= element_blank(),
+#         axis.title = element_text(size = 14, vjust= -0.5),
+#         axis.text.x= element_text(size = 12, angle=90),
+#         axis.text.y=element_text(size=rel(1.3)))
+# pa
+# 
+# 
+# jpeg(filename = paste(di,'/figures/plot_families_passeri.jpg',sep=""), width = 800, height = 600)
+# plot(pa)
+# dev.off()
+# ```
+# 
+# ## Graphs of Genus by Order Passeriformes
+# 
+# ```{r}
+# genus_passeri<- read.csv(file = paste(di,"/data/genus_passeri.csv", sep="") )
+# 
+# # Reorder the Families column levels to records-sorted order.
+# 
+# genus_passeri$Genus <- reorder(genus_passeri$Genus, genus_passeri$records)
+# 
+# ge <- ggplot(data=genus_passeri, aes(x=Genus, y=per)) +
+#   geom_bar(stat="identity", fill='#CC0000') + 
+#   coord_flip()+
+#   xlab("Genus") + ylab("Percentage") +
+#   geom_text(aes(label = records, y = per), hjust=-0.4 , size = 4) + 
+#   theme_bw() + ylim(c(0,13))+
+#   theme(panel.grid.major.x= element_blank(),
+#         axis.title = element_text(size = 14),
+#         axis.text.x= element_text(size = 12))
+# ge
+# 
+# jpeg(filename = paste(di,'/figures/plot_genus_passeri.jpg',sep=""), width = 800, height = 600)
+# plot(ge)
+# dev.off()
 ```
