@@ -4,6 +4,7 @@ Create a plot with records vs. time by species
 ``` r
 # Set wd 
 machine <- 'ajpelu'
+machine <- 'ajpeluLap'
 
 di <- paste('/Users/', machine, '/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes', sep='')
 
@@ -18,9 +19,9 @@ library('dplyr')
     ## 
     ## Attaching package: 'dplyr'
     ## 
-    ## The following object is masked from 'package:stats':
+    ## The following objects are masked from 'package:stats':
     ## 
-    ##     filter
+    ##     filter, lag
     ## 
     ## The following objects are masked from 'package:base':
     ## 
@@ -69,16 +70,18 @@ p <- ggplot(df1, aes(fecha, nombre_cientifico_ord)) +
 p 
 ```
 
-![plot of chunk plot](plot_time_coverage_files/figure-markdown_github/plot.png)
+![](plot_time_coverage_files/figure-markdown_github/plot-1.png)
 
 ``` r
-tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1400, height = 1200)
+# tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1000, height = 1200)
+tiff(filename = paste(di,'/figures/plot_time_records_hr.tiff',sep=""), width = 14, height = 12, units = 'in', res = 300)
+
 plot(p)
 dev.off()
 ```
 
-    ## pdf 
-    ##   2
+    ## quartz_off_screen 
+    ##                 2
 
 ``` r
 jpeg(filename = paste(di,'/figures/plot_time_records.jpg',sep=""), width = 1400, height = 1200)
@@ -86,5 +89,5 @@ plot(p)
 dev.off()
 ```
 
-    ## pdf 
-    ##   2
+    ## quartz_off_screen 
+    ##                 2

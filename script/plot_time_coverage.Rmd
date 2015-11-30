@@ -9,6 +9,7 @@ output:
 ```{r read}
 # Set wd 
 machine <- 'ajpelu'
+machine <- 'ajpeluLap'
 
 di <- paste('/Users/', machine, '/ownCloud/MS/MS_DP_DISPERSANTES/dp_dispersantes', sep='')
 
@@ -52,7 +53,9 @@ p <- ggplot(df1, aes(fecha, nombre_cientifico_ord)) +
 
 p 
 
-tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1400, height = 1200)
+# tiff(filename = paste(di,'/figures/plot_time_records.tiff',sep=""), width = 1000, height = 1200)
+tiff(filename = paste(di,'/figures/plot_time_records_hr.tiff',sep=""), width = 14, height = 12, units = 'in', res = 300)
+
 plot(p)
 dev.off()
 
