@@ -678,7 +678,7 @@ UNION ALL
   m.ocurrenceid,
   m.desplazamiento AS measurementValue,
   'distance to line-transect' AS measurementType, 
-  1 AS measurementAccuracy,
+  5 AS measurementAccuracy,
   'm' AS measurementUnit, 
   m.eventdate AS measurementDeterminedDate,
   m.recordedby AS measurementDeterminedBy,
